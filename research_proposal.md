@@ -190,17 +190,19 @@ Sample Structure (n = 500 projects total)
 
 ## 4.1 Primary Data Sources
 
-| Source | Purpose | Access | Reliability |
-|--------|---------|--------|-------------|
-| **GHTorrent** | Activity data, contributors, timelines | https://ghtorrent.org/downloads.html (MySQL dump) | ⭐⭐⭐⭐⭐ Established, widely used |
-| **GitHub REST API** | Repository metadata, file presence | https://docs.github.com/en/rest | ⭐⭐⭐⭐⭐ Official source |
-| **Libraries.io** | Dependency network, ecosystem position (RQ3) | https://libraries.io/data | ⭐⭐⭐⭐ Comprehensive package data |
+| Source | Purpose | Access | Freshness |
+|--------|---------|--------|-----------|
+| **GHArchive** (BigQuery) | Activity history (commits, issues, PRs, stars) | `githubarchive` dataset on BigQuery | Updated hourly, 2011-present |
+| **OpenSSF Scorecard** | Governance metrics (CONTRIBUTING.md, CODE_OF_CONDUCT, etc.) | BigQuery: `openssf:scorecardcron.scorecard-v2_latest` | Updated weekly |
+| **deps.dev** (Open Source Insights) | Dependency network, ecosystem position (RQ3) | BigQuery: `deps_dev_v1` | Hourly for active packages |
+| **GitHub REST API** | File presence fallback, current metadata | https://docs.github.com/en/rest | Real-time |
 
 ## 4.2 Supplementary Data Sources
 
 | Source | Purpose | Access |
 |--------|---------|--------|
-| **CHAOSS Metrics Models** | Standardized metric definitions | https://chaoss.community/kb-metrics-and-metrics-models/ |
+| **Libraries.io** | C++ dependency data (deps.dev doesn't support C/C++) | Zenodo dump or API |
+| **CHAOSS Metrics Models** | Standardized metric definitions | https://chaoss.community/ |
 
 ## 4.3 Data Extraction Strategy
 
@@ -208,35 +210,50 @@ Sample Structure (n = 500 projects total)
 Data Collection Pipeline
 │
 ├── Phase 1: Sample Selection (Week 8)
-│   ├── Download GHTorrent MySQL dump
-│   ├── Filter by criteria (stars ≥100, created 2015-2020, non-fork)
-│   ├── Classify as sustainable/non-sustainable
-│   ├── Stratified random sampling
-│   └── Output: project_sample.csv (400 projects)
+│   ├── Query GHArchive via BigQuery
+│   ├── Filter: stars ≥100, created 2015-2020, non-fork, language in [Python, JS, Java, Go, C++]
+│   ├── Classify as sustainable/non-sustainable using activity cutoffs
+│   ├── Stratified random sampling (50 per language per group)
+│   └── Output: project_sample.csv (500 projects)
 │
 ├── Phase 2: Governance Data (Week 9)
-│   ├── GitHub API: Check file presence (CONTRIBUTING, CODE_OF_CONDUCT, etc.)
-│   ├── Analyze CONTRIBUTING.md content (length, structure)
+│   ├── Query OpenSSF Scorecard for CODE_OF_CONDUCT, CONTRIBUTING scores
+│   ├── GitHub API fallback for repos not in Scorecard
 │   └── Output: governance_metrics.csv
 │
 ├── Phase 3: Community Data (Week 9-10)
-│   ├── GHTorrent: Extract issue/PR timelines
+│   ├── GHArchive: Extract issue/PR event timelines
 │   ├── Calculate response times, review times
 │   ├── Calculate contributor diversity metrics
 │   └── Output: community_metrics.csv
 │
-├── Phase 4: Merge & Clean (Week 10)
+├── Phase 4: Ecosystem Data (Week 10)
+│   ├── deps.dev: Query dependent package counts for Python/JS/Java/Go
+│   ├── Libraries.io: Query dependent counts for C++
+│   └── Output: ecosystem_metrics.csv
+│
+├── Phase 5: Merge & Clean (Week 10)
 │   ├── Merge all datasets on project_id
 │   ├── Handle missing values
 │   ├── Validate data quality
 │   └── Output: final_dataset.csv
 │
-└── Phase 5: Analysis (Week 10-14)
+└── Phase 6: Analysis (Week 11-14)
     ├── Descriptive statistics
     ├── Hypothesis testing
     ├── Regression analysis
     └── Output: results, visualizations
 ```
+
+## 4.4 Data Source Limitations & Mitigations
+
+| Issue | Mitigation |
+|-------|------------|
+| **GHArchive WatchEvent/star semantics** - GitHub changed from "watch" to "star", may undercount | Cross-validate star counts with GitHub API for sample validation |
+| **deps.dev → GitHub mapping** - Package names don't always map cleanly to repos | Use `repository_url` field in deps.dev; manual verification for ambiguous cases |
+| **Scorecard is security-focused** - Covers CODE_OF_CONDUCT, CONTRIBUTING but not all governance aspects | Use GitHub API fallback for issue templates, PR templates, README quality |
+| **Community metrics complexity** - Bus factor, contributor retention require event processing | Consider CHAOSS Augur/GrimoireLab for pre-built metrics if custom pipeline is too complex |
+| **C++ ecosystem data gaps** - deps.dev doesn't support C/C++ | Use Libraries.io; acknowledge coverage may be less complete than other languages |
 
 ---
 
