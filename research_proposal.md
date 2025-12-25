@@ -96,7 +96,7 @@ Per Stol & Fitzgerald's ABC framework (Lecture 5):
 | Aspect                      | Definition                                                                          | Rationale                                                            |
 | --------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Target population** | All non-fork, public GitHub repositories with ≥100 stars created between 2015-2020 | Provides a visibility threshold; sufficient time to observe outcomes |
-| **Sampling frame**    | GHTorrent dump (June 2023) filtered by criteria                                     | Most comprehensive GitHub dataset                                    |
+| **Sampling frame**    | GHArchive via BigQuery filtered by criteria                                     | Comprehensive, updated hourly, 2011-present                              |
 
 ### Sample Selection: Stratified Purposive Sampling
 
@@ -134,8 +134,8 @@ Sample Structure (n = 500 projects total)
 
 | Status                    | Operational Definition                                                                  | Measurement                 |
 | ------------------------- | --------------------------------------------------------------------------------------- | --------------------------- |
-| **Sustainable**     | (a) ≥1 commit in last 6 months AND (b) ≥50% of issues from last year closed/addressed | GHTorrent + GitHub API      |
-| **Non-Sustainable** | (a) No commits in >18 months OR (b) Explicitly archived/marked unmaintained             | GHTorrent + README analysis |
+| **Sustainable**     | (a) ≥1 commit in last 6 months AND (b) ≥50% of issues from last year closed/addressed | GHArchive + GitHub API      |
+| **Non-Sustainable** | (a) No commits in >18 months OR (b) Explicitly archived/marked unmaintained             | GHArchive + README analysis |
 
 ### Independent Variables (RQ1: Governance)
 
@@ -152,28 +152,28 @@ Sample Structure (n = 500 projects total)
 
 | Variable                  | Measurement                                           | Source     |
 | ------------------------- | ----------------------------------------------------- | ---------- |
-| Issue response time       | Median days to first response                         | GHTorrent  |
-| PR review time            | Median days to first review                           | GHTorrent  |
-| Contributor diversity     | Gini coefficient of commit distribution               | GHTorrent  |
-| Bus factor                | Number of contributors responsible for 50% of commits | GHTorrent  |
+| Issue response time       | Median days to first response                         | GHArchive  |
+| PR review time            | Median days to first review                           | GHArchive  |
+| Contributor diversity     | Gini coefficient of commit distribution               | GHArchive  |
+| Bus factor                | Number of contributors responsible for 50% of commits | GHArchive  |
 | Maintainer count          | Contributors with merge permissions                   | GitHub API |
-| New contributor retention | % of first-time contributors who contribute again     | GHTorrent  |
+| New contributor retention | % of first-time contributors who contribute again     | GHArchive  |
 
 ### Independent Variables (RQ3: Ecosystem Position)
 
 | Variable | Measurement | Source |
 |----------|-------------|--------|
-| Dependent package count | Number of packages that depend on this project | Libraries.io |
-| Reverse dependency depth | How many layers of dependencies include this | Libraries.io |
-| Ecosystem centrality | PageRank or similar in dependency graph | Libraries.io |
+| Dependent package count | Number of packages that depend on this project | deps.dev / Libraries.io |
+| Reverse dependency depth | How many layers of dependencies include this | deps.dev / Libraries.io |
+| Ecosystem centrality | PageRank or similar in dependency graph | deps.dev / Libraries.io |
 
 ### Independent Variables (RQ4: Popularity Metrics)
 
 | Variable | Measurement | Source |
 |----------|-------------|--------|
-| Star count | At 1-year mark (to avoid survivorship bias) | GHTorrent |
-| Fork count | At 1-year mark | GHTorrent |
-| Watcher count | At 1-year mark | GHTorrent |
+| Star count | At 1-year mark (to avoid survivorship bias) | GHArchive |
+| Fork count | At 1-year mark | GHArchive |
+| Watcher count | At 1-year mark | GHArchive |
 
 ### Control Variables
 
@@ -302,8 +302,8 @@ For each RQ:
 | **statsmodels**        | 0.14+   | Regression analysis       |
 | **lifelines**          | 0.27+   | Survival analysis         |
 | **matplotlib/seaborn** | Latest  | Visualization             |
-| **scikit-learn**       | 1.x     | Model comparison (RQ3)    |
-| **MySQL**              | 8.x     | GHTorrent data access     |
+| **scikit-learn**       | 1.x     | Model comparison (RQ4)    |
+| **BigQuery**           | -       | GHArchive, deps.dev, Scorecard access     |
 
 ---
 
@@ -388,7 +388,7 @@ For each RQ:
 
 | Week         | Activities                                                                   | Deliverables                             |
 | ------------ | ---------------------------------------------------------------------------- | ---------------------------------------- |
-| **8**  | Finalize RQs, set up environment, download GHTorrent, begin sample selection | `project_sample.csv`                   |
+| **8**  | Finalize RQs, set up BigQuery, query GHArchive, begin sample selection | `project_sample.csv`                   |
 | **9**  | Complete sampling, extract governance data, begin community data extraction  | `governance_metrics.csv`               |
 | **10** | Complete community data, merge datasets, begin descriptive analysis          | `final_dataset.csv`, descriptive stats |
 | **11** | Complete RQ1 analysis, begin RQ2 analysis                                    | RQ1 results                              |
@@ -403,8 +403,8 @@ For each RQ:
 
 | Risk                            | Likelihood | Impact | Mitigation                                         |
 | ------------------------------- | ---------- | ------ | -------------------------------------------------- |
-| GHTorrent data incomplete       | Low        | High   | Supplement with GitHub API; adjust sample          |
-| Sample size insufficient        | Low        | Medium | Built-in buffer (400 > minimum required)           |
+| GHArchive data gaps         | Low        | High   | Cross-validate with GitHub API; adjust sample          |
+| Sample size insufficient        | Low        | Medium | Built-in buffer (500 > minimum required)           |
 | No significant findings         | Medium     | Medium | Report null results honestly; exploratory analysis |
 | Time overrun on data collection | Medium     | High   | Week 8-9 buffer; prioritize RQ1-2 over RQ3         |
 | Tool/library issues             | Low        | Low    | Established tools; alternatives available          |
@@ -415,7 +415,7 @@ For each RQ:
 
 This study will be successful if it:
 
-1. ✅ Answers all three RQs with statistically valid methods
+1. ✅ Answers all four RQs with statistically valid methods
 2. ✅ Identifies at least 3 actionable factors for practitioners
 3. ✅ Provides evidence challenging or supporting popularity-as-proxy assumption
 4. ✅ Produces replicable methodology and shareable analysis code
