@@ -21,22 +21,22 @@
 
 ## 1.1 The Problem
 
-Open source software (OSS) forms the backbone of modern software infrastructure, from operating systems to web frameworks to machine learning libraries. Yet despite this critical importance, **a large proportion of OSS projects fail to achieve long-term sustainability**. Research suggests that many GitHub projects become inactive within a few years of creation [Coelho & Valente, 2017].
+Open source software (OSS) forms the backbone of modern software infrastructure, from operating systems to web frameworks to machine learning libraries. Yet despite this critical importance, **a large proportion of OSS projects fail to achieve long-term sustainability**. The Synopsys OSSRA 2024 report found that 91% of commercial codebases contained open-source components with no development activity in the past two years [Synopsys, 2024]. Similarly, Coelho and Valente's (2017) empirical study of 104 deprecated GitHub repositories identified common failure patterns, underscoring how many projects wind down just a few years after creation.
 
-The software engineering community and industry practitioners commonly evaluate projects using **easily accessible but superficial metrics**: GitHub stars, fork counts, and download statistics. However, these popularity indicators fail to capture the true health and sustainability of a project. A project with 50,000 stars may be abandoned by its maintainers, while a less visible project with 500 stars may thrive with an active, healthy community for decades.
+The software engineering community and industry practitioners commonly evaluate projects using **easily accessible but superficial metrics**: GitHub stars, fork counts, and download statistics. However, these popularity indicators fail to capture the true health and sustainability of a project. A project with tens of thousands of stars may still be abandoned (e.g., GitHub's Atom editor was discontinued in 2022 despite massive popularity [GitHub, 2022]), while a less visible project with 500 stars may thrive with an active, healthy community for decades. In other words, **popularity does not guarantee longevity**.
 
 This disconnect creates significant problems for practitioners:
 
-- **Software teams** cannot reliably assess which dependencies will remain maintained
-- **Contributors** struggle to identify projects worth investing their time in
-- **Organizations** lack evidence-based criteria for evaluating OSS adoption decisions
-- **Maintainers** don't know which practices actually predict long-term success
+- **Software teams** cannot reliably assess which OSS dependencies will remain maintained over time
+- **Contributors** struggle to identify projects worth investing their time in (beyond surface popularity)
+- **Organizations** lack evidence-based criteria for evaluating OSS adoption risks
+- **Maintainers** lack clarity on which practices truly predict long-term success
 
 ## 1.2 The Gap
 
 Previous research has examined individual factors affecting OSS success (governance models, community dynamics, or technical quality) in isolation. However, **few large-scale studies have simultaneously investigated how governance practices, community health indicators, and popularity metrics relate to project sustainability**.
 
-Furthermore, existing popularity metrics (stars, forks) have rarely been validated against long-term project survival and maintenance outcomes.
+Furthermore, existing popularity metrics (stars, forks) have rarely been validated against long-term project survival and maintenance outcomes. Recent research has even uncovered widespread manipulation of these metrics: He et al. (2024) found millions of suspected fake stars on GitHub and concluded that inflated star counts "fail to bring true attention in the long term" [He et al., 2024]. This gap in evidence leaves both researchers and practitioners without a comprehensive, data-backed understanding of what truly makes an OSS project sustainable.
 
 ## 1.3 Our Contribution
 
@@ -63,7 +63,7 @@ Our findings will benefit:
 | **RQ1** | What governance and documentation practices (presence of CONTRIBUTING.md, CODE_OF_CONDUCT, explicit maintainer guidelines, responsive issue templates) differentiate projects that maintain long-term consistent activity from those that become inactive? | Governance | Tests assumption that governance maturity predicts sustainability; actionable for maintainers |
 | **RQ2** | How do community health indicators (median issue response time, PR review turnaround, contributor diversity index, maintainer bus factor) correlate with project survival probability over time? | Community | Quantifies community dynamics impact; uses established CHAOSS metrics for validity |
 | **RQ3** | Does a project's ecosystem position (number of dependent packages, position in dependency network) correlate with its long-term sustainability? | Ecosystem | Explores whether being critical infrastructure helps survival |
-| **RQ4** | To what extent do traditional popularity metrics (stars, forks, downloads) predict actual project sustainability compared to governance, community, and ecosystem factors? | Validation | Directly challenges industry assumptions; high practitioner relevance |
+| **RQ4** | To what extent do traditional popularity metrics (stars, forks) predict actual project sustainability compared to governance, community, and ecosystem factors? | Validation | Directly challenges industry assumptions; high practitioner relevance |
 ---
 
 # 3. Research Method
@@ -101,13 +101,13 @@ Per Stol & Fitzgerald's ABC framework (Lecture 5):
 ### Sample Selection: Stratified Purposive Sampling
 
 ```
-Sample Structure (n = 500 projects total)
-├── Sustainable Projects (n = 250)
+Sample Structure (n = 400 projects total)
+├── Sustainable Projects (n = 200)
 │   ├── Definition: Active commits in last 6 months + issues being closed
 │   ├── Selection: Random sample from qualifying projects
-│   └── Stratification: By language (Python, JavaScript, Java, Go, C++ - 50 each)
+│   └── Stratification: By language (Python, JavaScript, Java, Go - 50 each)
 │
-└── Non-Sustainable Projects (n = 250)
+└── Non-Sustainable Projects (n = 200)
     ├── Definition: No commits in >18 months OR explicit "archived/unmaintained"
     ├── Selection: Random sample from qualifying projects
     ├── Stratification: Matched by initial metrics (stars at 1 year, contributors)
@@ -116,16 +116,16 @@ Sample Structure (n = 500 projects total)
 
 ### Sample Size Justification
 
-- **Statistical power**: n=500 provides >90% power to detect medium effect sizes (d=0.5) at α=0.05
-- **Regression requirements**: Rule of thumb: 10-20 observations per predictor; we have ~15 predictors → need 150-300 minimum
-- **Stratification**: 50 per language (5 languages) ensures language-specific patterns detectable
+- **Statistical power**: n=400 provides >90% power to detect medium effect sizes (d=0.5) at α=0.05
+- **Regression requirements**: Rule of thumb: 10-20 observations per predictor; we have ~12 predictors → need 120-240 minimum
+- **Stratification**: 50 per language (4 languages) ensures language-specific patterns detectable
 
 ### Critique & Mitigation
 
 | Potential Criticism                                       | Our Response                                                |
 | --------------------------------------------------------- | ----------------------------------------------------------- |
-| "100 stars is arbitrary"                                  | Sensitivity analysis with 50 and 200 star thresholds        |
-| "Language stratification biases toward popular languages" | Explicitly acknowledged; findings scoped to major languages |
+| "100 stars is arbitrary"                                  | The 100-star threshold follows Borges et al. (2016) who used similar cutoffs to exclude "toy" projects; we also run sensitivity analysis with 50 and 200 star thresholds |
+| "Language stratification biases toward popular languages" | We focus on Python, JavaScript, Java, Go (four of the top 5 GitHub languages) for data availability and practical relevance. C++ was excluded due to deps.dev coverage gaps for native ecosystems. Findings explicitly scoped to these ecosystems. |
 | "Matching on initial metrics is imperfect"                | Include initial metrics as control variables in regression  |
 
 ## 3.3 Operationalization of Variables
@@ -136,6 +136,12 @@ Sample Structure (n = 500 projects total)
 | ------------------------- | --------------------------------------------------------------------------------------- | --------------------------- |
 | **Sustainable**     | (a) ≥1 commit in last 6 months AND (b) ≥50% of issues from last year closed/addressed | GHArchive + GitHub API      |
 | **Non-Sustainable** | (a) No commits in >18 months OR (b) Explicitly archived/marked unmaintained             | GHArchive + README analysis |
+| **Excluded (grey area)** | Projects with last commit 6-18 months ago | Not sampled to ensure clear dichotomy |
+
+**Threshold Justification:**
+- **6 months active**: Common threshold in literature (Coelho & Valente, 2017); indicates ongoing maintenance
+- **18 months inactive**: Conservative cutoff; accounts for projects with long release cycles
+- **50% issue closure**: Based on median closure rates observed in healthy projects; distinguishes responsive from overwhelmed maintainers
 
 ### Independent Variables (RQ1: Governance)
 
@@ -201,7 +207,6 @@ Sample Structure (n = 500 projects total)
 
 | Source | Purpose | Access |
 |--------|---------|--------|
-| **Libraries.io** | C++ dependency data (deps.dev doesn't support C/C++) | Zenodo dump or API |
 | **CHAOSS Metrics Models** | Standardized metric definitions | https://chaoss.community/ |
 
 ## 4.3 Data Extraction Strategy
@@ -211,10 +216,10 @@ Data Collection Pipeline
 │
 ├── Phase 1: Sample Selection (Week 8)
 │   ├── Query GHArchive via BigQuery
-│   ├── Filter: stars ≥100, created 2015-2020, non-fork, language in [Python, JS, Java, Go, C++]
+│   ├── Filter: stars ≥100, created 2015-2020, non-fork, language in [Python, JS, Java, Go]
 │   ├── Classify as sustainable/non-sustainable using activity cutoffs
 │   ├── Stratified random sampling (50 per language per group)
-│   └── Output: project_sample.csv (500 projects)
+│   └── Output: project_sample.csv (400 projects)
 │
 ├── Phase 2: Governance Data (Week 9)
 │   ├── Query OpenSSF Scorecard for CODE_OF_CONDUCT, CONTRIBUTING scores
@@ -223,13 +228,12 @@ Data Collection Pipeline
 │
 ├── Phase 3: Community Data (Week 9-10)
 │   ├── GHArchive: Extract issue/PR event timelines
-│   ├── Calculate response times, review times
+│   ├── Calculate response times, review times (within project's active period)
 │   ├── Calculate contributor diversity metrics
 │   └── Output: community_metrics.csv
 │
 ├── Phase 4: Ecosystem Data (Week 10)
-│   ├── deps.dev: Query dependent package counts for Python/JS/Java/Go
-│   ├── Libraries.io: Query dependent counts for C++
+│   ├── deps.dev: Query dependent package counts for all 4 languages
 │   └── Output: ecosystem_metrics.csv
 │
 ├── Phase 5: Merge & Clean (Week 10)
@@ -253,7 +257,9 @@ Data Collection Pipeline
 | **deps.dev → GitHub mapping** - Package names don't always map cleanly to repos | Use `repository_url` field in deps.dev; manual verification for ambiguous cases |
 | **Scorecard is security-focused** - Covers CODE_OF_CONDUCT, CONTRIBUTING but not all governance aspects | Use GitHub API fallback for issue templates, PR templates, README quality |
 | **Community metrics complexity** - Bus factor, contributor retention require event processing | Consider CHAOSS Augur/GrimoireLab for pre-built metrics if custom pipeline is too complex |
-| **C++ ecosystem data gaps** - deps.dev doesn't support C/C++ | Use Libraries.io; acknowledge coverage may be less complete than other languages |
+| **RQ3 apps vs libraries** - Application repos may have zero dependents (not a library) | Segment analysis by project type or interpret null dependents carefully |
+| **Bot contamination** - Automated commits/responses can distort community metrics | Filter known bots (e.g., dependabot, renovate, greenkeeper) using GHArchive `actor.login` patterns; exclude accounts with "bot" suffix or in GitHub's bot list |
+| **Maintainer vs committer distinction** - Not all committers are maintainers | Use GitHub API to identify users with write access; treat others as contributors |
 
 ---
 
@@ -335,7 +341,7 @@ For each RQ:
 ## 6.4 Popularity vs. Sustainability
 
 - **Borges et al. (2016)** - "Understanding the Factors That Impact the Popularity of GitHub Repositories" - Established popularity predictors; we test if they predict sustainability
-- **Hudson et al. (2018)** - "A Survey on OSS Sustainability" - Noted disconnect between popularity and health
+- **Valiev et al. (2018)** - "Ecosystem-level determinants of sustained activity in open-source projects" - PyPI case study; ecosystem factors for sustainability
 
 ## 6.5 Research Gap
 
@@ -354,9 +360,10 @@ For each RQ:
 
 | Threat                                    | Mitigation                                          |
 | ----------------------------------------- | --------------------------------------------------- |
-| "Sustainability" definition is subjective | Clear operationalization with sensitivity analysis  |
-| Governance presence ≠ quality            | Acknowledge; include quality proxies where possible |
-| Community metrics may be gamed            | Cross-validate with multiple indicators             |
+| "Sustainability" definition is subjective | Clear operationalization with sensitivity analysis (test 3/12 month thresholds) |
+| Governance presence ≠ quality            | Acknowledge; include quality proxies (word count, checklist presence) |
+| Community metrics may be gamed            | Cross-validate with multiple indicators; note bot activity as limitation |
+| **Edge case: projects with no issues** | If no issues filed in last year, criterion (b) satisfied by default |
 
 ## 7.2 Internal Validity
 
@@ -365,6 +372,9 @@ For each RQ:
 | Survivorship bias     | Match groups on initial metrics; use early-stage measurements |
 | Confounding variables | Include control variables; stratify by language               |
 | Temporal effects      | Restrict to 2015-2020 creation period                         |
+| **Reverse causality** | Cannot prove direction; use careful language ("correlate", not "cause"); note that governance may be adopted because of success, not causing it |
+| **Corporate backing (unmeasured)** | Acknowledge as potential confounder; some projects may survive due to company support, not governance practices |
+| **Metric timing bias** | Calculate community metrics within project's active period (e.g., up to 1 year before abandonment for non-sustainable projects) |
 
 ## 7.3 External Validity
 
@@ -392,7 +402,7 @@ For each RQ:
 | **9**  | Complete sampling, extract governance data, begin community data extraction  | `governance_metrics.csv`               |
 | **10** | Complete community data, merge datasets, begin descriptive analysis          | `final_dataset.csv`, descriptive stats |
 | **11** | Complete RQ1 analysis, begin RQ2 analysis                                    | RQ1 results                              |
-| **12** | Complete RQ2 and RQ3 analysis, draft Results section                         | RQ2-3 results, Results v1                |
+| **12** | Complete RQ2, RQ3, and RQ4 analysis, draft Results section                   | RQ2-4 results, Results v1                |
 | **13** | Write Discussion, address validity threats                                   | Discussion v1                            |
 | **14** | Complete all sections, internal review, revisions                            | Full draft                               |
 | **15** | Final polishing, prepare presentation                                        | Final report, slides                     |
@@ -404,7 +414,7 @@ For each RQ:
 | Risk                            | Likelihood | Impact | Mitigation                                         |
 | ------------------------------- | ---------- | ------ | -------------------------------------------------- |
 | GHArchive data gaps         | Low        | High   | Cross-validate with GitHub API; adjust sample          |
-| Sample size insufficient        | Low        | Medium | Built-in buffer (500 > minimum required)           |
+| Sample size insufficient        | Low        | Medium | Built-in buffer (400 > minimum required)           |
 | No significant findings         | Medium     | Medium | Report null results honestly; exploratory analysis |
 | Time overrun on data collection | Medium     | High   | Week 8-9 buffer; prioritize RQ1-2 over RQ3         |
 | Tool/library issues             | Low        | Low    | Established tools; alternatives available          |
