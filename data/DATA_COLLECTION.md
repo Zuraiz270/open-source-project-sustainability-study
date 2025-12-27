@@ -31,6 +31,7 @@ LIMIT 2000;
 ```
 
 **Results:**
+
 - **Total repositories extracted:** 2,000
 - **Data processed:** 5.41 GB
 - **Star range:** 450 - 22,071
@@ -48,11 +49,13 @@ LIMIT 2000;
 **Script:** [`../scripts/enrich_data.py`](../scripts/enrich_data.py)
 
 **Data fetched:**
+
 - Primary language
 - Last commit date (`pushed_at`)
 - Archived status
 
 **Results:**
+
 - **Total processed:** 2,000 repositories
 - **Successful:** 1,955 (97.8%)
 - **Errors:** 45 (repos deleted/renamed)
@@ -70,15 +73,18 @@ LIMIT 2000;
 **Problem Identified:** Original trending sample (Dec 2023) had survivorship bias - mostly still-active projects.
 
 **Solution:** Used GitHub Search API to find:
+
 1. **Archived repos** (`archived:true stars:>=100`)
 2. **Inactive repos** (`pushed:<2023-01-01 stars:>=100`)
 
 **Search Criteria:**
+
 - Stars ≥ 100
 - Created 2015-2020
 - Language: Python, TypeScript, JavaScript, Go, Java
 
 **Results:**
+
 - **Total non-sustainable repos found:** 831
 
 **Output File:** [`raw/archived_repos.csv`](raw/archived_repos.csv)
@@ -94,20 +100,21 @@ LIMIT 2000;
 **Script:** [`../scripts/merge_samples.py`](../scripts/merge_samples.py)
 
 **Methodology:**
+
 1. Sustainable projects from original trending sample (Phase 1-2)
 2. Non-sustainable projects from GitHub search (Phase 3)
 3. Stratified sampling: 50 sustainable + 50 non-sustainable per language
 
 ### Final Sample Composition
 
-| Language   | Sustainable | Non-Sustainable | Total |
-|------------|-------------|-----------------|-------|
-| Python     | 50          | 50              | 100   |
-| TypeScript | 50          | 50              | 100   |
-| JavaScript | 50          | 50              | 100   |
-| Go         | 50          | 50              | 100   |
-| Java       | 50          | 50              | 100   |
-| **Total**  | **250**     | **250**         | **500** |
+| Language        | Sustainable   | Non-Sustainable | Total         |
+| --------------- | ------------- | --------------- | ------------- |
+| Python          | 50            | 50              | 100           |
+| TypeScript      | 50            | 50              | 100           |
+| JavaScript      | 50            | 50              | 100           |
+| Go              | 50            | 50              | 100           |
+| Java            | 50            | 50              | 100           |
+| **Total** | **250** | **250**   | **500** |
 
 **Output File:** [`processed/balanced_sample.csv`](processed/balanced_sample.csv)
 
@@ -124,6 +131,7 @@ LIMIT 2000;
 **Endpoint:** `GET /repos/{owner}/{repo}/community/profile`
 
 **Metrics extracted:**
+
 - `has_code_of_conduct` (boolean)
 - `has_contributing` (boolean)
 - `has_license` (boolean)
@@ -139,6 +147,7 @@ LIMIT 2000;
 **Dataset:** `openssf.scorecardcron.scorecard-v2_latest` (BigQuery)
 
 **Metrics extracted:**
+
 - `overall_score` (0-10)
 - `maintained_score` (0-10)
 - `code_review_score` (0-10)
@@ -162,6 +171,7 @@ LIMIT 2000;
 **Cost:** ~€25 (4.79 TB scanned)
 
 **Metrics extracted:**
+
 - `median_issue_response_days` - Time to first response on issues
 - `median_pr_review_days` - Time to first PR review
 - `unique_contributors` - Distinct contributors in 2024
@@ -184,6 +194,7 @@ LIMIT 2000;
 **Reasoning:** External dependency data (deps.dev, Libraries.io) had insufficient coverage (0 matches) for the sample. Used GitHub native metrics as valid proxies for project impact.
 
 **Metrics extracted:**
+
 - `forks_count` - Derivative work (strong proxy for usage/contribution)
 - `subscribers_count` (Watchers) - Active interest
 - `network_count` - Total fork network size
@@ -192,6 +203,49 @@ LIMIT 2000;
 **Results:** 500/500 repos queried (100% success)
 
 **Output File:** [`processed/ecosystem_metrics.csv`](processed/ecosystem_metrics.csv)
+
+---
+
+## Phase 8: Merge & Data Cleaning ✅
+
+### Step 8.1: Merge Datasets
+
+**Date:** December 27, 2024
+
+**Script:** [`scripts/merge_all_data.py`](scripts/merge_all_data.py)
+
+**Inputs:**
+
+- Phase 1: `balanced_sample.csv` (500 repos)
+- Phase 5: `governance_metrics.csv`
+- Phase 6: `community_results.csv`
+- Phase 7: `ecosystem_metrics.csv`
+- Phase 8:
+
+**Result:**
+
+- **Total:** 500 rows (100% match)
+- **Output:** [`processed/final_dataset.csv`](processed/final_dataset.csv)
+- ⚠️ **Missing values:** `median_issue_response_days` (~160 repos with no 2024 activity)
+
+---
+
+## Phase 8b: Fill Missing Community Data ✅
+
+### Step 8b.1: GitHub API - Issue Response Times
+
+**Date:** December 27, 2024
+
+**Script:** [`scripts/fill_missing_community.py`](scripts/fill_missing_community.py)
+
+**Method:** GitHub Issues API for repos missing community data
+
+**Target:** 199 repos with NULL `median_issue_response_days`
+
+**Result:**
+- **Filled:** 170/199 repos
+- **Still Missing:** 29 repos (truly have no issues/responses)
+- **Output:** [`processed/community_filled.csv`](processed/community_filled.csv)
 
 ---
 
@@ -228,11 +282,11 @@ scripts/
 
 ## Sustainability Classification Criteria
 
-| Status | Definition |
-|--------|------------|
-| **Sustainable** | Last commit within 6 months of reference date |
+| Status                    | Definition                                     |
+| ------------------------- | ---------------------------------------------- |
+| **Sustainable**     | Last commit within 6 months of reference date  |
 | **Non-sustainable** | No commit in 18+ months OR explicitly archived |
-| **Grey area** | Between 6-18 months (excluded from sample) |
+| **Grey area**       | Between 6-18 months (excluded from sample)     |
 
 ---
 
@@ -248,8 +302,8 @@ scripts/
 
 ---
 
-## ✅ Data Collection Complete
+## ✅ Data Collection & Merge Complete
 
-Sample selection, governance, community (Phase 6), and ecosystem (Phase 7) data collection complete. Ready for data merging.
+Sample selection, governance, community (Phase 6), ecosystem (Phase 7), and merging (Phase 8) are complete.
 
-
+**Next Step:** Analysis (Phase 9).
