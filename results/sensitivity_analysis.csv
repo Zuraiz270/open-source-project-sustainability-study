@@ -1,0 +1,4 @@
+Definition,N Sustainable,has_contributing (Sus),has_contributing (Non-sus),Chi-square,p-value,Significant
+Current,250,57.6%,41.2%,12.80,0.0003,Yes
+Strict,158,75.3%,37.4%,60.56,0.0000,Yes
+Lenient,250,57.6%,41.2%,12.80,0.0003,Yes

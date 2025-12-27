@@ -1,0 +1,7 @@
+Feature,Posterior Mean,95% CI Lower,95% CI Upper,CI Excludes Zero,Direction
+has_contributing,-0.205,-0.453,0.032,No,Negative
+has_pull_request_template,0.223,0.001,0.470,Yes,Positive
+median_issue_response_days,-0.905,-2.149,-0.080,Yes,Negative
+unique_contributors,1.353,0.763,2.106,Yes,Positive
+forks_count,-0.025,-0.663,0.773,No,Negative
+stars_count,3.868,3.156,4.592,Yes,Positive

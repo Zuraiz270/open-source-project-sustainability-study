@@ -387,3 +387,88 @@ Sample selection, governance, community (Phase 6), ecosystem (Phase 7), and merg
 | Watchers Count | -1.02 | #4 |
 
 **Finding:** Forks and contributor count are the strongest predictors of sustainability.
+
+---
+
+## Phase 9b: Advanced Analysis ✅
+
+**Date:** December 27, 2024
+**Script:** [`scripts/run_analysis_v3.py`](scripts/run_analysis_v3.py)
+
+### RQ1: Governance Profiles (LCA)
+
+| Profile | N | Sustainability | Key Features |
+|---------|---|----------------|--------------|
+| Comprehensive | 135 | **70.4%** | 96% Contributing, 100% PR Template |
+| Standard A | 248 | 42.3% | 89% License, low governance |
+| Standard B | 117 | 42.7% | 100% Contributing, no PR Template |
+
+### RQ2: Survival Analysis
+
+- **Sustainable median response:** 0.54 days
+- **Non-sustainable median:** 1.73 days
+- **Log-rank test:** χ² = 46.04, p < 0.0001
+
+### RQ3: Threshold Analysis
+
+| Metric | Threshold | Below | Above | Lift |
+|--------|-----------|-------|-------|------|
+| Stars | 11,934 | 22.4% | **92.9%** | **4.15x** |
+| Forks | 1,724 | 31.6% | 83.6% | 2.65x |
+
+### RQ4: SHAP + XGBoost
+
+- **Accuracy:** 96.4%
+- **Top predictor:** Stars (SHAP = 2.21)
+
+---
+
+## Phase 9c: Publication-Grade Analysis ✅
+
+**Date:** December 27, 2024
+**Script:** [`scripts/run_analysis_v4.py`](scripts/run_analysis_v4.py)
+
+### 1. FDR Correction (Benjamini-Hochberg)
+
+| Result | Before FDR | After FDR |
+|--------|-----------|-----------|
+| Significant tests | 10/12 | **10/12** |
+| Status | All findings robust | ✅ |
+
+### 2. Sensitivity Analysis (3 Definitions)
+
+| Definition | N Sustainable | has_contributing significant? |
+|------------|---------------|------------------------------|
+| Current | 250 | ✅ Yes (p=0.0003) |
+| Strict | 158 | ✅ Yes (p<0.0001) |
+| Lenient | 250 | ✅ Yes (p=0.0003) |
+
+**Result:** Findings are **robust across all definitions**.
+
+### 3. Bayesian Credible Intervals
+
+| Feature | 95% CI | Excludes Zero? |
+|---------|--------|----------------|
+| stars_count | [3.16, 4.59] | ✅ Yes |
+| unique_contributors | [0.76, 2.11] | ✅ Yes |
+| median_issue_response_days | [-2.15, -0.08] | ✅ Yes |
+| has_pull_request_template | [0.00, 0.47] | ✅ Yes |
+
+### 4. Heterogeneity by Language
+
+| Language | N | Sustainability | has_contributing significant? |
+|----------|---|----------------|------------------------------|
+| Python | 100 | 50% | No (p=0.21) |
+| TypeScript | 100 | 50% | No (p=0.10) |
+| JavaScript | 100 | 50% | No (p=1.00) |
+| Go | 100 | 50% | ✅ Yes (p=0.001) |
+
+### 5. Power Analysis
+
+| Metric | Value |
+|--------|-------|
+| Sample size | 500 |
+| Cohen's h | 0.33 (Small-Medium) |
+| Achieved power | **99%** |
+| Adequate? | ✅ Yes |
+

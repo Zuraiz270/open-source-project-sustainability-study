@@ -121,6 +121,34 @@ GitHub Blog, June 8, 2022.
 
 ---
 
+## Statistical Methods References
+
+### [21] Benjamini, Y., & Hochberg, Y. (1995)
+**"Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"**
+*Journal of the Royal Statistical Society: Series B*, 57(1), 289-300.
+**DOI:** [10.1111/j.2517-6161.1995.tb02031.x](https://doi.org/10.1111/j.2517-6161.1995.tb02031.x)
+**Used for:** FDR correction in Phase 9c
+
+### [22] Kaplan, E. L., & Meier, P. (1958)
+**"Nonparametric Estimation from Incomplete Observations"**
+*Journal of the American Statistical Association*, 53(282), 457-481.
+**DOI:** [10.1080/01621459.1958.10501452](https://doi.org/10.1080/01621459.1958.10501452)
+**Used for:** Survival analysis in Phase 9b
+
+### [23] Lundberg, S. M., & Lee, S. I. (2017)
+**"A Unified Approach to Interpreting Model Predictions"**
+*Advances in Neural Information Processing Systems*, 30.
+**URL:** https://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions
+**Used for:** SHAP feature importance in Phase 9b
+
+### [24] Cohen, J. (1988)
+**"Statistical Power Analysis for the Behavioral Sciences"**
+*2nd Edition*, Lawrence Erlbaum Associates.
+**ISBN:** 978-0-8058-0283-2
+**Used for:** Effect size interpretation and power analysis
+
+---
+
 ## Notes for IEEE Format
 - Use [#] citation style
 - References section: max 2 pages
