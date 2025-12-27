@@ -101,31 +101,45 @@ Per Stol & Fitzgerald's ABC framework (Lecture 5):
 ### Sample Selection: Stratified Purposive Sampling
 
 ```
-Sample Structure (n = 400 projects total)
-├── Sustainable Projects (n = 200)
+Sample Structure (n ≈ 460 projects total)
+├── Sustainable Projects (n ≈ 230)
 │   ├── Definition: Active commits in last 6 months + issues being closed
 │   ├── Selection: Random sample from qualifying projects
-│   └── Stratification: By language (Python, JavaScript, Java, Go - 50 each)
+│   └── Stratification: By language (Python, TypeScript, JavaScript, Go - 50 each; Java - max available)
 │
-└── Non-Sustainable Projects (n = 200)
+└── Non-Sustainable Projects (n ≈ 230)
     ├── Definition: No commits in >18 months OR explicit "archived/unmaintained"
     ├── Selection: Random sample from qualifying projects
     ├── Stratification: Matched by initial metrics (stars at 1 year, contributors)
     └── Purpose: Controls for initial popularity confound
 ```
 
+### Language Selection Note
+
+We include **five languages** to ensure broad ecosystem coverage. Our preliminary data extraction from GHArchive (December 2023, repos with ≥100 stars) revealed the following distribution:
+
+| Language | Available | Sample Target |
+|----------|-----------|---------------|
+| Python | 460 | 100 (50+50) |
+| TypeScript | 292 | 100 (50+50) |
+| JavaScript | 145 | 100 (50+50) |
+| Go | 135 | 100 (50+50) |
+| Java | 68 | ~60 (max available) |
+
+**Note on Java**: Despite Java's significant presence in enterprise software, our trending OSS sample yielded fewer Java projects meeting our criteria. This may reflect that many popular Java projects were created before our 2015-2020 window, or that enterprise Java development often occurs in private repositories. We include all available Java projects to maintain enterprise language representation, acknowledging the smaller subsample.
+
 ### Sample Size Justification
 
-- **Statistical power**: n=400 provides >90% power to detect medium effect sizes (d=0.5) at α=0.05
+- **Statistical power**: n≈460 provides >90% power to detect medium effect sizes (d=0.5) at α=0.05
 - **Regression requirements**: Rule of thumb: 10-20 observations per predictor; we have ~12 predictors → need 120-240 minimum
-- **Stratification**: 50 per language (4 languages) ensures language-specific patterns detectable
+- **Stratification**: 50 per language (4 languages) + max Java ensures language-specific patterns detectable
 
 ### Critique & Mitigation
 
 | Potential Criticism                                       | Our Response                                                |
 | --------------------------------------------------------- | ----------------------------------------------------------- |
 | "100 stars is arbitrary"                                  | The 100-star threshold follows Borges et al. (2016) who used similar cutoffs to exclude "toy" projects; we also run sensitivity analysis with 50 and 200 star thresholds |
-| "Language stratification biases toward popular languages" | We focus on Python, JavaScript, Java, Go (four of the top 5 GitHub languages) for data availability and practical relevance. C++ was excluded due to deps.dev coverage gaps for native ecosystems. Findings explicitly scoped to these ecosystems. |
+| "Language stratification biases toward popular languages" | We include Python, TypeScript, JavaScript, Go, and Java (five of the top GitHub languages) for data availability and practical relevance. TypeScript was added due to its significant presence (292 repos) in our sample, reflecting its modern ecosystem importance. Java is included for enterprise relevance despite limited sample size (68 repos). C++ was excluded due to deps.dev coverage gaps for native ecosystems. Findings explicitly scoped to these ecosystems. |
 | "Matching on initial metrics is imperfect"                | Include initial metrics as control variables in regression  |
 
 ## 3.3 Operationalization of Variables
@@ -216,7 +230,7 @@ Data Collection Pipeline
 │
 ├── Phase 1: Sample Selection (Week 8)
 │   ├── Query GHArchive via BigQuery
-│   ├── Filter: stars ≥100, created 2015-2020, non-fork, language in [Python, JS, Java, Go]
+│   ├── Filter: stars ≥100, created 2015-2020, non-fork, language in [Python, TypeScript, JS, Go, Java]
 │   ├── Classify as sustainable/non-sustainable using activity cutoffs
 │   ├── Stratified random sampling (50 per language per group)
 │   └── Output: project_sample.csv (400 projects)

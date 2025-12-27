@@ -67,20 +67,39 @@ LIMIT 2000;
 
 ---
 
-## Phase 3: Data Enrichment (Pending)
+## Phase 3: Data Enrichment ✅
 
 ### Step 3.1: GitHub API Enrichment
 
-**Status:** ⏳ Pending
+**Status:** ✅ Completed (December 26, 2024)
 
-**Required data:**
-- Primary language (Python, JavaScript, Java, Go)
-- Last commit date
+**Script:** [`../scripts/enrich_data.py`](../scripts/enrich_data.py)
+
+**Data fetched from GitHub API:**
+- Primary language
+- Last commit date (`pushed_at`)
 - Archived status
 
-**Method options:**
-1. GitHub REST API (requires token, ~2000 API calls)
-2. BigQuery enrichment query (faster, uses GHArchive data)
+**Results:**
+- **Total processed:** 2,000 repositories
+- **Successful:** 1,955 (97.8%)
+- **Not found/errors:** 45
+
+**Output File:** [`processed/enriched_sample.csv`](processed/enriched_sample.csv)
+
+**Language Distribution (Top 10):**
+| Language | Count |
+|----------|-------|
+| Python | 460 |
+| TypeScript | 292 |
+| JavaScript | 145 |
+| Go | 135 |
+| Rust | 114 |
+| C++ | 99 |
+| Jupyter Notebook | 75 |
+| Java | 68 |
+| C | 55 |
+| C# | 47 |
 
 ### Step 3.2: Sustainability Classification
 
