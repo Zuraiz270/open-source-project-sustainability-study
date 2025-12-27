@@ -1,0 +1,832 @@
+repo_name,owner,repo,stars,language,created_at,pushed_at,archived,description,sustainability_status
+google-research/bert,google-research,bert,39765,Python,2018-10-25T22:57:34Z,2024-07-23T23:39:41Z,True,TensorFlow code and pre-trained models for BERT,non_sustainable
+testerSunshine/12306,testerSunshine,12306,34117,Python,2017-05-17T12:23:40Z,2023-04-02T03:19:43Z,True,12306智能刷票，订票,non_sustainable
+iperov/DeepFaceLive,iperov,DeepFaceLive,30270,Python,2020-12-15T12:19:22Z,2024-11-08T03:07:42Z,True,Real-time face swap for PC streaming or video calls,non_sustainable
+facebookresearch/Detectron,facebookresearch,Detectron,26400,Python,2017-10-05T17:32:00Z,2023-11-20T09:13:34Z,True,"FAIR's research platform for object detection research, implementing popular algorithms like Mask R-CNN and RetinaNet.",non_sustainable
+HumanSignal/labelImg,HumanSignal,labelImg,24629,Python,2015-09-17T01:33:59Z,2024-06-07T20:24:32Z,True,"LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source dat",non_sustainable
+iperov/DeepFaceLab,iperov,DeepFaceLab,18908,Python,2018-06-04T13:10:00Z,2024-11-13T19:29:05Z,True,DeepFaceLab is the leading software for creating deepfakes.,non_sustainable
+jantic/DeOldify,jantic,DeOldify,18457,Python,2018-10-31T23:32:34Z,2024-10-19T17:17:35Z,True,A Deep Learning based project for colorizing and restoring old images (and video!),non_sustainable
+Python-World/python-mini-projects,Python-World,python-mini-projects,17469,Python,2020-06-21T05:18:42Z,2022-07-17T08:51:24Z,True,A collection of simple python mini projects to enhance your python skills,non_sustainable
+tensorflow/tensor2tensor,tensorflow,tensor2tensor,16840,Python,2017-06-15T16:57:39Z,2023-06-02T18:55:09Z,True,Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.,non_sustainable
+twintproject/twint,twintproject,twint,16283,Python,2017-06-10T15:16:49Z,2023-02-23T13:58:09Z,True,"An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.",non_sustainable
+h2y/Shadowrocket-ADBlock-Rules,h2y,Shadowrocket-ADBlock-Rules,16201,Python,2016-08-13T01:30:46Z,2021-04-12T16:11:40Z,True,提供多款 Shadowrocket 规则，带广告过滤功能。用于 iOS 未越狱设备选择性地自动翻墙。,non_sustainable
+avgupta456/github-trends,avgupta456,github-trends,16143,Python,2020-12-18T03:35:34Z,2025-01-25T12:51:50Z,True,🚀 Level up your GitHub profile readme with customizable cards including LOC statistics!,non_sustainable
+albumentations-team/albumentations,albumentations-team,albumentations,15234,Python,2018-06-06T03:10:50Z,2025-06-25T23:21:43Z,True,Fast and flexible image augmentation library. Paper about the library: https://www.mdpi.com/2078-2489/11/2/125,non_sustainable
+facebookresearch/detr,facebookresearch,detr,15003,Python,2020-05-26T23:54:52Z,2024-03-12T15:58:25Z,True,End-to-End Object Detection with Transformers,non_sustainable
+microsoft/nni,microsoft,nni,14320,Python,2018-06-01T05:51:44Z,2024-07-03T10:55:10Z,True,"An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.",non_sustainable
+youfou/wxpy,youfou,wxpy,14288,Python,2017-02-20T18:20:46Z,2019-07-14T17:59:47Z,True,微信机器人 / 可能是最优雅的微信个人号 API ✨✨,non_sustainable
+alexjc/neural-enhance,alexjc,neural-enhance,11885,Python,2016-10-01T13:01:50Z,2020-12-29T08:43:04Z,True,Super Resolution for images using deep learning.,non_sustainable
+allenai/allennlp,allenai,allennlp,11884,Python,2017-05-15T15:52:41Z,2022-11-22T23:28:35Z,True,"An open-source NLP research library, built on PyTorch.",non_sustainable
+facebookresearch/ParlAI,facebookresearch,ParlAI,10624,Python,2017-04-24T17:10:44Z,2023-11-03T14:30:00Z,True,A framework for training and evaluating AI models on a variety of openly available dialogue datasets.,non_sustainable
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee,eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee,eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee,10533,Python,2018-11-08T04:09:47Z,2019-07-02T11:23:43Z,True,eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee,non_sustainable
+chiphuyen/stanford-tensorflow-tutorials,chiphuyen,stanford-tensorflow-tutorials,10377,Python,2016-11-05T18:21:51Z,2020-12-22T09:21:55Z,True,This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research. ,non_sustainable
+alexjc/neural-doodle,alexjc,neural-doodle,9881,Python,2016-03-05T23:35:18Z,2020-10-01T16:54:52Z,True,"Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one image to another, perform example-based upscaling, but wait... t",non_sustainable
+facebookresearch/pifuhd,facebookresearch,pifuhd,9760,Python,2019-09-04T19:28:03Z,2024-08-19T14:38:14Z,True,High-Resolution 3D Human Digitization from A Single Image.,non_sustainable
+nbedos/termtosvg,nbedos,termtosvg,9753,Python,2018-06-09T13:52:09Z,2020-06-16T11:01:41Z,True,Record terminal sessions as SVG animations,non_sustainable
+facebookresearch/demucs,facebookresearch,demucs,9611,Python,2019-10-25T02:43:20Z,2024-04-24T20:25:19Z,True,Code for the paper Hybrid Spectrogram and Waveform Source Separation,non_sustainable
+facebookresearch/maskrcnn-benchmark,facebookresearch,maskrcnn-benchmark,9391,Python,2018-10-24T17:34:50Z,2023-02-16T04:01:32Z,True,"Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch.",non_sustainable
+byt3bl33d3r/CrackMapExec,byt3bl33d3r,CrackMapExec,9010,Python,2015-08-14T14:11:55Z,2023-12-06T17:09:42Z,True,A swiss army knife for pentesting networks,non_sustainable
+dylanaraps/pywal,dylanaraps,pywal,8972,Python,2017-06-16T14:54:22Z,2024-01-27T15:51:44Z,True,🎨 Generate and change color-schemes on the fly.,non_sustainable
+n1nj4sec/pupy,n1nj4sec,pupy,8914,Python,2015-09-21T17:30:53Z,2024-03-22T08:52:53Z,True,"Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) C2 and post-exploitation framework written in python and C",non_sustainable
+Chalarangelo/30-seconds-of-python,Chalarangelo,30-seconds-of-python,8845,Python,2018-01-08T12:17:16Z,2023-05-07T17:09:42Z,True,Short Python code snippets for all your development needs,non_sustainable
+hardikvasa/google-images-download,hardikvasa,google-images-download,8667,Python,2015-03-28T16:50:28Z,2024-02-19T17:21:18Z,True,Python Script to download hundreds of images from 'Google Images'. It is a ready-to-run code!,non_sustainable
+google/trax,google,trax,8296,Python,2019-10-05T15:09:14Z,2025-09-26T14:37:32Z,True,Trax — Deep Learning with Clear Code and Speed,non_sustainable
+EleutherAI/gpt-neo,EleutherAI,gpt-neo,8285,Python,2020-07-05T10:23:46Z,2022-02-25T06:27:12Z,True,An implementation of model parallel GPT-2 and GPT-3-style models using the mesh-tensorflow library.,non_sustainable
+google/diff-match-patch,google,diff-match-patch,8019,Python,2018-01-23T19:42:02Z,2024-05-22T22:13:22Z,True,Diff Match Patch is a high-performance library in multiple languages that manipulates plain text.,non_sustainable
+the-paperless-project/paperless,the-paperless-project,paperless,7921,Python,2015-12-20T12:54:28Z,2021-04-06T20:00:58Z,True,"Scan, index, and archive all of your paper documents",non_sustainable
+samshadwell/TrumpScript,samshadwell,TrumpScript,7600,Python,2016-01-16T05:23:07Z,2019-12-04T13:55:30Z,True,Make Python great again,non_sustainable
+openai/universe,openai,universe,7518,Python,2016-12-04T21:53:35Z,2018-04-05T18:58:15Z,True,"Universe: a software platform for measuring and training an AI's general intelligence across the world's supply of games, websites and other applications.",non_sustainable
+SerpentAI/SerpentAI,SerpentAI,SerpentAI,6953,Python,2017-04-16T21:48:39Z,2022-11-07T01:59:31Z,True,Game Agent Framework. Helping you create AIs / Bots that learn to play any game you own!,non_sustainable
+python-eel/Eel,python-eel,Eel,6754,Python,2017-12-27T21:37:12Z,2025-06-22T18:29:43Z,True,A little Python library for making simple Electron-like HTML/JS GUI apps,non_sustainable
+MycroftAI/mycroft-core,MycroftAI,mycroft-core,6611,Python,2016-05-20T14:11:07Z,2024-09-08T08:02:02Z,True,"Mycroft Core, the Mycroft Artificial Intelligence platform. ",non_sustainable
+tensorflow/nmt,tensorflow,nmt,6460,Python,2017-06-29T00:35:52Z,2022-10-09T08:07:34Z,True,TensorFlow Neural Machine Translation Tutorial,non_sustainable
+maxbbraun/trump2cash,maxbbraun,trump2cash,6458,Python,2017-01-22T03:54:56Z,2023-05-23T00:51:23Z,True,A stock trading bot powered by Trump tweets,non_sustainable
+microsoft/nlp-recipes,microsoft,nlp-recipes,6442,Python,2019-04-05T17:42:41Z,2022-08-30T19:12:12Z,True,Natural Language Processing Best Practices & Examples,non_sustainable
+p-e-w/maybe,p-e-w,maybe,6333,Python,2016-01-24T18:29:30Z,2017-01-22T11:38:22Z,True, :open_file_folder: :rabbit2: :tophat: See what a program does before deciding whether you really want it to happen (NO LONGER MAINTAINED),non_sustainable
+facebookresearch/pytext,facebookresearch,pytext,6316,Python,2018-07-31T23:40:46Z,2022-10-17T19:55:31Z,True,A natural language modeling framework based on PyTorch,non_sustainable
+ufoym/deepo,ufoym,deepo,6283,Python,2017-10-27T11:41:49Z,2023-01-29T05:49:54Z,True,Setup and customize deep learning environment in seconds.,non_sustainable
+Netflix/dispatch,Netflix,dispatch,6273,Python,2020-02-10T17:21:28Z,2025-09-03T04:04:13Z,True,"All of the ad-hoc things you're doing to manage incidents today, done for you, and much more!",non_sustainable
+jarun/googler,jarun,googler,6168,Python,2015-08-16T03:33:02Z,2021-11-13T08:09:20Z,True,:mag: Google from the terminal,non_sustainable
+yahoo/open_nsfw,yahoo,open_nsfw,5986,Python,2016-08-16T20:37:47Z,2018-11-21T03:15:32Z,True,Not Suitable for Work (NSFW) classification using deep neural network Caffe models.,non_sustainable
+xchaoinfo/fuck-login,xchaoinfo,fuck-login,5899,Python,2016-02-15T08:09:20Z,2018-06-08T02:23:56Z,True,模拟登录一些知名的网站，为了方便爬取需要登录的网站,non_sustainable
+google/seq2seq,google,seq2seq,5636,Python,2017-03-02T22:49:20Z,2020-10-15T08:00:39Z,True,A general-purpose encoder-decoder framework for Tensorflow,non_sustainable
+vibora-io/vibora,vibora-io,vibora,5621,Python,2018-06-13T15:58:58Z,2020-12-23T01:00:55Z,True,"Fast, asynchronous and elegant Python web framework.",non_sustainable
+encode/apistar,encode,apistar,5562,Python,2017-03-17T15:42:12Z,2022-02-24T05:00:58Z,True,The Web API toolkit. 🛠,non_sustainable
+jonaswinkler/paperless-ng,jonaswinkler,paperless-ng,5403,Python,2018-06-27T11:34:00Z,2023-02-14T14:55:33Z,True,"A supercharged version of paperless: scan, index and archive all your physical documents",non_sustainable
+david-gpu/srez,david-gpu,srez,5289,Python,2016-08-26T22:22:09Z,2017-08-16T10:48:45Z,True,Image super-resolution through deep learning,non_sustainable
+isl-org/MiDaS,isl-org,MiDaS,5277,Python,2019-06-24T14:08:35Z,2024-08-23T10:21:06Z,True,"Code for robust monocular depth estimation described in ""Ranftl et. al., Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer, TPAMI 2022""",non_sustainable
+TheSpeedX/TBomb,TheSpeedX,TBomb,5225,Python,2018-08-19T06:45:50Z,2025-06-18T19:36:07Z,True,This is a SMS And Call Bomber For Linux And Termux,non_sustainable
+r0oth3x49/udemy-dl,r0oth3x49,udemy-dl,4942,Python,2017-05-01T20:14:27Z,2021-06-06T10:16:29Z,True,A cross-platform python based utility to download courses from udemy for personal offline use.,non_sustainable
+10se1ucgo/DisableWinTracking,10se1ucgo,DisableWinTracking,4929,Python,2015-08-02T21:44:34Z,2021-02-03T21:36:04Z,True,Uses some known methods that attempt to minimize tracking in Windows 10,non_sustainable
+ohld/igbot,ohld,igbot,4817,Python,2017-01-13T19:34:27Z,2020-07-11T19:13:45Z,True,"🐙 Free scripts, bots and Python API wrapper. Get free followers with our auto like, auto follow and other scripts!",non_sustainable
+idealo/image-super-resolution,idealo,image-super-resolution,4804,Python,2018-11-26T13:41:13Z,2024-12-18T16:08:09Z,True,🔎 Super-scale your images and run experiments with Residual Dense and Adversarial Networks.,non_sustainable
+0x5e/wechat-deleted-friends,0x5e,wechat-deleted-friends,4791,Python,2016-01-02T01:28:59Z,2020-10-01T05:14:09Z,True,查看被删的微信好友,non_sustainable
+michael-lazar/rtv,michael-lazar,rtv,4648,Python,2015-02-08T08:10:02Z,2023-02-20T15:57:19Z,True,Browse Reddit from your terminal,non_sustainable
+pyrogram/pyrogram,pyrogram,pyrogram,4587,Python,2017-12-12T09:37:41Z,2024-12-23T21:00:22Z,True,"Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots",non_sustainable
+facebookresearch/DrQA,facebookresearch,DrQA,4481,Python,2017-07-07T22:44:16Z,2023-10-01T21:46:08Z,True,Reading Wikipedia to Answer Open-Domain Questions,non_sustainable
+hluwa/frida-dexdump,hluwa,frida-dexdump,4452,Python,2020-01-07T12:36:10Z,2023-03-04T02:59:20Z,True,A frida tool to dump dex in memory to support security engineers analyzing malware.,non_sustainable
+anudeepND/whitelist,anudeepND,whitelist,4362,Python,2017-07-24T07:37:21Z,2024-03-19T11:10:06Z,True,A simple tool to add commonly white listed domains to your Pi-Hole setup. ,non_sustainable
+facebookresearch/deit,facebookresearch,deit,4308,Python,2020-12-23T17:44:43Z,2024-03-15T13:20:37Z,True,Official DeiT repository,non_sustainable
+Veil-Framework/Veil,Veil-Framework,Veil,4178,Python,2017-03-02T08:04:43Z,2023-10-09T13:57:20Z,True,Veil 3.1.X (Check version info in Veil at runtime),non_sustainable
+dabeaz/curio,dabeaz,curio,4130,Python,2015-10-11T14:02:00Z,2025-12-21T15:48:55Z,True,Good Curio!,non_sustainable
+encode/databases,encode,databases,4019,Python,2019-02-01T10:55:25Z,2024-05-21T19:58:17Z,True,Async database support for Python. 🗄,non_sustainable
+bisguzar/twitter-scraper,bisguzar,twitter-scraper,3994,Python,2018-02-22T14:58:34Z,2023-10-30T05:53:33Z,True,Scrape the Twitter Frontend API without authentication.,non_sustainable
+facebookresearch/VideoPose3D,facebookresearch,VideoPose3D,3961,Python,2018-10-18T22:59:49Z,2022-12-10T16:22:15Z,True,Efficient 3D human pose estimation in video using 2D keypoint trajectories,non_sustainable
+facebookresearch/esm,facebookresearch,esm,3915,Python,2020-08-31T17:41:48Z,2024-02-07T03:31:38Z,True,Evolutionary Scale Modeling (esm): Pretrained language models for proteins,non_sustainable
+googlefonts/roboto-2,googlefonts,roboto-2,3840,Python,2015-04-11T03:59:41Z,2025-04-01T16:56:26Z,True,The Roboto family of fonts,non_sustainable
+microservices-demo/microservices-demo,microservices-demo,microservices-demo,3748,Python,2016-05-23T15:14:02Z,2023-12-05T14:11:58Z,True,Deployment scripts & config for Sock Shop,non_sustainable
+bytedance/byteps,bytedance,byteps,3715,Python,2019-06-25T07:00:13Z,2023-10-03T18:02:27Z,True,A high performance and generic framework for distributed DNN training,non_sustainable
+atlanhq/camelot,atlanhq,camelot,3712,Python,2016-06-18T11:48:49Z,2023-01-05T15:25:42Z,True,Camelot: PDF Table Extraction for Humans,non_sustainable
+pandolia/qqbot,pandolia,qqbot,3690,Python,2016-07-29T13:06:47Z,2020-08-23T07:47:42Z,True,QQBot: A conversation robot base on Tencent's SmartQQ,non_sustainable
+ploomber/ploomber,ploomber,ploomber,3609,Python,2020-01-20T20:13:06Z,2025-05-29T22:02:03Z,True,"The fastest ⚡️ way to build data pipelines. Develop iteratively, deploy anywhere. ☁️",non_sustainable
+miyakogi/pyppeteer,miyakogi,pyppeteer,3561,Python,2017-08-28T16:39:17Z,2021-08-05T11:47:49Z,True,Headless chrome/chromium automation library (unofficial port of puppeteer),non_sustainable
+pytorch/text,pytorch,text,3561,Python,2016-12-12T00:56:03Z,2025-09-10T21:39:02Z,True,"Models, data loaders and abstractions for language processing, powered by PyTorch",non_sustainable
+bhattsameer/Bombers,bhattsameer,Bombers,3524,Python,2017-08-04T07:34:44Z,2023-10-24T13:06:29Z,True,SMS/Email/Whatsapp/Twitter/Instagram bombers Collection :bomb::bomb::bomb: :boom: Also added collection of some Fake SMS utilities which helps in skip phone number based SMS verification by using a te,non_sustainable
+facebookresearch/PyTorch-BigGraph,facebookresearch,PyTorch-BigGraph,3418,Python,2018-10-01T20:41:16Z,2024-03-03T01:42:05Z,True,Generate embeddings from large-scale graph-structured data.,non_sustainable
+google-research/albert,google-research,albert,3276,Python,2019-11-26T22:23:13Z,2023-04-14T18:02:55Z,True,ALBERT: A Lite BERT for Self-supervised Learning of Language Representations,non_sustainable
+facebookresearch/MUSE,facebookresearch,MUSE,3234,Python,2017-10-23T18:20:39Z,2022-08-31T10:12:54Z,True,A library for Multilingual Unsupervised or Supervised word Embeddings,non_sustainable
+latitudegames/AIDungeon,latitudegames,AIDungeon,3226,Python,2019-04-03T02:38:55Z,2020-07-25T15:50:31Z,True,Infinite adventures await!,non_sustainable
+FeeiCN/Cobra,FeeiCN,Cobra,3188,Python,2016-04-15T08:41:15Z,2022-09-16T17:46:29Z,True,Source Code Security Audit (源代码安全审计),non_sustainable
+tensorflow/skflow,tensorflow,skflow,3169,Python,2015-11-18T19:55:34Z,2021-08-30T20:14:47Z,True,Simplified interface for TensorFlow (mimicking Scikit Learn) for Deep Learning,non_sustainable
+erdewit/ib_insync,erdewit,ib_insync,3164,Python,2017-07-12T12:09:24Z,2024-03-14T19:50:06Z,True,Python sync/async framework for Interactive Brokers API,non_sustainable
+neuralmagic/deepsparse,neuralmagic,deepsparse,3159,Python,2020-12-14T17:40:38Z,2025-06-02T21:11:06Z,True,Sparsity-aware deep learning inference runtime for CPUs,non_sustainable
+P0cL4bs/WiFi-Pumpkin-deprecated,P0cL4bs,WiFi-Pumpkin-deprecated,3147,Python,2015-06-27T00:56:21Z,2020-04-18T19:32:52Z,True,"DEPRECATED, wifipumpkin3 -> https://github.com/P0cL4bs/wifipumpkin3",non_sustainable
+jiangxufeng/v2rayL,jiangxufeng,v2rayL,3141,Python,2019-08-10T05:48:09Z,2023-01-30T09:25:27Z,True,v2ray linux GUI客户端，支持订阅、vemss、ss等协议，自动更新订阅、检查版本更新,non_sustainable
+ehmatthes/pcc,ehmatthes,pcc,3121,Python,2015-01-19T01:06:41Z,2025-08-11T22:09:43Z,True,"Resources for Python Crash Course, from No Starch Press.",non_sustainable
+Ehco1996/django-sspanel,Ehco1996,django-sspanel,3113,Python,2017-07-31T00:54:56Z,2024-12-06T18:28:13Z,True,用 diango 开发的 shadowsocks 面板,non_sustainable
+hack4impact/flask-base,hack4impact,flask-base,3066,Python,2015-09-19T23:33:33Z,2024-03-21T18:09:44Z,True,"A simple Flask boilerplate app with SQLAlchemy, Redis, User Authentication, and more.",non_sustainable
+nsidnev/fastapi-realworld-example-app,nsidnev,fastapi-realworld-example-app,3049,Python,2019-01-28T23:47:19Z,2022-08-21T02:23:41Z,True,Backend logic implementation for https://github.com/gothinkster/realworld with awesome FastAPI,non_sustainable
+salesforce/ja3,salesforce,ja3,3042,Python,2017-06-13T22:54:10Z,2025-05-01T17:30:05Z,True,JA3 is a standard for creating SSL client fingerprints in an easy to produce and shareable way.,non_sustainable
+avinashpaliwal/Super-SloMo,avinashpaliwal,Super-SloMo,3028,Python,2018-12-25T17:34:17Z,2023-03-09T18:39:45Z,True,PyTorch implementation of Super SloMo by Jiang et al.,non_sustainable
+srevinsaju/guiscrcpy,srevinsaju,guiscrcpy,3008,Python,2019-06-13T12:35:51Z,2023-12-29T15:32:45Z,True,A full fledged GUI integration for the award winning open-source android screen mirroring system -- scrcpy located on https://github.com/genymobile/scrcpy/ by @rom1v,non_sustainable
+floodsung/Deep-Learning-Papers-Reading-Roadmap,floodsung,Deep-Learning-Papers-Reading-Roadmap,39403,Python,2016-10-14T11:49:48Z,2022-11-27T13:18:32Z,False,Deep Learning papers reading roadmap for anyone who are eager to learn this amazing tech!,non_sustainable
+Kr1s77/awesome-python-login-model,Kr1s77,awesome-python-login-model,16226,Python,2019-01-20T10:43:13Z,2022-07-26T16:22:57Z,False,😮python模拟登陆一些大型网站，还有一些简单的爬虫，希望对你们有所帮助❤️，如果喜欢记得给个star哦🌟,non_sustainable
+programthink/zhao,programthink,zhao,13900,Python,2016-02-28T15:38:57Z,2021-08-01T15:22:51Z,False,【编程随想】整理的《太子党关系网络》，专门揭露赵国的权贵,non_sustainable
+wangshub/wechat_jump_game,wangshub,wechat_jump_game,13867,Python,2017-12-29T02:00:19Z,2022-11-22T02:04:23Z,False,微信《跳一跳》Python 辅助,non_sustainable
+MorvanZhou/tutorials,MorvanZhou,tutorials,12745,Python,2016-05-29T13:29:44Z,2020-12-22T22:02:58Z,False,机器学习相关教程,non_sustainable
+zalandoresearch/fashion-mnist,zalandoresearch,fashion-mnist,12587,Python,2017-08-25T12:05:15Z,2022-06-13T20:36:21Z,False,A MNIST-like fashion product database. Benchmark :point_down: ,non_sustainable
+meolu/walle-web,meolu,walle-web,12040,Python,2015-09-11T05:18:44Z,2022-01-06T22:27:38Z,False,walle - 瓦力 Devops开源项目代码部署平台,non_sustainable
+vipstone/faceai,vipstone,faceai,11053,Python,2018-04-17T08:44:17Z,2020-04-16T12:16:19Z,False,一款入门级的人脸、视频、文字检测以及识别的项目.,non_sustainable
+sfyc23/EverydayWechat,sfyc23,EverydayWechat,10261,Python,2019-03-11T17:38:45Z,2021-06-22T02:56:06Z,False,微信助手：1.每日定时给好友（女友）发送定制消息。2.机器人自动回复好友。3.群助手功能（例如：查询垃圾分类、天气、日历、电影实时票房、快递物流、PM2.5等）,non_sustainable
+lyhue1991/eat_tensorflow2_in_30_days,lyhue1991,eat_tensorflow2_in_30_days,9987,Python,2020-02-15T09:00:37Z,2022-09-22T03:18:54Z,False,"Tensorflow2.0 🍎🍊 is delicious, just eat it! 😋😋",non_sustainable
+eriklindernoren/Keras-GAN,eriklindernoren,Keras-GAN,9238,Python,2017-07-11T16:24:53Z,2022-12-12T05:55:51Z,False,Keras implementations of Generative Adversarial Networks.,non_sustainable
+Cadene/pretrained-models.pytorch,Cadene,pretrained-models.pytorch,9117,Python,2017-04-09T15:54:23Z,2022-04-22T09:08:45Z,False,"Pretrained ConvNets for pytorch: NASNet, ResNeXt, ResNet, InceptionV4, InceptionResnetV2, Xception, DPN, etc.",non_sustainable
+NVIDIA/vid2vid,NVIDIA,vid2vid,8709,Python,2018-08-14T23:27:15Z,2022-05-17T05:09:30Z,False,Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photorealistic video-to-video translation.,non_sustainable
+rbgirshick/py-faster-rcnn,rbgirshick,py-faster-rcnn,8280,Python,2015-09-25T21:04:08Z,2019-11-07T04:31:35Z,False,Faster R-CNN (Python implementation) -- see https://github.com/ShaoqingRen/faster_rcnn for the official MATLAB version,non_sustainable
+lukemelas/EfficientNet-PyTorch,lukemelas,EfficientNet-PyTorch,8210,Python,2019-05-30T05:24:11Z,2022-04-08T12:30:25Z,False,A PyTorch implementation of EfficientNet,non_sustainable
+alex-damian/pulse,alex-damian,pulse,8022,Python,2020-05-20T17:58:16Z,2021-04-30T11:50:25Z,False,PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models,non_sustainable
+larsenwork/monoid,larsenwork,monoid,7967,Python,2015-04-02T18:02:59Z,2020-10-26T07:45:56Z,False,"Customisable coding font with alternates, ligatures and contextual positioning. Crazy crisp at 12px/9pt. http://larsenwork.com/monoid/",non_sustainable
+jwyang/faster-rcnn.pytorch,jwyang,faster-rcnn.pytorch,7856,Python,2017-08-03T19:46:54Z,2022-05-20T09:01:28Z,False,A faster pytorch implementation of faster r-cnn,non_sustainable
+MingchaoZhu/DeepLearning,MingchaoZhu,DeepLearning,7487,Python,2020-02-27T07:11:46Z,2020-06-23T02:05:50Z,False,Python for《Deep Learning》，该书为《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现,non_sustainable
+DA-southampton/NLP_ability,DA-southampton,NLP_ability,7436,Python,2020-06-16T03:20:02Z,2022-08-24T16:54:12Z,False,总结梳理自然语言处理工程师(NLP)需要积累的各方面知识，包括面试题，各种基础知识，工程能力等等，提升核心竞争力,non_sustainable
+lining0806/PythonSpiderNotes,lining0806,PythonSpiderNotes,7363,Python,2015-08-19T03:48:30Z,2021-06-21T02:47:57Z,False,Python入门网络爬虫之精华版,non_sustainable
+fchollet/deep-learning-models,fchollet,deep-learning-models,7356,Python,2016-08-03T20:59:28Z,2020-10-01T05:28:40Z,False,Keras code and weights files for popular deep learning models.,non_sustainable
+Urinx/WeixinBot,Urinx,WeixinBot,7349,Python,2016-01-31T07:53:08Z,2019-11-27T08:44:08Z,False,网页版微信API，包含终端版微信及微信机器人,non_sustainable
+luyishisi/Anti-Anti-Spider,luyishisi,Anti-Anti-Spider,7301,Python,2016-11-14T01:18:11Z,2021-10-17T20:14:19Z,False,越来越多的网站具有反爬虫特性，有的用图片隐藏关键数据，有的使用反人类的验证码，建立反反爬虫的代码仓库，通过与不同特性的网站做斗争（无恶意）提高技术。（欢迎提交难以采集的网站）（因工作原因，项目暂停） ,non_sustainable
+lancopku/pkuseg-python,lancopku,pkuseg-python,6691,Python,2018-08-05T06:41:07Z,2022-11-05T13:37:41Z,False,pkuseg多领域中文分词工具; The pkuseg toolkit for multi-domain Chinese word segmentation,non_sustainable
+xinntao/ESRGAN,xinntao,ESRGAN,6515,Python,2018-08-31T08:18:41Z,2022-10-19T02:33:55Z,False,ECCV18 Workshops - Enhanced SRGAN. Champion PIRM Challenge on Perceptual Super-Resolution. The training codes are in BasicSR.,non_sustainable
+chrissimpkins/codeface,chrissimpkins,codeface,6407,Python,2015-06-13T18:13:34Z,2020-09-19T17:07:57Z,False,Typefaces for source code beautification,non_sustainable
+Hironsan/BossSensor,Hironsan,BossSensor,6288,Python,2016-07-04T06:09:59Z,2018-10-31T11:42:42Z,False,Hide screen when boss is approaching.,non_sustainable
+tkarras/progressive_growing_of_gans,tkarras,progressive_growing_of_gans,6168,Python,2017-10-27T09:04:34Z,2022-02-17T12:44:14Z,False,"Progressive Growing of GANs for Improved Quality, Stability, and Variation",non_sustainable
+shadowsocksr-backup/shadowsocksr,shadowsocksr-backup,shadowsocksr,6162,Python,2017-07-27T13:58:27Z,2021-09-24T18:40:55Z,False,Python port of ShadowsocksR,non_sustainable
+taki0112/UGATIT,taki0112,UGATIT,6150,Python,2019-07-26T00:33:54Z,2021-05-20T03:23:05Z,False,Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation (ICLR 2020),non_sustainable
+chineseocr/chineseocr,chineseocr,chineseocr,6114,Python,2018-05-01T14:27:52Z,2022-08-29T02:53:47Z,False,yolo3+ocr,non_sustainable
+lcdevelop/ChatBotCourse,lcdevelop,ChatBotCourse,6015,Python,2016-06-23T01:27:49Z,2022-07-18T09:16:17Z,False,自己动手做聊天机器人教程,non_sustainable
+WenDesi/lihang_book_algorithm,WenDesi,lihang_book_algorithm,5826,Python,2016-07-16T03:28:14Z,2019-04-29T09:39:05Z,False,致力于将李航博士《统计学习方法》一书中所有算法实现一遍,non_sustainable
+649453932/Chinese-Text-Classification-Pytorch,649453932,Chinese-Text-Classification-Pytorch,5690,Python,2019-07-11T01:38:08Z,2020-09-23T11:28:21Z,False,中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention，DPCNN，Transformer，基于pytorch，开箱即用。,non_sustainable
+SpiderClub/haipproxy,SpiderClub,haipproxy,5574,Python,2017-09-16T07:14:27Z,2022-12-26T11:50:58Z,False,":sparkling_heart: High available distributed ip proxy pool, powerd by Scrapy and Redis",non_sustainable
+karpathy/arxiv-sanity-preserver,karpathy,arxiv-sanity-preserver,5504,Python,2015-11-28T04:47:22Z,2021-11-27T22:20:55Z,False,"Web interface for browsing, search and filtering recent arxiv submissions",non_sustainable
+gitpitch/gitpitch,gitpitch,gitpitch,5484,Python,2016-07-06T02:42:24Z,2021-03-01T07:55:23Z,False,"Markdown Presentations for Tech Conferences, Training, Developer Advocates, and Educators.",non_sustainable
+tkipf/pygcn,tkipf,pygcn,5393,Python,2017-10-26T19:05:04Z,2020-09-20T18:24:56Z,False,Graph Convolutional Networks in PyTorch,non_sustainable
+google-deepmind/graph_nets,google-deepmind,graph_nets,5390,Python,2018-08-31T08:19:28Z,2022-12-12T11:28:07Z,False,Build Graph Nets in Tensorflow,non_sustainable
+yunjey/stargan,yunjey,stargan,5285,Python,2017-11-27T01:43:01Z,2021-01-23T15:09:58Z,False,StarGAN - Official PyTorch Implementation (CVPR 2018),non_sustainable
+rootphantomer/Blasting_dictionary,rootphantomer,Blasting_dictionary,5237,Python,2015-05-19T08:55:12Z,2022-03-21T12:11:18Z,False,爆破字典,non_sustainable
+amdegroot/ssd.pytorch,amdegroot,ssd.pytorch,5226,Python,2017-02-08T01:50:36Z,2021-12-29T03:19:26Z,False,A PyTorch Implementation of Single Shot MultiBox Detector,non_sustainable
+moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES,moranzcw,Computer-Networking-A-Top-Down-Approach-NOTES,5182,Python,2016-04-11T13:06:37Z,2021-03-08T09:59:21Z,False,《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答。,non_sustainable
+humphd/have-fun-with-machine-learning,humphd,have-fun-with-machine-learning,5119,Python,2016-12-29T17:43:50Z,2021-12-19T18:38:53Z,False,An absolute beginner's guide to Machine Learning and Image Classification with Neural Networks,non_sustainable
+yfeng95/PRNet,yfeng95,PRNet,5013,Python,2018-03-20T11:44:06Z,2022-07-25T23:50:26Z,False,Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network (ECCV 2018),non_sustainable
+ecthros/uncaptcha2,ecthros,uncaptcha2,4939,Python,2018-12-31T17:15:07Z,2019-01-18T18:38:02Z,False,defeating the latest version of ReCaptcha with 91% accuracy,non_sustainable
+minimaxir/textgenrnn,minimaxir,textgenrnn,4933,Python,2017-08-07T02:13:37Z,2022-07-17T19:07:49Z,False,Easily train your own text-generating neural network of any size and complexity on any text dataset with a few lines of code.,non_sustainable
+macanv/BERT-BiLSTM-CRF-NER,macanv,BERT-BiLSTM-CRF-NER,4889,Python,2018-11-25T06:22:06Z,2021-02-24T02:13:06Z,False,Tensorflow solution of NER task Using BiLSTM-CRF model with Google BERT Fine-tuning And private Server services,non_sustainable
+jcjohnson/pytorch-examples,jcjohnson,pytorch-examples,4857,Python,2017-01-23T06:05:21Z,2022-02-20T08:38:11Z,False,Simple examples to introduce PyTorch,non_sustainable
+SpiderClub/weibospider,SpiderClub,weibospider,4814,Python,2016-06-27T07:02:06Z,2020-07-11T04:35:54Z,False,":zap: A distributed crawler for weibo, building with celery and requests.",non_sustainable
+senguptaumd/Background-Matting,senguptaumd,Background-Matting,4785,Python,2020-03-18T19:27:07Z,2022-11-22T04:06:33Z,False,Background Matting: The World is Your Green Screen,non_sustainable
+INTERMT/Awesome-PyTorch-Chinese,INTERMT,Awesome-PyTorch-Chinese,4656,Python,2019-05-01T07:16:27Z,2019-08-14T03:04:28Z,False,【干货】史上最全的PyTorch学习资源汇总,non_sustainable
+hzy46/Deep-Learning-21-Examples,hzy46,Deep-Learning-21-Examples,4652,Python,2018-01-01T11:07:50Z,2019-03-18T12:27:24Z,False,《21个项目玩转深度学习———基于TensorFlow的实践详解》配套代码,non_sustainable
+instillai/deep-learning-roadmap,instillai,deep-learning-roadmap,4643,Python,2019-01-07T05:03:26Z,2022-12-22T12:18:32Z,False,:satellite: All You Need to Know About Deep Learning - A kick-starter,non_sustainable
+OUCMachineLearning/OUCML,OUCMachineLearning,OUCML,4607,Python,2018-11-27T07:03:14Z,2020-09-14T02:59:36Z,False,,non_sustainable
+TachibanaYoshino/AnimeGAN,TachibanaYoshino,AnimeGAN,4600,Python,2019-07-15T08:43:32Z,2022-08-03T16:38:02Z,False,"A Tensorflow implementation of AnimeGAN for fast photo animation  ! This is the Open source of the paper 「AnimeGAN: a novel lightweight GAN for photo animation」, which uses the GAN framwork to transfo",non_sustainable
+Kr1s77/Python-crawler-tutorial-starts-from-zero,Kr1s77,Python-crawler-tutorial-starts-from-zero,4547,Python,2019-03-28T09:13:34Z,2020-12-02T03:01:29Z,False,"python爬虫教程，带你从零到一，包含js逆向，selenium, tesseract OCR识别,mongodb的使用，以及scrapy框架",non_sustainable
+astorfi/TensorFlow-World,astorfi,TensorFlow-World,4510,Python,2017-03-24T22:19:05Z,2020-12-23T00:18:21Z,False,:earth_americas: Simple and ready-to-use tutorials for TensorFlow,non_sustainable
+locuslab/TCN,locuslab,TCN,4457,Python,2018-03-02T22:56:39Z,2022-03-28T16:33:16Z,False,Sequence modeling benchmarks and temporal convolutional networks,non_sustainable
+CLUEbenchmark/CLUEDatasetSearch,CLUEbenchmark,CLUEDatasetSearch,4405,Python,2020-02-21T16:01:31Z,2022-11-21T08:04:52Z,False,搜索所有中文NLP数据集，附常用英文NLP数据集,non_sustainable
+wzhe06/Ad-papers,wzhe06,Ad-papers,4379,Python,2016-08-07T08:26:26Z,2021-02-09T04:23:27Z,False,Papers on Computational Advertising,non_sustainable
+stewartmcgown/uds,stewartmcgown,uds,4371,Python,2018-07-18T20:10:10Z,2021-11-02T07:51:47Z,False,📀 Unlimited Google Drive Storage by splitting binary files into base64,non_sustainable
+openimages/dataset,openimages,dataset,4352,Python,2016-09-29T05:41:30Z,2021-07-01T18:02:46Z,False,The Open Images dataset,non_sustainable
+MorvanZhou/Tensorflow-Tutorial,MorvanZhou,Tensorflow-Tutorial,4350,Python,2017-05-10T11:02:32Z,2020-10-31T02:48:09Z,False,"Tensorflow tutorial from basic to hard, 莫烦Python 中文AI教学",non_sustainable
+zhzyker/exphub,zhzyker,exphub,4269,Python,2020-04-01T09:33:35Z,2021-04-04T09:13:57Z,False,Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Solr、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-2551、CVE-2020-2555、CVE-2020-2883、CVE-201,non_sustainable
+qiyeboy/IPProxyPool,qiyeboy,IPProxyPool,4249,Python,2016-07-21T06:30:29Z,2018-07-13T02:09:49Z,False,IPProxyPool代理池项目，提供代理ip,non_sustainable
+shobrook/rebound,shobrook,rebound,4135,Python,2018-02-28T04:47:03Z,2022-02-16T15:15:53Z,False,Instant Stack Overflow results whenever an exception is thrown,non_sustainable
+commaai/research,commaai,research,4124,Python,2016-08-03T04:38:57Z,2022-08-16T09:22:12Z,False,"dataset and code for 2016 paper ""Learning a Driving Simulator""",non_sustainable
+msracver/Deformable-ConvNets,msracver,Deformable-ConvNets,4111,Python,2017-05-05T13:45:17Z,2021-09-27T01:43:43Z,False,Deformable Convolutional Networks,non_sustainable
+donnemartin/haxor-news,donnemartin,haxor-news,4108,Python,2015-11-16T02:12:45Z,2022-04-22T02:41:12Z,False,Browse Hacker News like a haxor: A Hacker News command line interface (CLI).,non_sustainable
+nativefier/nativefier,nativefier,nativefier,35338,TypeScript,2015-07-05T05:56:42Z,2023-09-29T13:45:16Z,True,Make any web page a desktop application,non_sustainable
+doczjs/docz,doczjs,docz,23662,TypeScript,2018-03-17T04:24:10Z,2025-11-21T04:28:57Z,True,✍ It has never been so easy to document your things!,non_sustainable
+railsware/upterm,railsware,upterm,19146,TypeScript,2015-03-22T07:00:24Z,2019-05-20T17:42:14Z,True,A terminal emulator for the 21st century.,non_sustainable
+material-components/material-components-web,material-components,material-components-web,17109,TypeScript,2016-12-05T16:04:09Z,2025-01-13T20:42:50Z,True,Modular and customizable Material Design UI components for the web,non_sustainable
+ConsenSys-archive/truffle,ConsenSys-archive,truffle,13995,TypeScript,2015-06-29T19:46:53Z,2024-04-22T08:47:19Z,True,":warning: The Truffle Suite is being sunset. For information on ongoing support, migration options and FAQs, visit the Consensys blog. Thank you for all the support over the years.",non_sustainable
+facebook/flipper,facebook,flipper,13464,TypeScript,2018-04-12T16:47:36Z,2025-09-26T15:48:25Z,True,A desktop debugging platform for mobile developers.,non_sustainable
+schickling/chromeless,schickling,chromeless,13242,TypeScript,2017-06-01T16:11:11Z,2018-11-13T02:23:55Z,True,🖥  Chrome automation made simple. Runs locally or headless on AWS Lambda.,non_sustainable
+turbolinks/turbolinks,turbolinks,turbolinks,12645,TypeScript,2016-02-01T02:14:01Z,2021-08-11T02:49:14Z,True,Turbolinks makes navigating your web application faster,non_sustainable
+howdyai/botkit,howdyai,botkit,11579,TypeScript,2015-12-11T21:21:12Z,2024-07-01T02:28:35Z,True,"Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms.",non_sustainable
+onivim/oni,onivim,oni,11285,TypeScript,2016-11-16T14:42:55Z,2020-04-01T15:27:11Z,True,Oni: Modern Modal Editing - powered by Neovim,non_sustainable
+microsoft/TypeScript-React-Starter,microsoft,TypeScript-React-Starter,11064,TypeScript,2017-05-09T19:54:45Z,2019-08-23T00:06:50Z,True,A starter template for TypeScript and React with a detailed README describing how to use the two together.,non_sustainable
+microsoft/frontend-bootcamp,microsoft,frontend-bootcamp,10823,TypeScript,2019-02-24T16:11:55Z,2022-01-13T17:22:50Z,True,Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux,non_sustainable
+bloomrpc/bloomrpc,bloomrpc,bloomrpc,9013,TypeScript,2018-12-13T14:11:42Z,2023-01-04T07:51:04Z,True,Former GUI client for gRPC services. No longer maintained.,non_sustainable
+bytedance/IconPark,bytedance,IconPark,8931,TypeScript,2020-07-27T07:42:16Z,2023-02-24T07:46:02Z,True,"🍎Transform an SVG icon into multiple themes, and generate React icons，Vue icons，svg icons",non_sustainable
+tensorflow/tfjs-core,tensorflow,tfjs-core,8459,TypeScript,2017-08-02T14:45:47Z,2019-08-14T01:44:14Z,True,WebGL-accelerated ML // linear algebra // automatic differentiation for JavaScript.,non_sustainable
+rematch/rematch,rematch,rematch,8435,TypeScript,2017-10-01T01:29:27Z,2023-09-27T10:20:18Z,True,The Redux Framework,non_sustainable
+vercel/nextjs-subscription-payments,vercel,nextjs-subscription-payments,7653,TypeScript,2020-11-11T04:48:01Z,2025-01-23T15:21:43Z,True,"Clone, deploy, and fully customize a SaaS subscription application with Next.js.",non_sustainable
+sveltejs/sapper,sveltejs,sapper,6965,TypeScript,2017-12-11T13:54:33Z,2023-01-11T17:18:27Z,True,"The next small thing in web development, powered by Svelte",non_sustainable
+kentcdodds/cross-env,kentcdodds,cross-env,6523,TypeScript,2015-10-01T18:19:02Z,2025-11-16T14:11:37Z,True,🔀 Cross platform setting of environment scripts,non_sustainable
+vmware-archive/clarity,vmware-archive,clarity,6412,TypeScript,2016-09-29T17:24:17Z,2023-03-16T01:37:07Z,True,"Clarity is a scalable, accessible, customizable, open source design system built with web components. Works with any JavaScript framework, built for enterprises, and designed to  be inclusive.",non_sustainable
+graphql/express-graphql,graphql,express-graphql,6287,TypeScript,2015-08-04T23:29:53Z,2023-03-05T00:10:53Z,True,Create a GraphQL HTTP server with Express.,non_sustainable
+GoogleChrome/rendertron,GoogleChrome,rendertron,5945,TypeScript,2017-03-23T22:28:37Z,2022-10-06T08:01:36Z,True,A Headless Chrome rendering solution,non_sustainable
+microsoft/vscode-go,microsoft,vscode-go,5921,TypeScript,2015-10-14T17:34:10Z,2020-06-10T17:27:08Z,True,An extension for VS Code which provides support for the Go language. We have moved to https://github.com/golang/vscode-go,non_sustainable
+angular/flex-layout,angular,flex-layout,5863,TypeScript,2015-11-18T01:27:14Z,2024-09-03T13:24:59Z,True,Provides HTML UI layout for Angular applications; using Flexbox and a Responsive API ,non_sustainable
+kaorun343/vue-property-decorator,kaorun343,vue-property-decorator,5500,TypeScript,2016-01-14T13:16:49Z,2023-04-11T05:28:16Z,True,Vue.js and Property Decorator,non_sustainable
+microsoft/BosqueLanguage,microsoft,BosqueLanguage,5235,TypeScript,2019-03-10T03:37:38Z,2022-10-27T20:39:01Z,True,The Bosque programming language is an experiment in regularized design for a machine assisted rapid and reliable software development lifecycle. ,non_sustainable
+alephjs/aleph.js,alephjs,aleph.js,5222,TypeScript,2020-09-12T07:27:46Z,2025-07-06T02:54:52Z,True,The Full-stack Framework in Deno.,non_sustainable
+satya164/react-native-tab-view,satya164,react-native-tab-view,5122,TypeScript,2016-06-15T21:38:19Z,2022-11-27T18:40:20Z,True,A cross-platform Tab View component for React Native,non_sustainable
+hashicorp/terraform-cdk,hashicorp,terraform-cdk,5088,TypeScript,2020-01-08T16:13:45Z,2025-12-10T14:12:01Z,True,Define infrastructure resources using programming constructs and provision them using HashiCorp Terraform,non_sustainable
+mobxjs/mobx-react,mobxjs,mobx-react,4832,TypeScript,2015-08-28T11:09:05Z,2020-12-30T16:19:32Z,True,React bindings for MobX,non_sustainable
+googleworkspace/md2googleslides,googleworkspace,md2googleslides,4700,TypeScript,2016-11-07T19:54:09Z,2025-11-18T23:27:06Z,True,Generate Google Slides from markdown,non_sustainable
+remaxjs/remax,remaxjs,remax,4583,TypeScript,2019-01-07T16:27:03Z,2024-03-07T08:51:04Z,True,使用真正的 React 构建跨平台小程序,non_sustainable
+serverless-nextjs/serverless-next.js,serverless-nextjs,serverless-next.js,4475,TypeScript,2019-02-19T23:28:07Z,2025-01-28T06:41:00Z,True,⚡ Deploy your Next.js apps on AWS Lambda@Edge via Serverless Components,non_sustainable
+troisjs/trois,troisjs,trois,4473,TypeScript,2020-09-12T21:47:57Z,2023-07-18T13:58:34Z,True,✨ ThreeJS + VueJS 3 + ViteJS ⚡,non_sustainable
+microsoft/VoTT,microsoft,VoTT,4432,TypeScript,2016-12-29T13:32:23Z,2021-12-06T21:10:56Z,True,Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos. ,non_sustainable
+unform/unform,unform,unform,4430,TypeScript,2018-08-14T02:23:29Z,2023-04-03T10:29:28Z,True,Performance-focused API for React forms 🚀,non_sustainable
+microsoft/code-push,microsoft,code-push,4425,TypeScript,2015-09-30T21:12:55Z,2025-05-20T11:58:18Z,True,A cloud service that enables Cordova and React Native developers to deploy mobile app updates directly to their users’ devices.,non_sustainable
+buttercup/buttercup-desktop,buttercup,buttercup-desktop,4418,TypeScript,2015-09-12T19:54:55Z,2025-03-04T09:00:43Z,True,:key: Cross-Platform Passwords & Secrets Vault,non_sustainable
+vercel/og-image,vercel,og-image,4055,TypeScript,2019-01-02T00:20:14Z,2023-01-20T23:48:47Z,True,"Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc",non_sustainable
+angular/universal,angular,universal,4019,TypeScript,2015-06-24T01:07:44Z,2023-11-28T16:08:35Z,True,Server-side rendering and Prerendering for Angular,non_sustainable
+ngrx/store,ngrx,store,3880,TypeScript,2015-12-13T02:44:59Z,2017-11-27T12:55:33Z,True,"RxJS powered state management for Angular applications, inspired by Redux",non_sustainable
+hygieia/hygieia,hygieia,hygieia,3874,TypeScript,2015-07-17T05:55:06Z,2023-09-29T20:43:13Z,True,CapitalOne  DevOps Dashboard,non_sustainable
+meetalva/alva,meetalva,alva,3711,TypeScript,2017-11-15T21:16:50Z,2022-06-24T23:01:00Z,True,Create living prototypes with code components.,non_sustainable
+salesforce/akita,salesforce,akita,3684,TypeScript,2018-06-11T09:03:03Z,2025-05-01T17:28:19Z,True,🚀 State Management Tailored-Made for JS Applications,non_sustainable
+google/incremental-dom,google,incremental-dom,3547,TypeScript,2015-06-11T20:15:03Z,2024-06-19T05:44:46Z,True,An in-place DOM diffing library,non_sustainable
+bitwarden/desktop,bitwarden,desktop,3534,TypeScript,2016-12-20T06:34:26Z,2022-07-22T16:59:56Z,True,"The desktop vault (Windows, macOS, & Linux).",non_sustainable
+wclr/ts-node-dev,wclr,ts-node-dev,3456,TypeScript,2017-06-18T16:36:43Z,2024-06-14T23:39:53Z,True,Compiles your TS app and restarts when files are modified.,non_sustainable
+felixrieseberg/windows-build-tools,felixrieseberg,windows-build-tools,3417,TypeScript,2016-06-12T00:10:22Z,2021-06-20T20:01:54Z,True,:package: Install C++ Build Tools for Windows using npm,non_sustainable
+qawolf/qawolf,qawolf,qawolf,3411,TypeScript,2019-09-17T20:45:48Z,2024-07-17T11:18:14Z,True,🐺 Create browser tests 10x faster,non_sustainable
+typings/typings,typings,typings,3373,TypeScript,2015-10-20T16:35:10Z,2024-01-05T06:14:27Z,True,*DEPRECATED* The TypeScript Definition Manager,non_sustainable
+sparrow-js/sparrow,sparrow-js,sparrow,3225,TypeScript,2020-01-30T03:58:07Z,2025-02-01T10:02:34Z,True,🎉场景化低代码（LowCode）搭建工作台，实时输出源代码,non_sustainable
+midwayjs/pandora,midwayjs,pandora,3069,TypeScript,2017-10-02T11:59:49Z,2021-07-14T15:23:28Z,True,"A Manageable, Measurable and Traceable Node.js Application Manager represented by Alibaba powered by TypeScript",non_sustainable
+dotnet/try,dotnet,try,3022,TypeScript,2017-09-21T23:11:36Z,2025-12-03T01:28:29Z,True,Try .NET provides developers and content authors with tools to create interactive experiences.,non_sustainable
+frontity/frontity,frontity,frontity,2951,TypeScript,2019-02-26T12:09:49Z,2023-04-19T14:39:51Z,True,» Frontity - The React Framework for WordPress,non_sustainable
+wasdk/WebAssemblyStudio,wasdk,WebAssemblyStudio,2941,TypeScript,2018-01-26T23:45:17Z,2022-06-23T22:46:26Z,True,"Learn, Teach, Work and Play in the WebAssembly Studio",non_sustainable
+outline/rich-markdown-editor,outline,rich-markdown-editor,2929,TypeScript,2018-02-25T06:35:15Z,2022-01-17T09:00:09Z,True,The open source React and Prosemirror based markdown editor that powers Outline. Want to try it out? Create an account:,non_sustainable
+kubernetes-retired/kui,kubernetes-retired,kui,2913,TypeScript,2018-11-26T22:39:03Z,2025-07-12T22:06:01Z,True,A hybrid command-line/UI development experience for cloud-native development,non_sustainable
+MicrosoftDX/Vorlonjs,MicrosoftDX,Vorlonjs,2909,TypeScript,2015-03-25T21:03:35Z,2023-12-01T01:10:51Z,True,"A new, open source, extensible, platform-agnostic tool for remotely debugging and testing your JavaScript. Powered by node.js and socket.io",non_sustainable
+ohmyform/ohmyform,ohmyform,ohmyform,2891,TypeScript,2019-07-11T17:18:42Z,2024-10-31T16:11:33Z,True,"✏️ Free open source alternative to TypeForm, TellForm, or Google Forms ⛺",non_sustainable
+notadd/notadd,notadd,notadd,2841,TypeScript,2015-11-27T08:57:22Z,2024-07-03T04:31:37Z,True,A microservice development architecture based on nest.js. —— 基于 Nest.js 的微服务开发架构。,non_sustainable
+facebookresearch/hiplot,facebookresearch,hiplot,2802,TypeScript,2019-11-08T13:06:41Z,2024-01-10T07:43:27Z,True,HiPlot makes understanding high dimensional data easy,non_sustainable
+RemoteDebug/remotedebug-ios-webkit-adapter,RemoteDebug,remotedebug-ios-webkit-adapter,2741,TypeScript,2016-11-20T07:03:32Z,2021-03-03T05:09:06Z,True,Debug Safari and WebViews on iOS from tools like VS Code and Chrome DevTools,non_sustainable
+replit/kaboom,replit,kaboom,2726,TypeScript,2020-12-21T20:21:52Z,2024-08-04T04:55:13Z,True,💥 JavaScript game library,non_sustainable
+wexond/browser-base,wexond,browser-base,2722,TypeScript,2017-04-13T16:23:38Z,2023-06-04T13:19:29Z,True,Modern and feature-rich web browser base based on Electron,non_sustainable
+LiskArchive/lisk-sdk,LiskArchive,lisk-sdk,2698,TypeScript,2016-02-01T21:45:35Z,2024-06-11T12:04:13Z,True,🔩 Lisk software development kit,non_sustainable
+propelml/propel,propelml,propel,2698,TypeScript,2017-11-16T15:42:09Z,2018-05-29T06:55:08Z,True,Differential Programming in JavaScript.,non_sustainable
+takayama-lily/oicq,takayama-lily,oicq,2663,TypeScript,2020-08-05T04:39:20Z,2023-09-22T14:42:55Z,True,Tencent QQ Bot Library for Node.js,non_sustainable
+expo/expo-cli,expo,expo-cli,2659,TypeScript,2018-04-10T07:52:58Z,2023-12-30T13:33:59Z,True,"Tools for creating, running, and deploying universal Expo and React Native apps",non_sustainable
+tlaverdure/laravel-echo-server,tlaverdure,laravel-echo-server,2646,TypeScript,2016-05-14T23:52:18Z,2024-02-19T21:54:08Z,True,Socket.io server for Laravel Echo,non_sustainable
+ConsenSys-archive/ganache,ConsenSys-archive,ganache,2641,TypeScript,2017-03-27T17:04:47Z,2024-01-29T22:09:03Z,True,":warning: The Truffle Suite is being sunset. For information on ongoing support, migration options and FAQs, visit the Consensys blog. Thank you for all the support over the years.",non_sustainable
+CodFrm/cxmooc-tools,CodFrm,cxmooc-tools,2623,TypeScript,2018-01-25T10:12:46Z,2022-02-07T04:07:27Z,True,"一个 超星(学习通)/智慧树(知到)/中国大学mooc 学习工具,火狐,谷歌,油猴支持.全自动任务,视频倍速秒过,作业考试题库,验证码自动打码(੧ᐛ੭挂科模式,启动)",non_sustainable
+bitwarden/web,bitwarden,web,2605,TypeScript,2015-11-23T23:44:23Z,2022-06-16T16:03:47Z,True,The website vault (vault.bitwarden.com).,non_sustainable
+ascoders/react-native-image-viewer,ascoders,react-native-image-viewer,2448,TypeScript,2016-09-13T13:43:44Z,2021-09-20T21:30:31Z,True,🚀 tiny & fast lib for react native image viewer pan and zoom,non_sustainable
+microsoft/dts-gen,microsoft,dts-gen,2433,TypeScript,2016-08-25T21:07:14Z,2023-12-15T20:02:03Z,True,dts-gen creates starter TypeScript definition files for any module or library.,non_sustainable
+awslabs/diagram-maker,awslabs,diagram-maker,2420,TypeScript,2020-08-31T19:30:19Z,2023-04-26T19:24:44Z,True,A library to display an interactive editor for any graph-like data.,non_sustainable
+s-panferov/awesome-typescript-loader,s-panferov,awesome-typescript-loader,2349,TypeScript,2015-02-20T18:09:16Z,2019-10-31T17:37:45Z,True,Awesome TypeScript loader for webpack,non_sustainable
+joe-bell/plaiceholder,joe-bell,plaiceholder,2330,TypeScript,2020-10-28T09:16:34Z,2023-05-24T17:31:36Z,True,"Beautiful image placeholders, without the hassle.",non_sustainable
+mui/material-ui-pickers,mui,material-ui-pickers,2322,TypeScript,2017-10-07T19:36:16Z,2025-03-18T00:43:43Z,True,Date & Time pickers for Material UI (support from v1 to v4),non_sustainable
+sentialx/multrin,sentialx,multrin,2303,TypeScript,2018-08-19T21:48:37Z,2021-06-23T13:58:30Z,True,Organize apps windows in tabs like in abandoned Windows Sets and more,non_sustainable
+mattermost/mattermost-webapp,mattermost,mattermost-webapp,2292,TypeScript,2017-09-07T04:00:02Z,2024-01-17T20:13:06Z,True,Archived web app of Mattermost. Moved to the monorepo: https://github.com/mattermost/mattermost,non_sustainable
+nodejs/nodejs.dev,nodejs,nodejs.dev,2287,TypeScript,2019-01-29T17:59:15Z,2023-07-03T11:27:46Z,True,"A redesign of Nodejs.org built using Gatsby.js with React.js, TypeScript, and Remark.",non_sustainable
+radix-ui/design-system,radix-ui,design-system,2278,TypeScript,2018-07-26T23:27:26Z,2024-03-15T11:16:15Z,True,Design system that was used by @modulz. It’s now archived and superceded by Radix Themes. (See https://github.com/radix-ui/themes),non_sustainable
+microsoft/vscode-chrome-debug,microsoft,vscode-chrome-debug,2204,TypeScript,2015-11-02T22:17:23Z,2022-12-02T15:12:33Z,True,Debug your JavaScript code running in Google Chrome from VS Code.,non_sustainable
+unsplash/unsplash-js,unsplash,unsplash-js,2192,TypeScript,2015-10-27T21:17:08Z,2025-09-10T22:09:25Z,True,🤖 Official JavaScript wrapper for the Unsplash API,non_sustainable
+facebookarchive/redux-react-hook,facebookarchive,redux-react-hook,2152,TypeScript,2018-10-31T18:20:11Z,2021-11-09T17:28:27Z,True,React Hook for accessing state and dispatch from a Redux store,non_sustainable
+mobxjs/mobx-react-lite,mobxjs,mobx-react-lite,2128,TypeScript,2018-11-10T08:46:56Z,2020-12-30T16:20:49Z,True,Lightweight React bindings for MobX based on React 16.8 and Hooks,non_sustainable
+microsoft/vscode-webview-ui-toolkit,microsoft,vscode-webview-ui-toolkit,2097,TypeScript,2020-06-15T15:04:06Z,2024-09-24T22:40:28Z,True,A component library for building webview-based extensions in Visual Studio Code.,non_sustainable
+ueokande/vim-vixen,ueokande,vim-vixen,2094,TypeScript,2017-08-11T13:26:11Z,2023-03-21T04:01:51Z,True,Accelerates your web browsing with Vim power!!,non_sustainable
+superpowers/superpowers-core,superpowers,superpowers-core,2074,TypeScript,2015-12-09T06:58:53Z,2021-01-20T23:21:31Z,True,:octopus: Superpowers — Extensible HTML5 app for real-time collaborative projects,non_sustainable
+nadeesha/ts-prune,nadeesha,ts-prune,2065,TypeScript,2019-04-26T22:46:36Z,2025-09-19T21:44:07Z,True,Find unused exports in a typescript project. 🛀,non_sustainable
+sebholstein/angular-google-maps,sebholstein,angular-google-maps,2026,TypeScript,2015-11-04T20:57:45Z,2024-06-06T13:27:05Z,True,Angular 2+ Google Maps Components,non_sustainable
+material-components/material-components-web-react,material-components,material-components-web-react,2020,TypeScript,2018-03-06T19:42:24Z,2025-01-14T18:56:47Z,True,Material Components for React (MDC React),non_sustainable
+angular/universal-starter,angular,universal-starter,2014,TypeScript,2015-10-20T08:10:38Z,2019-09-16T17:07:21Z,True,Angular Universal starter kit by @AngularClass,non_sustainable
+rangle/augury,rangle,augury,2001,TypeScript,2015-09-01T14:25:50Z,2021-09-10T17:24:57Z,True,Angular Debugging and Visualization Tools,non_sustainable
+microsoft/TypeScript-Babel-Starter,microsoft,TypeScript-Babel-Starter,1988,TypeScript,2018-01-19T22:54:29Z,2022-08-15T21:15:29Z,True,"A sample setup using Babel CLI to build TypeScript code, and using TypeScript for type-checking. ",non_sustainable
+SteveSandersonMS/WebWindow,SteveSandersonMS,WebWindow,1979,TypeScript,2019-11-17T09:59:12Z,2023-01-07T11:53:40Z,True,".NET Core library to open native OS windows containing web UI on Windows, Mac, and Linux. Experimental.",non_sustainable
+smeijer/unimported,smeijer,unimported,1975,TypeScript,2020-04-27T15:39:14Z,2024-03-10T19:22:40Z,True,Find and fix dangling files and unused dependencies in your JavaScript projects.,non_sustainable
+algolia/react-instantsearch,algolia,react-instantsearch,1974,TypeScript,2017-04-04T11:45:29Z,2022-12-30T12:33:24Z,True,"⚡️ Lightning-fast search for React and React Native applications, by Algolia.",non_sustainable
+will-stone/browserosaurus,will-stone,browserosaurus,1973,TypeScript,2017-06-20T13:17:10Z,2025-08-02T20:43:21Z,True,🦖 The browser prompter for macOS,non_sustainable
+loiane/curso-angular,loiane,curso-angular,1972,TypeScript,2016-07-02T18:58:48Z,2024-02-27T19:35:12Z,True,:mortar_board: [PT-BR] Curso de Angular gratuito - loiane.training [EN] Source code of my free Angular training.,non_sustainable
+piotrwitek/react-redux-typescript-guide,piotrwitek,react-redux-typescript-guide,13333,TypeScript,2016-12-20T22:35:36Z,2022-05-31T09:59:57Z,False,"The complete guide to static typing in ""React & Redux"" apps using TypeScript",non_sustainable
+Raathigesh/majestic,Raathigesh,majestic,7489,TypeScript,2017-11-28T10:28:30Z,2022-05-03T14:54:05Z,False,⚡ Zero config GUI for Jest,non_sustainable
+yezihaohao/react-admin,yezihaohao,react-admin,6744,TypeScript,2017-04-12T02:50:56Z,2022-05-16T17:39:14Z,False,:sparkles: react-admin system solution : react 后台管理系统解决方案,non_sustainable
+surmon-china/videojs-player,surmon-china,videojs-player,5441,TypeScript,2016-09-28T14:11:18Z,2022-08-23T11:04:12Z,False,@videojs player component for @vuejs(3) and React.,non_sustainable
+kolodny/immutability-helper,kolodny,immutability-helper,5248,TypeScript,2016-02-25T02:32:06Z,2020-10-15T13:51:46Z,False,mutate a copy of data without changing the original source,non_sustainable
+learnapollo/learnapollo,learnapollo,learnapollo,5176,TypeScript,2016-10-05T13:27:53Z,2018-06-27T16:39:55Z,False,👩🏻‍🏫   Learn Apollo - A hands-on tutorial for Apollo GraphQL Client (created by Graphcool),non_sustainable
+NaoTu/DesktopNaotu,NaoTu,DesktopNaotu,4959,TypeScript,2016-11-08T01:32:30Z,2021-05-30T16:34:39Z,False,桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool),non_sustainable
+openkraken/kraken,openkraken,kraken,4942,TypeScript,2020-12-04T08:55:45Z,2022-12-30T15:02:55Z,False,"A web standards-compliant, high-performance rendering engine based on Flutter.",non_sustainable
+jaredpalmer/the-platform,jaredpalmer,the-platform,4392,TypeScript,2018-08-15T23:22:09Z,2022-12-09T09:39:17Z,False,Web. Components. 😂,non_sustainable
+alexjoverm/typescript-library-starter,alexjoverm,typescript-library-starter,4377,TypeScript,2017-02-15T14:38:25Z,2022-04-07T13:09:07Z,False,"Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!",non_sustainable
+doodlewind/jshistory-cn,doodlewind,jshistory-cn,4248,TypeScript,2020-04-13T05:50:44Z,2022-08-24T14:44:33Z,False,🇨🇳 《JavaScript 二十年》中文版,non_sustainable
+jamiebuilds/unstated-next,jamiebuilds,unstated-next,4195,TypeScript,2019-05-02T00:44:35Z,2022-02-10T13:23:27Z,False,200 bytes to never think about React state management libraries ever again,non_sustainable
+michaelgrosner/tribeca,michaelgrosner,tribeca,4090,TypeScript,2015-07-07T18:40:45Z,2021-12-08T19:02:31Z,False,"A high frequency, market making cryptocurrency trading platform in node.js",non_sustainable
+alexjlockwood/ShapeShifter,alexjlockwood,ShapeShifter,4057,TypeScript,2016-12-24T18:51:19Z,2022-03-22T18:48:46Z,False,"SVG icon animation tool for Android, iOS, and the web",non_sustainable
+rafgraph/spa-github-pages,rafgraph,spa-github-pages,4010,TypeScript,2016-05-14T18:34:17Z,2022-11-12T13:37:03Z,False,Host single page apps with GitHub Pages,non_sustainable
+i5ting/imove,i5ting,imove,3746,TypeScript,2020-04-08T16:29:45Z,2022-03-22T06:38:30Z,False,"INACTIVE: Move your mouse, generate code from flow chart",non_sustainable
+callstack/haul,callstack,haul,3733,TypeScript,2017-03-20T20:23:31Z,2022-03-09T23:54:54Z,False,"Haul is a command line tool for developing React Native apps, powered by Webpack",non_sustainable
+Qihoo360/wayne,Qihoo360,wayne,3712,TypeScript,2018-11-13T07:47:59Z,2022-05-31T00:52:04Z,False,Kubernetes multi-cluster management and publishing platform,non_sustainable
+samdenty/gqless,samdenty,gqless,3669,TypeScript,2019-01-30T03:14:23Z,2022-02-16T17:50:54Z,False,a GraphQL client without queries,non_sustainable
+alibaba/GGEditor,alibaba,GGEditor,3431,TypeScript,2018-08-24T05:50:30Z,2020-09-10T10:08:53Z,False,A visual graph editor based on G6 and React,non_sustainable
+ottomated/CrewLink,ottomated,CrewLink,3295,TypeScript,2020-11-11T01:18:11Z,2022-08-18T22:25:15Z,False,"Free, open, Among Us Proximity Chat",non_sustainable
+codemix/ts-sql,codemix,ts-sql,3284,TypeScript,2020-09-19T20:57:43Z,2021-06-22T17:45:55Z,False,A SQL database implemented purely in TypeScript type annotations.,non_sustainable
+alm-tools/alm,alm-tools,alm,3015,TypeScript,2015-08-20T04:03:53Z,2022-05-15T23:44:16Z,False,:rose: A :cloud: ready IDE just for TypeScript :heart:,non_sustainable
+tomastrajan/angular-ngrx-material-starter,tomastrajan,angular-ngrx-material-starter,2871,TypeScript,2017-05-10T20:13:47Z,2022-11-22T14:49:27Z,False,"Angular, NgRx, Angular CLI & Angular Material Starter Project",non_sustainable
+elsaland/elsa,elsaland,elsa,2834,TypeScript,2020-09-18T09:17:12Z,2022-11-29T16:00:41Z,False,❄️ Elsa is a minimal runtime for JavaScript and TypeScript written in Go,non_sustainable
+cloud-annotations/cloud-annotations,cloud-annotations,cloud-annotations,2687,TypeScript,2019-01-29T14:52:41Z,2022-07-12T17:41:45Z,False,"🐝 A fast, easy and collaborative open source image annotation tool for teams and individuals.",non_sustainable
+brunnolou/react-morph,brunnolou,react-morph,2554,TypeScript,2018-02-12T00:14:52Z,2022-12-12T12:34:24Z,False,Morphing Ui transitions made simple,non_sustainable
+sinclairzx81/zero,sinclairzx81,zero,2438,TypeScript,2016-10-10T11:59:07Z,2022-07-06T04:40:30Z,False,A 3D renderer written in JavaScript and rendered to the terminal.,non_sustainable
+stuffmatic/fSpy,stuffmatic,fSpy,2436,TypeScript,2018-06-15T11:02:37Z,2022-12-08T17:16:22Z,False,A cross platform app for quick and easy still image camera matching,non_sustainable
+trojanowski/react-apollo-hooks,trojanowski,react-apollo-hooks,2398,TypeScript,2018-10-29T07:35:20Z,2022-12-09T15:40:06Z,False,Use Apollo Client as React hooks,non_sustainable
+vuex-orm/vuex-orm,vuex-orm,vuex-orm,2331,TypeScript,2017-06-16T18:05:37Z,2022-12-10T17:16:42Z,False,The Vuex plugin to enable Object-Relational Mapping access to the Vuex Store.,non_sustainable
+brookshi/Hitchhiker,brookshi,Hitchhiker,2260,TypeScript,2016-09-26T02:47:43Z,2019-02-09T13:47:16Z,False,a Restful Api test tool,non_sustainable
+rhysd/NyaoVim,rhysd,NyaoVim,2229,TypeScript,2015-10-23T18:08:11Z,2018-04-23T11:50:07Z,False,Web-enhanced Extensible Neovim Frontend,non_sustainable
+appbaseio/mirage,appbaseio,mirage,2207,TypeScript,2016-02-25T06:15:36Z,2022-12-02T23:51:22Z,False,:art: GUI for simplifying Elasticsearch Query DSL,non_sustainable
+jiayihu/pretty-algorithms,jiayihu,pretty-algorithms,2183,TypeScript,2017-04-16T09:34:29Z,2017-08-26T19:27:47Z,False,"🌊 Pretty, common and useful algorithms with modern JS and beautiful tests",non_sustainable
+phodal/growth-ionic,phodal,growth-ionic,2151,TypeScript,2015-12-27T01:35:48Z,2017-09-20T04:19:00Z,False,"[v2.0 DEPRECATED, please update to Growth 3.0] Growth - App to help you Be Awesome Developer & Awesome Hacker",non_sustainable
+Elderjs/elderjs,Elderjs,elderjs,2125,TypeScript,2020-08-02T17:16:35Z,2022-11-21T10:44:49Z,False,Elder.js is an opinionated static site generator and web framework for Svelte built with SEO in mind.,non_sustainable
+johnagan/clean-webpack-plugin,johnagan,clean-webpack-plugin,1955,TypeScript,2015-04-06T00:03:55Z,2021-09-01T13:46:08Z,False,A webpack plugin to remove your build folder(s) before building,non_sustainable
+furnishup/blueprint3d,furnishup,blueprint3d,1912,TypeScript,2015-07-09T21:19:14Z,2021-01-20T19:40:11Z,False,Build interior spaces in 3D,non_sustainable
+gajus/redux-immutable,gajus,redux-immutable,1876,TypeScript,2015-08-08T16:19:35Z,2022-03-28T21:47:31Z,False,redux-immutable is used to create an equivalent function of Redux combineReducers that works with Immutable.js state.,non_sustainable
+dabbott/react-native-express,dabbott,react-native-express,1866,TypeScript,2016-04-16T00:49:18Z,2022-05-31T10:09:15Z,False,The all-in-one guide to React Native,non_sustainable
+ide-stories/vscode-stories,ide-stories,vscode-stories,1866,TypeScript,2020-10-29T23:32:51Z,2021-04-29T21:41:47Z,False,Stories for VSCode,non_sustainable
+youzan/zan-proxy,youzan,zan-proxy,1835,TypeScript,2018-04-21T07:47:06Z,2020-08-07T08:43:45Z,False,An extensible proxy for PC/Mobile/APP developer,non_sustainable
+gorhom/react-native-animated-tabbar,gorhom,react-native-animated-tabbar,1813,TypeScript,2020-03-07T19:05:26Z,2022-12-27T19:03:29Z,False,A 60FPS animated tab bar with a variety of cool animation presets 😎,non_sustainable
+Meituan-Dianping/beeshell,Meituan-Dianping,beeshell,1802,TypeScript,2018-08-14T07:08:44Z,2021-08-26T04:01:06Z,False,React Native 组件库,non_sustainable
+benawad/lireddit,benawad,lireddit,1764,TypeScript,2020-08-18T23:14:05Z,2022-08-15T11:50:55Z,False,,non_sustainable
+cs01/termpair,cs01,termpair,1723,TypeScript,2019-03-17T05:04:10Z,2022-06-22T06:17:15Z,False,View and control terminals from your browser with end-to-end encryption 🔒,non_sustainable
+pmndrs/react-three-flex,pmndrs,react-three-flex,1721,TypeScript,2020-08-18T17:31:26Z,2022-12-06T08:37:19Z,False,💪📦  Flexbox for react-three-fiber,non_sustainable
+yannbf/ionic3-components,yannbf,ionic3-components,1675,TypeScript,2016-11-04T05:48:23Z,2025-11-27T11:32:21Z,False,A project full of ionic 3 components and samples - to make life easier :),non_sustainable
+pedronauck/react-adopt,pedronauck,react-adopt,1671,TypeScript,2018-03-30T02:31:22Z,2022-12-07T09:01:35Z,False,:sunglasses: Compose render props components like a pro,non_sustainable
+yuanqing/vdx,yuanqing,vdx,1663,TypeScript,2018-04-29T12:29:58Z,2021-02-27T07:45:42Z,False,":film_strip: An intuitive CLI for processing video, powered by FFmpeg",non_sustainable
+ronami/meta-typing,ronami,meta-typing,1577,TypeScript,2019-12-30T22:21:20Z,2022-12-05T09:27:22Z,False,📚 Functions and algorithms implemented purely with TypeScript's type system,non_sustainable
+laobubu/HyperMD,laobubu,HyperMD,1565,TypeScript,2017-01-14T16:48:39Z,2021-01-05T03:36:46Z,False,A WYSIWYG Markdown Editor for browsers. Break the Wall between writing and previewing.,non_sustainable
+project-yuki/YUKI,project-yuki,YUKI,1550,TypeScript,2018-07-25T03:49:07Z,2021-07-22T00:05:08Z,False,YUKI Galgame Translator,non_sustainable
+beizhedenglong/rough-charts,beizhedenglong,rough-charts,1548,TypeScript,2019-10-04T05:19:54Z,2020-11-03T17:52:46Z,False,"📈 A responsive, composable react charting library with a hand-drawn style.",non_sustainable
+MrBlenny/react-flow-chart,MrBlenny,react-flow-chart,1546,TypeScript,2018-11-07T01:34:23Z,2022-12-30T02:01:09Z,False,"🌊 A flexible, stateless, declarative flow chart library for react.",non_sustainable
+kactus-io/kactus,kactus-io,kactus,1508,TypeScript,2017-06-06T10:12:36Z,2022-07-22T08:24:14Z,False,:cactus: A true version control tool for designers,non_sustainable
+fossasia/MMM-SUSI-AI,fossasia,MMM-SUSI-AI,1493,TypeScript,2017-06-22T19:04:26Z,2017-08-03T07:27:45Z,False,SUSI.AI implementation for Magic Mirror,non_sustainable
+GitSquared/edex-ui,GitSquared,edex-ui,43806,JavaScript,2017-01-28T09:35:02Z,2021-10-19T22:38:47Z,True,"A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.",non_sustainable
+atlassian/react-beautiful-dnd,atlassian,react-beautiful-dnd,34054,JavaScript,2017-08-09T03:37:15Z,2025-08-18T04:35:31Z,True,Beautiful and accessible drag and drop for lists with React,non_sustainable
+vercel/pkg,vercel,pkg,24425,JavaScript,2016-08-08T19:41:59Z,2024-01-03T01:38:16Z,True,Package your Node.js project into an executable,non_sustainable
+facebookarchive/draft-js,facebookarchive,draft-js,22914,JavaScript,2016-02-19T20:18:26Z,2023-02-06T15:35:05Z,True,A React framework for building text editors.,non_sustainable
+facebookexperimental/Recoil,facebookexperimental,Recoil,19558,JavaScript,2020-05-04T19:44:15Z,2025-01-01T08:07:34Z,True,"Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of R",non_sustainable
+dream-num/Luckysheet,dream-num,Luckysheet,16587,JavaScript,2020-05-15T07:24:59Z,2025-08-19T12:36:59Z,True,Luckysheet upgraded to Univer,non_sustainable
+SimulatedGREG/electron-vue,SimulatedGREG,electron-vue,15465,JavaScript,2016-05-12T07:08:12Z,2022-01-14T15:11:42Z,True,"An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack.",non_sustainable
+checkly/headless-recorder,checkly,headless-recorder,15226,JavaScript,2018-08-13T19:31:11Z,2022-12-16T13:35:36Z,True,Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. ,non_sustainable
+acdlite/recompose,acdlite,recompose,15045,JavaScript,2015-10-07T05:54:51Z,2022-09-10T03:59:05Z,True,A React utility belt for function components and higher-order components.,non_sustainable
+facebookarchive/prepack,facebookarchive,prepack,14156,JavaScript,2015-10-28T23:25:08Z,2022-02-11T05:19:57Z,True,A JavaScript bundle optimizer.,non_sustainable
+fbsamples/f8app,fbsamples,f8app,13944,JavaScript,2016-03-10T21:45:12Z,2023-07-11T07:23:07Z,True,"Source code of the official F8 app of 2017, powered by React Native and other Facebook open source projects.",non_sustainable
+geeeeeeeeek/electronic-wechat,geeeeeeeeek,electronic-wechat,13907,JavaScript,2016-02-18T09:09:53Z,2020-09-30T02:05:55Z,True,:speech_balloon: A better WeChat on macOS and Linux. Built with Electron by Zhongyi Tong.,non_sustainable
+surmon-china/vue-awesome-swiper,surmon-china,vue-awesome-swiper,12826,JavaScript,2016-10-05T17:15:44Z,2022-12-21T15:10:44Z,True,🏆 Swiper component for @vuejs,non_sustainable
+atomiks/tippyjs,atomiks,tippyjs,12295,JavaScript,2017-04-01T06:51:35Z,2024-05-27T19:00:23Z,True,"Tooltip, popover, dropdown, and menu library",non_sustainable
+Chalarangelo/30-seconds-of-interviews,Chalarangelo,30-seconds-of-interviews,12102,JavaScript,2018-04-07T20:11:31Z,2022-12-09T05:29:51Z,True,A curated collection of common interview questions to help you prepare for your next interview.,non_sustainable
+phobal/ivideo,phobal,ivideo,11869,JavaScript,2018-04-17T06:59:08Z,2021-01-28T19:46:42Z,True,一个可以观看国内主流视频平台所有视频的客户端（Mac、Windows、Linux） A client that can watch video of domestic(China) mainstream video platform,non_sustainable
+1995parham/github-do-not-ban-us,1995parham,github-do-not-ban-us,11733,JavaScript,2019-07-25T06:23:42Z,2019-08-01T19:25:20Z,True,GitHub do not ban us from open source world :iran:,non_sustainable
+xiandanin/magnetW,xiandanin,magnetW,11414,JavaScript,2018-03-09T05:35:26Z,2022-04-09T17:06:15Z,True,[已失效，不再维护],non_sustainable
+GoogleChromeLabs/ndb,GoogleChromeLabs,ndb,10893,JavaScript,2018-07-20T18:37:47Z,2022-05-26T07:03:35Z,True,"ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools",non_sustainable
+withspectrum/spectrum,withspectrum,spectrum,10868,JavaScript,2016-06-29T21:47:22Z,2022-07-20T03:30:21Z,True,"Simple, powerful online communities.",non_sustainable
+alexfoxy/lax.js,alexfoxy,lax.js,10503,JavaScript,2019-03-12T09:21:03Z,2025-05-21T06:07:55Z,True,Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.,non_sustainable
+dvdzkwsk/react-redux-starter-kit,dvdzkwsk,react-redux-starter-kit,10247,JavaScript,2015-06-24T18:38:28Z,2018-06-03T17:30:08Z,True,"Get started with React, Redux, and React-Router.",non_sustainable
+GetStream/Winds,GetStream,Winds,9315,JavaScript,2016-09-19T17:02:13Z,2021-10-11T20:32:23Z,True,A Beautiful Open Source RSS & Podcast App Powered by Getstream.io,non_sustainable
+trazyn/ieaseMusic,trazyn,ieaseMusic,8782,JavaScript,2017-09-19T13:37:04Z,2023-02-16T05:08:28Z,True,网易云音乐第三方,non_sustainable
+facebookarchive/react-360,facebookarchive,react-360,8739,JavaScript,2016-12-12T19:45:37Z,2020-12-11T10:19:14Z,True,Create amazing 360 and VR content using React,non_sustainable
+Nickersoft/push.js,Nickersoft,push.js,8697,JavaScript,2015-07-20T01:46:04Z,2023-12-15T05:08:17Z,True,The world's most versatile desktop notifications framework :earth_americas:,non_sustainable
+brave/browser-laptop,brave,browser-laptop,7942,JavaScript,2015-11-25T22:55:10Z,2019-04-11T05:59:09Z,True,[DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave,non_sustainable
+pt-plugins/PT-Plugin-Plus,pt-plugins,PT-Plugin-Plus,7890,JavaScript,2018-12-16T08:00:06Z,2025-09-01T13:26:08Z,True,PT 助手 Plus，为 Microsoft Edge、Google Chrome、Firefox 浏览器插件（Web Extensions），主要用于辅助下载 PT 站的种子。,non_sustainable
+reactjs/react-router-redux,reactjs,react-router-redux,7776,JavaScript,2015-11-05T18:59:42Z,2018-10-26T15:42:15Z,True,Ruthlessly simple bindings to keep react-router and redux in sync,non_sustainable
+facebookarchive/nuclide,facebookarchive,nuclide,7746,JavaScript,2015-03-02T05:25:27Z,2018-12-12T18:00:31Z,True,"An open IDE for web and native mobile development, built on top of Atom ",non_sustainable
+ethereum/mist,ethereum,mist,7447,JavaScript,2015-06-10T14:09:06Z,2020-07-20T13:59:24Z,True,[DEPRECATED] Mist. Browse and use Ðapps on the Ethereum network.,non_sustainable
+FormidableLabs/radium,FormidableLabs,radium,7359,JavaScript,2015-01-09T19:35:59Z,2022-08-19T13:33:58Z,True,A toolchain for React component styling.,non_sustainable
+chrisvfritz/prerender-spa-plugin,chrisvfritz,prerender-spa-plugin,7303,JavaScript,2016-03-26T01:33:09Z,2023-04-09T13:38:15Z,True,Prerenders static HTML in a single-page application.,non_sustainable
+apollographql/react-apollo,apollographql,react-apollo,6817,JavaScript,2016-04-13T23:14:51Z,2023-04-13T21:00:49Z,True,:recycle: React integration for Apollo Client,non_sustainable
+beakerbrowser/beaker,beakerbrowser,beaker,6759,JavaScript,2016-05-25T21:51:48Z,2022-12-27T21:47:18Z,True,An experimental peer-to-peer Web browser,non_sustainable
+imfunniee/gitfolio,imfunniee,gitfolio,6709,JavaScript,2019-05-06T16:50:05Z,2022-02-19T12:44:41Z,True,:octocat: personal website + blog  for every github user,non_sustainable
+googlecreativelab/anypixel,googlecreativelab,anypixel,6448,JavaScript,2016-06-02T13:36:47Z,2025-08-18T18:25:17Z,True,A web-friendly way for anyone to build unusual displays,non_sustainable
+ramboxapp/community-edition,ramboxapp,community-edition,6385,JavaScript,2016-04-12T18:27:27Z,2022-04-21T20:52:34Z,True,Free and Open Source messaging and emailing app that combines common web applications into one.,non_sustainable
+FaisalUmair/udemy-downloader-gui,FaisalUmair,udemy-downloader-gui,6252,JavaScript,2017-10-27T06:50:49Z,2024-04-06T16:06:13Z,True,A desktop application for downloading Udemy Courses,non_sustainable
+AutoPiano/AutoPiano,AutoPiano,AutoPiano,6027,JavaScript,2019-04-01T08:08:58Z,2022-12-23T16:51:40Z,True,🎹 自由钢琴 AutoPiano - Simple & Elegant Piano Online,non_sustainable
+airbnb/hypernova,airbnb,hypernova,5816,JavaScript,2016-06-01T00:34:24Z,2023-10-09T17:55:43Z,True,A service for server-side rendering your JavaScript views,non_sustainable
+googlearchive/code-prettify,googlearchive,code-prettify,5778,JavaScript,2015-04-22T18:32:17Z,2020-04-21T16:43:49Z,True,An embeddable script that makes source-code snippets in HTML prettier.,non_sustainable
+CodingTrain/website-archive,CodingTrain,website-archive,5747,JavaScript,2015-08-25T02:03:37Z,2022-07-05T00:30:46Z,True,Archive of the Coding Train website (first version),non_sustainable
+trazyn/weweChat,trazyn,weweChat,5734,JavaScript,2017-07-11T12:45:03Z,2021-04-22T02:24:10Z,True,"💬 Unofficial WeChat client built with React, MobX and Electron.",non_sustainable
+robinvdvleuten/vuex-persistedstate,robinvdvleuten,vuex-persistedstate,5724,JavaScript,2016-09-25T14:11:33Z,2022-02-04T09:16:15Z,True,💾 Persist and rehydrate your Vuex state between page reloads.,non_sustainable
+gothinkster/react-redux-realworld-example-app,gothinkster,react-redux-realworld-example-app,5606,JavaScript,2016-04-12T22:10:26Z,2024-03-13T13:18:54Z,True,Exemplary real world application built with React + Redux,non_sustainable
+insin/nwb,insin,nwb,5552,JavaScript,2015-11-10T23:32:58Z,2025-02-15T17:20:52Z,True,"A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)",non_sustainable
+reactjs/react-router-tutorial,reactjs,react-router-tutorial,5502,JavaScript,2016-02-10T04:15:20Z,2019-04-02T09:09:36Z,True,,non_sustainable
+manojVivek/medium-unlimited,manojVivek,medium-unlimited,5489,JavaScript,2018-08-17T13:25:07Z,2022-11-09T00:34:55Z,True,A browser extension to read medium.com articles for free without membership.,non_sustainable
+hiroppy/fusuma,hiroppy,fusuma,5393,JavaScript,2018-04-26T01:04:48Z,2024-12-05T23:10:12Z,True,✍️ Fusuma makes slides with Markdown easily.,non_sustainable
+algolia/places,algolia,places,5320,JavaScript,2016-03-22T09:01:46Z,2023-02-02T08:40:26Z,True,:globe_with_meridians: Turn any <input> into an address autocomplete,non_sustainable
+facebookarchive/Keyframes,facebookarchive,Keyframes,5311,JavaScript,2016-07-19T22:20:46Z,2019-11-29T23:33:53Z,True,A library for converting Adobe AE shape based animations to a data format and playing it back on Android and iOS devices.,non_sustainable
+shipitjs/shipit,shipitjs,shipit,5310,JavaScript,2015-01-15T03:22:43Z,2022-09-26T23:51:59Z,True,Universal automation and deployment tool ⛵️,non_sustainable
+standard-things/esm,standard-things,esm,5258,JavaScript,2017-05-25T16:46:17Z,2024-04-10T19:03:12Z,True,Tomorrow's ECMAScript modules today!,non_sustainable
+egoist/poi,egoist,poi,5198,JavaScript,2016-04-21T16:21:09Z,2021-12-06T12:22:48Z,True,⚡A zero-config bundler for JavaScript applications.,non_sustainable
+plotly/falcon,plotly,falcon,5108,JavaScript,2016-05-12T01:03:48Z,2023-04-17T17:59:03Z,True,"Free, open-source SQL client for Windows and Mac 🦅",non_sustainable
+react-ga/react-ga,react-ga,react-ga,5107,JavaScript,2015-03-27T11:09:25Z,2023-01-06T20:18:16Z,True,React Google Analytics Module,non_sustainable
+Chalarangelo/30-seconds-of-react,Chalarangelo,30-seconds-of-react,5093,JavaScript,2018-09-27T16:17:30Z,2023-05-07T17:10:12Z,True,Short React code snippets for all your development needs,non_sustainable
+garbles/why-did-you-update,garbles,why-did-you-update,4948,JavaScript,2016-05-12T03:49:06Z,2017-09-23T05:54:19Z,True,:boom: Puts your console on blast when React is making unnecessary updates.,non_sustainable
+googleanalytics/autotrack,googleanalytics,autotrack,4915,JavaScript,2015-10-30T19:54:39Z,2024-08-20T16:56:44Z,True,Automatic and enhanced Google Analytics tracking for common user interactions on the web.,non_sustainable
+microsoft/TypeScript-Handbook,microsoft,TypeScript-Handbook,4870,JavaScript,2015-04-10T18:03:58Z,2020-08-01T19:54:09Z,True,"Deprecated, please use the TypeScript-Website repo instead",non_sustainable
+otale/tale,otale,tale,4845,JavaScript,2017-02-24T11:15:00Z,2024-04-13T15:45:04Z,True,"🦄 Best beautiful java blog, worth a try",non_sustainable
+appium/appium-desktop,appium,appium-desktop,4808,JavaScript,2016-07-18T00:08:00Z,2023-04-12T21:04:14Z,True,"Appium Server in Desktop GUIs for Mac, Windows, and Linux",non_sustainable
+transitive-bullshit/create-react-library,transitive-bullshit,create-react-library,4774,JavaScript,2018-03-04T20:44:14Z,2023-04-04T16:18:23Z,True,CLI for creating reusable react libraries.,non_sustainable
+ConsenSys-archive/ganache-ui,ConsenSys-archive,ganache-ui,4715,JavaScript,2017-01-17T20:39:11Z,2024-03-21T15:01:51Z,True,Personal blockchain for Ethereum development,non_sustainable
+yuche/vue-strap,yuche,vue-strap,4686,JavaScript,2015-10-07T01:57:53Z,2019-04-13T12:04:36Z,True,Bootstrap components built with Vue.js,non_sustainable
+camwiegert/in-view,camwiegert,in-view,4627,JavaScript,2016-08-02T14:06:34Z,2019-10-27T19:45:24Z,True,Get notified when a DOM element enters or exits the viewport. :eyes:,non_sustainable
+FormidableLabs/react-game-kit,FormidableLabs,react-game-kit,4612,JavaScript,2016-09-15T07:46:01Z,2023-01-04T16:18:43Z,True,Component library for making games with React  & React Native,non_sustainable
+bartonhammond/snowflake,bartonhammond,snowflake,4596,JavaScript,2015-12-04T18:34:22Z,2019-03-07T19:03:55Z,True,":snowflake: A React-Native Android iOS Starter App/ BoilerPlate / Example with Redux, RN Router,  & Jest with the Snowflake Hapi Server running locally or on RedHat OpenShift for the backend, or a Par",non_sustainable
+jayphelps/core-decorators,jayphelps,core-decorators,4508,JavaScript,2015-04-13T20:06:06Z,2020-07-15T20:50:23Z,True,"Library of stage-0 JavaScript decorators (aka ES2016/ES7 decorators but not accurate) inspired by languages that come with built-ins like @​override, @​deprecate, @​autobind, @​mixin and more. Popular",non_sustainable
+facebook/prop-types,facebook,prop-types,4471,JavaScript,2017-04-08T00:50:30Z,2024-05-17T08:15:01Z,True,Runtime type checking for React props and similar objects,non_sustainable
+microsoft/TypeScript-Vue-Starter,microsoft,TypeScript-Vue-Starter,4440,JavaScript,2017-05-09T19:59:14Z,2019-10-09T00:06:11Z,True,A starter template for TypeScript and Vue with a detailed README describing how to use the two together.,non_sustainable
+lihongxun945/jquery-weui,lihongxun945,jquery-weui,4433,JavaScript,2016-01-04T03:23:44Z,2019-12-26T10:13:15Z,True,"由于前端业界早已以React/Vue/Angular为主，个人也多年未使用过jQuery，此仓库已不再维护。推荐大家尽快转向 AntD、Element等更先进的UI库，https://ant.design/, https://element.eleme.io/#/zh-CN",non_sustainable
+yuliskov/SmartTubeLegacy,yuliskov,SmartTubeLegacy,4433,JavaScript,2016-12-23T18:26:02Z,2023-10-16T00:11:40Z,True,Watch YouTube videos on your TV and set-top-box with comfort,non_sustainable
+pantsel/konga,pantsel,konga,4359,JavaScript,2016-10-22T09:28:23Z,2024-04-29T22:23:50Z,True,More than just another GUI to Kong Admin API,non_sustainable
+akxcv/vuera,akxcv,vuera,4311,JavaScript,2017-09-27T21:26:27Z,2023-09-19T11:34:22Z,True,":eyes: Vue in React, React in Vue. Seamless integration of the two. :dancers:",non_sustainable
+amireh/happypack,amireh,happypack,4296,JavaScript,2015-12-27T12:39:00Z,2020-09-04T00:55:20Z,True,Happiness in the form of faster webpack build times.,non_sustainable
+facebookarchive/fixed-data-table,facebookarchive,fixed-data-table,4284,JavaScript,2015-01-28T04:19:02Z,2021-01-13T12:09:37Z,True,A React table component designed to allow presenting thousands of rows of data.,non_sustainable
+aws-samples/aws-serverless-workshops,aws-samples,aws-serverless-workshops,4261,JavaScript,2016-11-22T22:47:29Z,2024-07-29T18:03:00Z,True,Code and walkthrough labs to set up serverless applications for Wild Rydes workshops,non_sustainable
+webrtc/apprtc,webrtc,apprtc,4227,JavaScript,2015-02-03T18:10:41Z,2024-04-24T09:26:57Z,True,appr.tc has been shutdown. Please use the Dockerfile to run your own test/dev instance.,non_sustainable
+vasanthv/hello,vasanthv,hello,4209,JavaScript,2020-03-10T05:59:00Z,2025-11-20T17:48:59Z,True,Free group video call for the web. No signups. No downloads.,non_sustainable
+Moeditor/Moeditor,Moeditor,Moeditor,4130,JavaScript,2016-06-24T01:11:26Z,2020-07-07T01:08:32Z,True,(discontinued) Your all-purpose markdown editor.,non_sustainable
+nuxt/vue-meta,nuxt,vue-meta,4088,JavaScript,2016-10-29T22:00:54Z,2025-09-25T17:50:31Z,True,Manage HTML metadata in Vue.js components with SSR support,non_sustainable
+google/eleventy-high-performance-blog,google,eleventy-high-performance-blog,4061,JavaScript,2020-09-04T08:16:00Z,2024-06-18T01:18:43Z,True,A high performance blog template for the 11ty static site generator.,non_sustainable
+fuse-box/fuse-box,fuse-box,fuse-box,3982,JavaScript,2016-10-28T10:37:16Z,2022-12-01T07:53:31Z,True,A blazing fast js bundler/loader with a comprehensive API :fire:,non_sustainable
+neutrinojs/neutrino,neutrinojs,neutrino,3927,JavaScript,2017-02-03T03:27:20Z,2024-02-03T19:50:34Z,True,Create and build modern JavaScript projects with zero initial configuration.,non_sustainable
+facebook/fbt,facebook,fbt,3898,JavaScript,2018-08-01T17:39:49Z,2024-11-14T00:04:17Z,True,A JavaScript Internationalization Framework,non_sustainable
+FormidableLabs/nodejs-dashboard,FormidableLabs,nodejs-dashboard,3897,JavaScript,2016-10-10T05:26:56Z,2022-03-03T22:32:15Z,True, Telemetry dashboard for node.js apps from the terminal!,non_sustainable
+EYHN/hexo-helper-live2d,EYHN,hexo-helper-live2d,3885,JavaScript,2017-01-29T07:05:31Z,2021-01-27T15:14:06Z,True,Add the Sseexxyyy live2d to your hexo!,non_sustainable
+googlecreativelab/teachable-machine-v1,googlecreativelab,teachable-machine-v1,3878,JavaScript,2017-10-03T15:04:27Z,2021-09-01T22:38:21Z,True," Explore how machine learning works, live in the browser. No coding required.",non_sustainable
+mrvautin/adminMongo,mrvautin,adminMongo,3869,JavaScript,2016-01-16T07:09:15Z,2024-07-27T11:12:36Z,True,adminMongo is a Web based user interface (GUI) to handle all your MongoDB connections/databases needs.,non_sustainable
+tapaswenipathak/Open-Source-Programs,tapaswenipathak,Open-Source-Programs,3829,JavaScript,2015-11-27T03:37:32Z,2024-08-04T19:23:54Z,True,A list of open source programs.,non_sustainable
+freeCodeCamp/mail-for-good,freeCodeCamp,mail-for-good,3827,JavaScript,2016-09-01T20:34:38Z,2020-11-19T17:03:41Z,True,An open source email campaign management tool for nonprofits,non_sustainable
+egoist/docute,egoist,docute,3824,JavaScript,2016-12-08T18:04:40Z,2023-09-25T09:19:06Z,True,"📚 Effortless documentation, done right.",non_sustainable
+wmonk/create-react-app-typescript,wmonk,create-react-app-typescript,3692,JavaScript,2016-12-10T18:34:32Z,2019-08-21T21:31:39Z,True,DEPRECATED: Create React apps using typescript with no build configuration.,non_sustainable
+paypal/glamorous,paypal,glamorous,3626,JavaScript,2017-04-03T21:35:49Z,2018-12-06T19:58:04Z,True,DEPRECATED: 💄 Maintainable CSS with React,non_sustainable
+GoogleChromeLabs/sw-toolbox,GoogleChromeLabs,sw-toolbox,3594,JavaScript,2015-04-20T15:18:05Z,2019-10-01T12:23:50Z,True,[Deprecated] A collection of service worker tools for offlining runtime requests,non_sustainable
+ssbc/patchwork,ssbc,patchwork,3575,JavaScript,2015-06-24T16:00:09Z,2021-05-12T06:57:58Z,True,A decentralized messaging and sharing app built on top of Secure Scuttlebutt (SSB).,non_sustainable
+Netflix/vector,Netflix,vector,3573,JavaScript,2015-02-27T22:41:44Z,2021-08-10T21:54:14Z,True,Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser.,non_sustainable
+nuxt/create-nuxt-app,nuxt,create-nuxt-app,3502,JavaScript,2017-08-04T14:39:28Z,2025-03-04T15:06:30Z,True,Create Nuxt.js App in seconds.,non_sustainable
+Advanced-Frontend/Daily-Interview-Question,Advanced-Frontend,Daily-Interview-Question,27515,JavaScript,2019-01-19T10:49:00Z,2020-11-09T01:07:00Z,False,我是依扬（木易杨），公众号「高级前端进阶」作者，每天搞定一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。,non_sustainable
+Meituan-Dianping/mpvue,Meituan-Dianping,mpvue,20371,JavaScript,2018-03-07T03:09:25Z,2022-03-02T04:31:30Z,False,基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。,non_sustainable
+menzi11/BullshitGenerator,menzi11,BullshitGenerator,15597,JavaScript,2019-10-28T17:05:51Z,2021-07-10T09:44:32Z,False, Needs to generate some texts to test if my GUI rendering codes good or not. so I made this.,non_sustainable
+DrkSephy/es6-cheatsheet,DrkSephy,es6-cheatsheet,13359,JavaScript,2016-01-21T20:23:15Z,2022-10-08T07:44:38Z,False,"ES2015 [ES6] cheatsheet containing tips, tricks, best practices and code snippets",non_sustainable
+Flipboard/react-canvas,Flipboard,react-canvas,13213,JavaScript,2015-02-05T23:46:30Z,2022-09-27T06:00:42Z,False,High performance <canvas> rendering for React components,non_sustainable
+bailicangdu/node-elm,bailicangdu,node-elm,12385,JavaScript,2017-03-22T10:48:37Z,2021-12-14T07:06:56Z,False,Backend system based on node.js + Mongodb.  基于 node.js + Mongodb 构建的后台系统,non_sustainable
+kefranabg/readme-md-generator,kefranabg,readme-md-generator,11098,JavaScript,2019-06-03T16:05:25Z,2022-09-20T10:09:51Z,False,📄 CLI that generates beautiful README.md files,non_sustainable
+vuejs/vue-hackernews-2.0,vuejs,vue-hackernews-2.0,10912,JavaScript,2016-08-05T22:32:57Z,2022-12-08T17:39:46Z,False,"HackerNews clone built with Vue 2.0, vue-router & vuex, with server-side rendering",non_sustainable
+1c7/Crash-Course-Computer-Science-Chinese,1c7,Crash-Course-Computer-Science-Chinese,10736,JavaScript,2017-09-21T08:39:38Z,2022-01-25T06:43:46Z,False,计算机速成课（播放量 486 万） （共40集）,non_sustainable
+react-static/react-static,react-static,react-static,10343,JavaScript,2017-09-09T22:10:32Z,2022-10-31T19:59:37Z,False,⚛️ 🚀 A progressive static site generator for React.,non_sustainable
+cmiscm/leonsans,cmiscm,leonsans,10184,JavaScript,2019-07-28T19:29:16Z,2020-09-21T05:40:09Z,False,Leon Sans is a geometric sans-serif typeface made with code in 2019 by Jongmin Kim.,non_sustainable
+purifycss/purifycss,purifycss,purifycss,9897,JavaScript,2015-05-26T02:42:17Z,2020-10-17T03:45:35Z,False,Remove unused CSS. Also works with single-page apps.,non_sustainable
+ruanyf/webpack-demos,ruanyf,webpack-demos,9608,JavaScript,2015-08-14T03:15:35Z,2020-12-03T12:31:38Z,False,a collection of simple demos of Webpack,non_sustainable
+erikras/ducks-modular-redux,erikras,ducks-modular-redux,9578,JavaScript,2015-08-31T13:11:57Z,2022-01-31T03:42:20Z,False,"A proposal for bundling reducers, action types and actions when using Redux",non_sustainable
+hacksalot/HackMyResume,hacksalot,HackMyResume,9347,JavaScript,2015-09-24T15:40:22Z,2022-04-03T22:14:29Z,False,"Generate polished résumés and CVs in HTML, Markdown, LaTeX, MS Word, PDF, plain text, JSON, XML, YAML, smoke signal, and carrier pigeon.",non_sustainable
+GoogleChromeLabs/carlo,GoogleChromeLabs,carlo,9296,JavaScript,2018-10-28T17:15:20Z,2022-04-29T20:42:07Z,False,Web rendering surface for Node applications,non_sustainable
+arasatasaygin/is.js,arasatasaygin,is.js,9106,JavaScript,2015-01-01T19:09:04Z,2022-01-11T17:39:48Z,False,Micro check library,non_sustainable
+evil-huawei/evil-huawei,evil-huawei,evil-huawei,9102,JavaScript,2019-12-01T07:00:28Z,2021-07-01T21:02:49Z,False,Evil Huawei - 华为作过的恶,non_sustainable
+flutterchina/flutter-in-action,flutterchina,flutter-in-action,8643,JavaScript,2018-11-29T08:43:18Z,2022-12-14T01:14:32Z,False,《Flutter实战》书稿。第二版书稿已上传，请移步新Repo。,non_sustainable
+react-toolbox/react-toolbox,react-toolbox,react-toolbox,8633,JavaScript,2015-05-27T15:23:33Z,2021-12-28T08:27:27Z,False,A set of React components implementing Google's Material Design specification with the power of CSS Modules,non_sustainable
+jamiebuilds/itsy-bitsy-data-structures,jamiebuilds,itsy-bitsy-data-structures,8598,JavaScript,2016-07-22T01:07:28Z,2021-02-13T08:05:44Z,False,:european_castle: All the things you didn't know you wanted to know about data structures,non_sustainable
+GeekyAnts/vue-native-core,GeekyAnts,vue-native-core,8302,JavaScript,2018-02-23T11:44:30Z,2022-12-12T11:35:47Z,False,Vue Native is a framework to build cross platform native mobile apps using JavaScript,non_sustainable
+relax/relax,relax,relax,8131,JavaScript,2015-08-31T12:16:25Z,2021-07-13T15:18:34Z,False,"New generation CMS on top of React, Redux and GraphQL",non_sustainable
+Mango/slideout,Mango,slideout,7911,JavaScript,2015-02-02T01:05:43Z,2020-09-20T04:51:22Z,False,A touch slideout navigation menu for your mobile web apps.,non_sustainable
+jawil/blog,jawil,blog,7862,JavaScript,2017-02-17T19:06:54Z,2019-04-19T08:55:23Z,False,"Too young, too simple. Sometimes, naive & stupid 🐌",non_sustainable
+icindy/wxParse,icindy,wxParse,7765,JavaScript,2016-10-23T12:25:18Z,2020-03-19T03:14:29Z,False,wxParse-微信小程序富文本解析自定义组件，支持HTML及markdown解析,non_sustainable
+dthree/cash,dthree,cash,7760,JavaScript,2016-02-22T16:34:24Z,2020-01-14T08:48:46Z,False,Cross-platform Linux commands in ES6,non_sustainable
+bailicangdu/react-pxq,bailicangdu,react-pxq,7549,JavaScript,2016-11-07T03:30:29Z,2021-12-14T07:09:31Z,False,一个 react + redux 的完整项目 和 个人总结,non_sustainable
+shekhargulati/52-technologies-in-2016,shekhargulati,52-technologies-in-2016,7277,JavaScript,2016-01-03T17:06:03Z,2022-10-18T03:18:26Z,False,Let's learn a new technology every week. A new technology blog every Sunday in 2016.,non_sustainable
+carpedm20/DCGAN-tensorflow,carpedm20,DCGAN-tensorflow,7201,JavaScript,2015-12-11T02:06:40Z,2021-01-06T05:38:06Z,False,"A tensorflow implementation of ""Deep Convolutional Generative Adversarial Networks""",non_sustainable
+thunlp/WantWords,thunlp,WantWords,7102,JavaScript,2020-10-05T13:39:54Z,2022-02-23T11:52:43Z,False,An open-source online reverse dictionary.,non_sustainable
+fangwei716/30-days-of-react-native,fangwei716,30-days-of-react-native,6891,JavaScript,2016-03-04T23:33:03Z,2018-09-07T13:12:27Z,False,30 days of React Native demos,non_sustainable
+veltman/flubber,veltman,flubber,6866,JavaScript,2017-06-09T08:16:56Z,2022-11-08T03:34:37Z,False,Tools for smoother shape animations.,non_sustainable
+reach/router,reach,router,6864,JavaScript,2018-05-25T04:47:48Z,2022-12-08T19:53:14Z,False,,non_sustainable
+octref/polacode,octref,polacode,6845,JavaScript,2018-02-09T23:10:07Z,2022-08-24T11:09:12Z,False,📸 Polaroid for your code,non_sustainable
+Bogdan-Lyashenko/Under-the-hood-ReactJS,Bogdan-Lyashenko,Under-the-hood-ReactJS,6812,JavaScript,2017-06-22T20:46:16Z,2022-04-25T11:06:33Z,False,Entire React code base explanation by visual block schemes (Stack version) ,non_sustainable
+choojs/choo,choojs,choo,6772,JavaScript,2016-05-10T17:50:35Z,2020-01-23T17:13:46Z,False,:steam_locomotive::train: - sturdy 4kb frontend framework,non_sustainable
+tholman/elevator.js,tholman,elevator.js,6639,JavaScript,2015-04-12T15:21:40Z,2020-06-26T15:20:00Z,False,"Finally, a ""back to top"" button that behaves like a real elevator. ",non_sustainable
+samyk/poisontap,samyk,poisontap,6422,JavaScript,2016-11-16T11:51:34Z,2018-11-26T16:50:44Z,False,"Exploits locked/password protected computers over USB, drops persistent WebSocket-based backdoor, exposes internal router, and siphons cookies using Raspberry Pi Zero & Node.js.",non_sustainable
+webslides/WebSlides,webslides,WebSlides,6293,JavaScript,2017-01-08T20:35:48Z,2022-12-10T13:03:52Z,False,Create HTML presentations in seconds —,non_sustainable
+ncase/trust,ncase,trust,6110,JavaScript,2017-07-24T17:41:51Z,2021-11-14T18:08:01Z,False,An interactive guide to the game theory of cooperation,non_sustainable
+sdc-alibaba/SUI-Mobile,sdc-alibaba,SUI-Mobile,6078,JavaScript,2015-05-29T07:10:41Z,2018-04-28T03:36:30Z,False,SUI Mobile (MSUI)是由阿里巴巴国际UED前端出品的移动端UI库，轻量精美,non_sustainable
+HcySunYang/vue-design,HcySunYang,vue-design,5988,JavaScript,2017-08-21T14:12:02Z,2022-12-03T06:00:25Z,False,📖 master分支：《渲染器》,non_sustainable
+bendc/animateplus,bendc,animateplus,5962,JavaScript,2015-05-12T18:54:16Z,2018-07-10T07:56:42Z,False,A+ animation module for the modern web,non_sustainable
+decosoftware/deco-ide,decosoftware,deco-ide,5821,JavaScript,2016-05-19T21:29:00Z,2019-12-25T13:20:44Z,False,The React Native IDE,non_sustainable
+LogRocket/redux-logger,LogRocket,redux-logger,5742,JavaScript,2015-08-11T22:38:12Z,2020-08-20T16:46:14Z,False,Logger for Redux,non_sustainable
+Louiszhai/tool,Louiszhai,tool,5645,JavaScript,2016-07-08T10:05:34Z,2022-08-25T12:17:58Z,False,开发效率提升：Mac生产力工具链推荐,non_sustainable
+yyhsong/iDataV,yyhsong,iDataV,5621,JavaScript,2018-06-06T06:52:20Z,2021-07-02T06:40:31Z,False,大屏数据可视化 Big screen data visualization demo,non_sustainable
+huluoyang/freecodecamp.cn,huluoyang,freecodecamp.cn,5564,JavaScript,2016-03-30T02:31:33Z,2018-10-19T06:06:57Z,False,随着FCC中文社区的快速发展和更多小伙伴的崛起，此项目已从个人项目升级到团队项目。详情请移步：,non_sustainable
+callmecavs/layzr.js,callmecavs,layzr.js,5531,JavaScript,2015-04-08T03:03:08Z,2017-10-29T22:06:44Z,False,A modern lazy loading library for images.,non_sustainable
+NervJS/nerv,NervJS,nerv,5430,JavaScript,2017-05-07T17:20:01Z,2021-03-29T17:17:19Z,False,"A blazing fast React alternative, compatible with IE8 and React 16.",non_sustainable
+jagenjo/webglstudio.js,jagenjo,webglstudio.js,5317,JavaScript,2015-07-31T13:32:25Z,2020-08-03T13:01:21Z,False,"A full open source 3D graphics editor in the browser, with scene editor, coding pad, graph editor, virtual file system, and many features more.",non_sustainable
+sarcadass/granim.js,sarcadass,granim.js,5314,JavaScript,2016-08-30T22:36:48Z,2022-12-06T17:56:03Z,False,Create fluid and interactive gradient animations with this small javascript library.,non_sustainable
+lhartikk/naivechain,lhartikk,naivechain,5297,JavaScript,2016-10-09T14:43:06Z,2020-04-13T09:14:37Z,False,A blockchain implementation in 200 lines of code,non_sustainable
+Jasonette/JASONETTE-iOS,Jasonette,JASONETTE-iOS,5241,JavaScript,2016-10-27T23:11:59Z,2022-05-31T16:50:09Z,False,"📡 Native App over HTTP, on iOS",non_sustainable
+benoitvallon/react-native-nw-react-calculator,benoitvallon,react-native-nw-react-calculator,5228,JavaScript,2015-05-01T19:45:38Z,2021-10-03T16:47:54Z,False,"Mobile, desktop and website Apps with the same code",non_sustainable
+gajus/react-css-modules,gajus,react-css-modules,5180,JavaScript,2015-08-25T14:15:22Z,2019-11-02T09:55:04Z,False,Seamless mapping of class names to CSS modules inside of React components.,non_sustainable
+jasonmayes/Real-Time-Person-Removal,jasonmayes,Real-Time-Person-Removal,5168,JavaScript,2020-02-17T22:05:01Z,2021-10-06T07:25:20Z,False,Removing people from complex backgrounds in real time using TensorFlow.js in the web browser,non_sustainable
+tensorspace-team/tensorspace,tensorspace-team,tensorspace,5164,JavaScript,2018-07-22T14:14:29Z,2022-12-05T22:21:36Z,False,"Neural network 3D visualization framework, build interactive and intuitive model in browsers, support pre-trained deep learning models from TensorFlow, Keras, TensorFlow.js ",non_sustainable
+affinelayer/pix2pix-tensorflow,affinelayer,pix2pix-tensorflow,5091,JavaScript,2017-01-24T20:17:13Z,2021-02-02T06:39:22Z,False,Tensorflow port of Image-to-Image Translation with Conditional Adversarial Nets https://phillipi.github.io/pix2pix/,non_sustainable
+nicholas-ochoa/OpenSC2K,nicholas-ochoa,OpenSC2K,5045,JavaScript,2018-02-03T02:38:07Z,2020-01-27T03:38:22Z,False,OpenSC2K - An Open Source remake of Sim City 2000 by Maxis,non_sustainable
+Data-Camp/WeApp_Demos,Data-Camp,WeApp_Demos,5038,JavaScript,2018-10-10T02:12:22Z,2018-10-10T02:27:39Z,False,持续更新中的微信小程序和小游戏的源码案例库。目前涵盖了120多个微信小程序或小游戏。,non_sustainable
+andrewngu/sound-redux,andrewngu,sound-redux,4994,JavaScript,2015-09-21T03:11:27Z,2022-12-10T17:12:26Z,False,A Soundcloud client built with React / Redux,non_sustainable
+transcranial/keras-js,transcranial,keras-js,4969,JavaScript,2016-09-30T14:40:35Z,2022-06-15T12:11:24Z,False,"Run Keras models in the browser, with GPU support using WebGL",non_sustainable
+TalAter/UpUp,TalAter,UpUp,4921,JavaScript,2015-03-11T13:20:08Z,2022-12-06T21:57:24Z,False,✈️ Easily create sites that work offline as well as online,non_sustainable
+containrrr/watchtower,containrrr,watchtower,24423,Go,2015-07-13T21:21:53Z,2025-12-17T14:44:11Z,True,A process for automating Docker container base image updates. ,non_sustainable
+GoogleContainerTools/kaniko,GoogleContainerTools,kaniko,15740,Go,2018-01-29T17:53:54Z,2025-06-03T14:36:10Z,True,Build Container Images In Kubernetes,non_sustainable
+helm/charts,helm,charts,15450,Go,2015-11-24T17:05:28Z,2022-02-20T14:09:39Z,True,⚠️(OBSOLETE) Curated applications for Kubernetes,non_sustainable
+google/wire,google,wire,14321,Go,2018-11-28T17:34:51Z,2025-08-22T13:56:56Z,True,Compile-time Dependency Injection for Go,non_sustainable
+json-iterator/go,json-iterator,go,13925,Go,2016-11-30T00:30:24Z,2024-05-27T09:03:49Z,True,"A high-performance 100% compatible drop-in replacement of ""encoding/json""",non_sustainable
+golang/dep,golang,dep,12774,Go,2016-10-07T00:04:51Z,2020-09-05T13:47:25Z,True,Go dependency management tool experiment (deprecated),non_sustainable
+OpenDiablo2/OpenDiablo2,OpenDiablo2,OpenDiablo2,10971,Go,2018-11-22T05:19:30Z,2021-10-21T13:18:36Z,True,An open source re-implementation of Diablo 2,non_sustainable
+google/grumpy,google,grumpy,10520,Go,2016-12-21T17:49:01Z,2022-01-18T09:01:43Z,True,Grumpy is a Python to Go source code transcompiler and runtime.,non_sustainable
+sourcegraph/sourcegraph-public-snapshot,sourcegraph,sourcegraph-public-snapshot,10235,Go,2015-08-24T07:27:28Z,2024-09-02T11:52:13Z,True,Code AI platform with Code Search & Cody,non_sustainable
+golang/mock,golang,mock,9386,Go,2015-06-12T17:15:11Z,2024-01-08T08:00:38Z,True,GoMock is a mocking framework for the Go programming language.,non_sustainable
+pkg/errors,pkg,errors,8245,Go,2015-12-27T12:05:38Z,2021-11-02T20:32:11Z,True,Simple error handling primitives,non_sustainable
+attic-labs/noms,attic-labs,noms,7442,Go,2015-06-03T03:44:49Z,2021-08-27T22:44:22Z,True,"The versioned, forkable, syncable database",non_sustainable
+cjbassi/gotop,cjbassi,gotop,7411,Go,2018-02-19T07:25:22Z,2023-03-30T19:45:21Z,True,A terminal based graphical activity monitor inspired by gtop and vtop,non_sustainable
+open-falcon/falcon-plus,open-falcon,falcon-plus,7280,Go,2016-04-09T15:06:29Z,2024-04-24T09:15:56Z,True, An open-source and enterprise-level monitoring system.,non_sustainable
+fluxcd/flux,fluxcd,flux,6879,Go,2016-07-07T10:55:13Z,2022-11-01T15:16:50Z,True,Successor: https://github.com/fluxcd/flux2,non_sustainable
+vmware-archive/kubeless,vmware-archive,kubeless,6864,Go,2016-11-16T09:03:03Z,2021-12-15T09:33:43Z,True,Kubernetes Native Serverless Framework,non_sustainable
+rancher/os,rancher,os,6446,Go,2015-01-05T03:37:16Z,2024-06-07T16:53:40Z,True,Tiny Linux distro that runs the entire OS as Docker containers,non_sustainable
+vmware-archive/octant,vmware-archive,octant,6262,Go,2019-06-19T17:53:39Z,2023-01-19T20:55:03Z,True,Highly extensible platform for developers to better understand the complexity of Kubernetes clusters.,non_sustainable
+michenriksen/gitrob,michenriksen,gitrob,6103,Go,2015-01-07T13:58:58Z,2022-09-20T18:09:09Z,True,Reconnaissance tool for GitHub organizations,non_sustainable
+go-ego/riot,go-ego,riot,6086,Go,2017-06-21T14:17:59Z,2020-10-13T13:31:05Z,True,"Go Open Source, Distributed, Simple and efficient Search Engine; Warning: This is V1 and beta version, because of big memory consume, and the V2 will be rewrite all code.",non_sustainable
+dragonflyoss/dragonfly-archived,dragonflyoss,dragonfly-archived,5963,Go,2017-11-15T03:05:27Z,2023-02-27T11:07:29Z,True,This repository has be archived and moved to the new repository https://github.com/dragonflyoss/Dragonfly2.,non_sustainable
+michenriksen/aquatone,michenriksen,aquatone,5889,Go,2015-11-19T11:30:12Z,2022-05-22T19:49:32Z,True,A Tool for Domain Flyovers,non_sustainable
+rebuy-de/aws-nuke,rebuy-de,aws-nuke,5803,Go,2016-11-27T14:02:22Z,2024-10-15T07:47:29Z,True,Nuke a whole AWS account and delete all its resources.,non_sustainable
+docker-archive/docker-ce,docker-archive,docker-ce,5770,Go,2017-05-19T23:09:47Z,2022-11-06T11:06:59Z,True,:warning: This repository is deprecated and will be archived (Docker CE itself is NOT deprecated) see the https://github.com/docker/docker-ce/blob/master/README.md :warning:,non_sustainable
+openark/orchestrator,openark,orchestrator,5745,Go,2016-11-30T13:44:24Z,2025-02-18T05:58:22Z,True,MySQL replication topology management and HA,non_sustainable
+coder/sshcode,coder,sshcode,5721,Go,2019-04-18T19:09:26Z,2020-08-10T18:36:45Z,True,Run VS Code on any server over SSH.,non_sustainable
+matrix-org/dendrite,matrix-org,dendrite,5650,Go,2017-01-20T18:22:16Z,2024-11-25T10:18:03Z,True,Dendrite is a second-generation Matrix homeserver written in Go!,non_sustainable
+tenable/terrascan,tenable,terrascan,5191,Go,2017-09-11T03:11:10Z,2025-11-20T19:37:10Z,True,Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.,non_sustainable
+vmware-tanzu/kubeapps,vmware-tanzu,kubeapps,5139,Go,2017-10-19T14:14:34Z,2025-08-25T08:19:25Z,True,A web-based UI for deploying and managing applications in Kubernetes clusters,non_sustainable
+uber/prototool,uber,prototool,5042,Go,2018-02-07T14:25:02Z,2022-03-01T12:56:26Z,True,Your Swiss Army Knife for Protocol Buffers,non_sustainable
+KubeOperator/KubeOperator,KubeOperator,KubeOperator,4995,Go,2018-11-19T06:13:32Z,2024-07-02T10:27:56Z,True,KubeOperator 是一个开源的轻量级 Kubernetes 发行版，专注于帮助企业规划、部署和运营生产级别的 K8s 集群。,non_sustainable
+kardianos/govendor,kardianos,govendor,4916,Go,2015-04-12T15:26:40Z,2020-03-02T05:34:32Z,True,Use Go Modules.,non_sustainable
+asticode/go-astilectron,asticode,go-astilectron,4893,Go,2017-04-22T07:59:15Z,2024-02-16T13:49:55Z,True,Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron),non_sustainable
+src-d/go-git,src-d,go-git,4886,Go,2015-10-22T10:43:33Z,2022-04-10T11:14:17Z,True,Project has been moved to: https://github.com/go-git/go-git,non_sustainable
+miguelmota/golang-for-nodejs-developers,miguelmota,golang-for-nodejs-developers,4770,Go,2019-01-03T05:30:44Z,2023-02-02T11:21:08Z,True,Examples of Golang compared to Node.js for learning 🤓 By @miguelmota,non_sustainable
+hashicorp/waypoint,hashicorp,waypoint,4733,Go,2020-04-27T03:08:12Z,2024-01-08T18:48:14Z,True,"A tool to build, deploy, and release any application on any platform.",non_sustainable
+googlecodelabs/tools,googlecodelabs,tools,4574,Go,2016-01-22T13:28:44Z,2025-07-18T17:35:26Z,True,Codelabs management & hosting tools,non_sustainable
+jung-kurt/gofpdf,jung-kurt,gofpdf,4445,Go,2015-03-13T11:57:30Z,2021-11-13T13:53:41Z,True,"A PDF document generator with high level support for text, drawing and images",non_sustainable
+google/gxui,google,gxui,4419,Go,2015-03-16T17:12:37Z,2020-11-23T11:56:43Z,True,An experimental Go cross platform UI library.,non_sustainable
+mholt/archiver,mholt,archiver,4391,Go,2016-04-08T22:46:55Z,2024-11-19T16:52:17Z,True,DEPRECATED. Please use mholt/archives instead.,non_sustainable
+cointop-sh/cointop,cointop-sh,cointop,4365,Go,2018-03-29T22:03:28Z,2024-04-07T22:46:01Z,True,A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies 🚀 by @miguelmota,non_sustainable
+AlecAivazis/survey,AlecAivazis,survey,4124,Go,2016-10-30T17:03:15Z,2024-04-07T12:46:27Z,True,A golang library for building interactive and accessible prompts with full support for windows and posix terminals.,non_sustainable
+fanpei91/torsniff,fanpei91,torsniff,4026,Go,2016-02-28T17:45:05Z,2021-04-26T03:31:06Z,True,torsniff - a sniffer that sniffs torrents from BitTorrent network,non_sustainable
+wcharczuk/go-chart,wcharczuk,go-chart,3993,Go,2016-07-08T00:14:58Z,2024-08-23T15:50:22Z,True,go chart is a basic charting library in go.,non_sustainable
+uber-archive/go-torch,uber-archive,go-torch,3948,Go,2015-07-21T22:49:42Z,2018-11-07T07:13:54Z,True,Stochastic flame graph profiler for Go programs,non_sustainable
+Azure/draft-classic,Azure,draft-classic,3900,Go,2017-05-05T19:47:39Z,2024-06-12T21:34:41Z,True,A tool for developers to create cloud-native applications on Kubernetes.,non_sustainable
+ionorg/ion,ionorg,ion,3830,Go,2019-03-11T19:33:13Z,2023-10-01T04:28:50Z,True,Real-Distributed  RTC System by pure Go and Flutter,non_sustainable
+GoogleContainerTools/container-diff,GoogleContainerTools,container-diff,3799,Go,2017-08-07T19:29:12Z,2024-03-27T18:02:22Z,True,container-diff: Diff your Docker containers,non_sustainable
+olivia-ai/olivia,olivia-ai,olivia,3722,Go,2018-06-05T18:19:31Z,2025-02-06T10:19:30Z,True,💁‍♀️Your new best friend powered by an artificial neural network,non_sustainable
+mholt/timeliner,mholt,timeliner,3558,Go,2019-01-12T22:46:40Z,2024-01-19T21:07:12Z,True,"All your digital life on a single timeline, stored locally -- DEPRECATED, SEE TIMELINIZE (link below)",non_sustainable
+weaveworks/ignite,weaveworks,ignite,3525,Go,2019-04-03T16:13:43Z,2023-12-07T17:28:58Z,True,Ignite a Firecracker microVM,non_sustainable
+goby-lang/goby,goby-lang,goby,3513,Go,2017-02-08T09:23:33Z,2023-02-25T04:27:37Z,True,Goby - Yet another programming language written in Go,non_sustainable
+rancher/k3os,rancher,k3os,3498,Go,2019-03-06T06:54:39Z,2023-12-08T21:52:50Z,True,"Purpose-built OS for Kubernetes, fully managed by Kubernetes.",non_sustainable
+opentracing/opentracing-go,opentracing,opentracing-go,3490,Go,2015-11-26T04:52:54Z,2023-04-21T01:57:39Z,True,OpenTracing API for Go. 🛑 This library is DEPRECATED! https://github.com/opentracing/specification/issues/163,non_sustainable
+bouk/monkey,bouk,monkey,3420,Go,2015-03-29T00:26:32Z,2020-06-17T09:49:36Z,True,Monkey patching in Go,non_sustainable
+gobuffalo/packr,gobuffalo,packr,3397,Go,2017-03-15T22:24:53Z,2021-12-04T19:53:01Z,True,The simple and easy way to embed static files into Go binaries.,non_sustainable
+notaryproject/notary,notaryproject,notary,3282,Go,2015-06-19T20:07:53Z,2024-08-07T19:02:32Z,True,Notary is a project that allows anyone to have trust over arbitrary collections of data,non_sustainable
+go-gota/gota,go-gota,gota,3273,Go,2016-02-06T17:23:25Z,2023-08-09T06:59:36Z,True,Gota: DataFrames and data wrangling in Go (Golang),non_sustainable
+aQuaYi/LeetCode-in-Go,aQuaYi,LeetCode-in-Go,3135,Go,2017-07-12T12:46:22Z,2023-02-24T23:31:29Z,True,"Go Solution for LeetCode algorithms problems, 100% coverage.",non_sustainable
+boramalper/magnetico,boramalper,magnetico,3124,Go,2017-03-05T11:10:57Z,2022-01-20T20:39:17Z,True,Autonomous (self-hosted) BitTorrent DHT search engine suite.,non_sustainable
+google/netstack,google,netstack,3114,Go,2016-10-20T16:25:04Z,2019-12-10T20:27:37Z,True,IPv4 and IPv6 userland network stack,non_sustainable
+teler-sh/teler,teler-sh,teler,3075,Go,2020-07-21T03:48:29Z,2024-02-13T04:54:25Z,True,Real-time HTTP Intrusion Detection,non_sustainable
+jdkato/prose,jdkato,prose,3072,Go,2017-02-17T17:08:22Z,2023-05-02T05:39:17Z,True,":book: A Golang library for text processing, including tokenization, part-of-speech tagging, and named-entity extraction.",non_sustainable
+cuelang/cue,cuelang,cue,3068,Go,2019-01-28T16:44:02Z,2021-07-14T16:31:41Z,True,CUE has moved to https://github.com/cue-lang/cue,non_sustainable
+oklog/oklog,oklog,oklog,2983,Go,2017-01-09T13:54:38Z,2018-09-07T21:45:27Z,True,A distributed and coördination-free log management system,non_sustainable
+olebedev/go-starter-kit,olebedev,go-starter-kit,2802,Go,2015-06-13T14:43:53Z,2018-03-05T19:51:28Z,True,[abandoned] Golang isomorphic react/hot reloadable/redux/css-modules/SSR  starter kit,non_sustainable
+gravitational/teleconsole,gravitational,teleconsole,2768,Go,2016-08-28T22:17:20Z,2021-04-06T03:19:46Z,True,Command line tool to share your UNIX terminal and forward local TCP ports to people you trust.,non_sustainable
+kubernetes-retired/external-storage,kubernetes-retired,external-storage,2703,Go,2017-02-20T15:29:16Z,2020-10-21T11:59:32Z,True,"[EOL] External storage plugins, provisioners, and helper libraries",non_sustainable
+aerokube/selenoid,aerokube,selenoid,2655,Go,2016-08-22T09:11:16Z,2024-12-17T12:13:37Z,True,"Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary.",non_sustainable
+google/exposure-notifications-server,google,exposure-notifications-server,2567,Go,2020-04-29T23:03:36Z,2023-06-29T15:31:55Z,True,Exposure Notification Reference Server | Covid-19 Exposure Notifications,non_sustainable
+openservicemesh/osm,openservicemesh,osm,2566,Go,2019-12-13T18:04:22Z,2023-07-11T19:34:09Z,True,"Open Service Mesh (OSM) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microser",non_sustainable
+FeatureBaseDB/featurebase,FeatureBaseDB,featurebase,2526,Go,2015-08-03T13:48:08Z,2024-02-21T23:20:41Z,True,"A crazy fast analytical database, built on bitmaps. Perfect for ML applications. Learn more at: http://docs.featurebase.com/. Start a Docker instance: https://hub.docker.com/r/featurebasedb/featurebas",non_sustainable
+minishift/minishift,minishift,minishift,2500,Go,2016-07-06T14:37:20Z,2023-08-26T06:03:09Z,True,Run OpenShift 3.x locally | This project does not see active developement and maintenance.,non_sustainable
+kubernetes-retired/kubefed,kubernetes-retired,kubefed,2486,Go,2018-01-09T14:21:03Z,2023-03-24T21:50:24Z,True,Kubernetes Cluster Federation,non_sustainable
+charmbracelet/charm,charmbracelet,charm,2478,Go,2020-01-25T00:23:38Z,2025-03-06T13:39:14Z,True,The Charm Tool and Library 🌟,non_sustainable
+kubernetes-retired/contrib,kubernetes-retired,contrib,2448,Go,2015-08-13T23:18:26Z,2019-04-17T03:02:05Z,True,[EOL] This is a place for various components in the Kubernetes ecosystem that aren't part of the Kubernetes core.,non_sustainable
+vmware-archive/kubewatch,vmware-archive,kubewatch,2438,Go,2016-07-12T07:14:12Z,2022-09-17T08:58:53Z,True,Watch k8s events and trigger Handlers,non_sustainable
+xanzy/go-gitlab,xanzy,go-gitlab,2437,Go,2015-03-29T13:01:43Z,2024-12-10T16:01:54Z,True,GitLab Go SDK,non_sustainable
+uber-archive/makisu,uber-archive,makisu,2398,Go,2018-10-31T01:03:55Z,2021-04-20T10:38:19Z,True,"Fast and flexible Docker image building tool, works in unprivileged containerized environments like Mesos and Kubernetes.",non_sustainable
+skanehira/docui,skanehira,docui,2332,Go,2018-09-08T01:33:55Z,2021-12-23T05:12:12Z,True,TUI Client for Docker,non_sustainable
+steebchen/prisma-client-go,steebchen,prisma-client-go,2293,Go,2019-09-24T12:17:03Z,2025-07-28T18:07:34Z,True,Prisma Client Go is an auto-generated and fully type-safe database client,non_sustainable
+evilsocket/xray,evilsocket,xray,2279,Go,2017-07-08T20:48:06Z,2024-07-10T09:43:56Z,True,"XRay is a tool for recon, mapping and OSINT gathering from public networks.",non_sustainable
+rancher/rio,rancher,rio,2263,Go,2018-08-03T17:42:50Z,2024-09-05T15:10:09Z,True,Application Deployment Engine for Kubernetes,non_sustainable
+docker-archive/deploykit,docker-archive,deploykit,2262,Go,2016-04-08T21:43:02Z,2018-11-22T18:20:17Z,True,"A toolkit for creating and managing declarative, self-healing infrastructure.",non_sustainable
+arachnys/athenapdf,arachnys,athenapdf,2247,Go,2016-03-30T15:45:11Z,2023-03-06T10:53:07Z,True,"Drop-in replacement for wkhtmltopdf built on Go, Electron and Docker",non_sustainable
+sourcegraph/thyme,sourcegraph,thyme,2241,Go,2016-08-08T06:15:10Z,2021-10-22T02:33:09Z,True,Automatically track which applications you use and for how long.,non_sustainable
+gernest/utron,gernest,utron,2224,Go,2015-09-16T07:55:54Z,2018-10-28T20:04:59Z,True,A lightweight MVC framework for Go(Golang),non_sustainable
+ysrc/yulong-hids-archived,ysrc,yulong-hids-archived,2186,Go,2018-01-18T10:02:46Z,2020-06-29T15:38:38Z,True,[archived] 一款实验性质的主机入侵检测系统,non_sustainable
+jetstack/kube-lego,jetstack,kube-lego,2154,Go,2016-03-06T19:22:29Z,2021-08-26T15:02:41Z,True,DEPRECATED: Automatically request certificates for Kubernetes Ingress resources from Let's Encrypt,non_sustainable
+constabulary/gb,constabulary,gb,2134,Go,2015-02-27T05:30:43Z,2019-10-24T15:01:46Z,True,"gb, the project based build tool for Go",non_sustainable
+marcusolsson/tui-go,marcusolsson,tui-go,2117,Go,2016-11-17T09:31:56Z,2021-10-12T20:26:05Z,True,A UI library for terminal applications.,non_sustainable
+kata-containers/runtime,kata-containers,runtime,2094,Go,2017-11-13T11:29:03Z,2021-05-07T14:48:39Z,True,Kata Containers version 1.x runtime (for version 2.x see https://github.com/kata-containers/kata-containers).,non_sustainable
+bxcodec/faker,bxcodec,faker,2088,Go,2017-06-22T09:08:40Z,2022-12-08T09:23:48Z,True,"Go (Golang)  Fake Data  Generator for Struct. [Notes]This repository is archived, moved to the new repository https://github.com/go-faker/faker",non_sustainable
+profclems/glab,profclems,glab,2072,Go,2020-07-24T20:36:56Z,2022-10-01T13:58:33Z,True,The GitLab CLI tool. Archived: now officially adopted by GitLab as the official CLI tool and maintained at https://gitlab.com/gitlab-org/cli. See https://github.com/profclems/glab/issues/983,non_sustainable
+hyperhq/hyperd,hyperhq,hyperd,2069,Go,2015-05-25T06:26:27Z,2018-11-29T08:14:19Z,True,HyperContainer Daemon,non_sustainable
+nurdism/neko,nurdism,neko,2067,Go,2020-01-13T11:29:57Z,2021-10-05T18:48:00Z,True,A self hosted virtual browser (rabb.it clone) that runs in docker.,non_sustainable
+yahoo/gryffin,yahoo,gryffin,2065,Go,2015-09-03T06:54:59Z,2021-02-12T21:08:48Z,True,Gryffin is a large scale web security scanning platform.,non_sustainable
+census-instrumentation/opencensus-go,census-instrumentation,opencensus-go,2048,Go,2017-02-08T23:40:07Z,2023-07-26T10:29:44Z,True,A stats collection and distributed tracing framework,non_sustainable
+gravitational/workshop,gravitational,workshop,2028,Go,2016-11-23T19:29:23Z,2023-06-28T21:45:52Z,True,"Docker, Kubernetes and Gravity Trainings by Gravitational",non_sustainable
+haccer/subjack,haccer,subjack,2014,Go,2017-10-10T23:38:30Z,2023-08-13T18:16:35Z,True,Subdomain Takeover tool written in Go,non_sustainable
+teh-cmc/go-internals,teh-cmc,go-internals,7919,Go,2018-02-18T13:18:52Z,2021-04-03T15:07:06Z,False,A book about the internals of the Go programming language.,non_sustainable
+andeya/pholcus,andeya,pholcus,7605,Go,2015-07-03T15:40:41Z,2022-11-08T06:29:38Z,False,Pholcus is a distributed high-concurrency crawler software written in pure golang,non_sustainable
+eranyanay/1m-go-websockets,eranyanay,1m-go-websockets,5982,Go,2019-02-10T13:41:43Z,2022-08-14T11:12:13Z,False,handling 1M websockets connections in Go,non_sustainable
+schollz/find,schollz,find,5087,Go,2015-10-20T20:54:32Z,2022-09-07T11:35:54Z,False,High-precision indoor positioning framework for most wifi-enabled devices.,non_sustainable
+wallix/awless,wallix,awless,4975,Go,2016-06-03T13:46:18Z,2022-08-02T00:04:44Z,False,A Mighty CLI for AWS,non_sustainable
+schollz/find3,schollz,find3,4759,Go,2018-02-15T16:23:43Z,2022-12-30T00:57:30Z,False,"High-precision indoor positioning framework, version 3.",non_sustainable
+ilanyu/ReverseProxy,ilanyu,ReverseProxy,4573,Go,2017-10-14T13:05:50Z,2018-04-16T12:14:34Z,False,ReverseProxy in golang,non_sustainable
+oxequa/realize,oxequa,realize,4461,Go,2016-07-12T08:07:25Z,2021-05-14T21:47:38Z,False,Realize is the #1 Golang Task Runner which enhance your workflow by automating the most common tasks and using the best performing Golang live reloading.,non_sustainable
+tj/node-prune,tj,node-prune,4445,Go,2017-11-19T01:11:42Z,2022-11-30T20:59:44Z,False,"Remove unnecessary files from node_modules (.md, .ts, ...)",non_sustainable
+fvbock/endless,fvbock,endless,4169,Go,2015-03-22T04:42:51Z,2021-11-27T08:54:05Z,False,Zero downtime restarts for go servers (Drop in replacement for http.ListenAndServe),non_sustainable
+rgburke/grv,rgburke,grv,4080,Go,2017-09-08T20:10:24Z,2019-05-01T20:02:46Z,False,GRV is a terminal interface for viewing git repositories,non_sustainable
+ro31337/libretaxi,ro31337,libretaxi,3903,Go,2016-04-21T01:57:07Z,2022-03-19T12:34:51Z,False,Open source Uber,non_sustainable
+geektutu/high-performance-go,geektutu,high-performance-go,3891,Go,2020-11-22T15:00:37Z,2022-11-03T07:29:09Z,False,high performance coding with golang（Go 语言高性能编程，Go 语言陷阱，Gotchas，Traps）,non_sustainable
+adtac/commento,adtac,commento,3776,Go,2017-04-24T19:02:55Z,2022-11-25T15:56:01Z,False,"A fast, bloat-free comments platform (Github mirror)",non_sustainable
+egonelbre/gophers,egonelbre,gophers,3758,Go,2015-06-03T06:34:42Z,2022-07-06T06:41:07Z,False,Free gophers,non_sustainable
+hoanhan101/algo,hoanhan101,algo,3648,Go,2019-07-21T01:26:24Z,2020-11-03T21:49:13Z,False,101+ coding interview problems in Go,non_sustainable
+zxh0/jvm.go,zxh0,jvm.go,3619,Go,2015-01-07T08:46:46Z,2019-12-04T14:16:37Z,False,A toy JVM written in Go,non_sustainable
+gomatcha/matcha,gomatcha,matcha,3498,Go,2017-08-01T00:46:03Z,2018-09-13T22:07:28Z,False,Build native mobile apps in Go.,non_sustainable
+fogleman/ln,fogleman,ln,3346,Go,2016-01-10T04:28:10Z,2019-07-19T09:00:40Z,False,3D line art engine.,non_sustainable
+chrislusf/glow,chrislusf,glow,3223,Go,2015-06-14T00:33:48Z,2018-11-02T06:09:14Z,False,"Glow is an easy-to-use distributed computation system written in Go, similar to Hadoop Map Reduce, Spark, Flink, Storm, etc. I am also working on another similar pure Go system, https://github.com/chr",non_sustainable
+owenthereal/ccat,owenthereal,ccat,3203,Go,2015-05-06T05:00:17Z,2022-09-05T17:44:40Z,False,Colorizing `cat`,non_sustainable
+qax-os/goreporter,qax-os,goreporter,3137,Go,2017-03-27T08:46:38Z,2018-10-27T22:30:57Z,False,"A Golang tool that does static analysis, unit testing, code review and generate code quality report.",non_sustainable
+campoy/go-tooling-workshop,campoy,go-tooling-workshop,2789,Go,2017-06-22T17:56:11Z,2018-12-15T13:28:35Z,False,A workshop covering all the tools gophers use in their day to day life,non_sustainable
+shiyanhui/dht,shiyanhui,dht,2777,Go,2016-08-07T05:35:02Z,2021-08-17T01:48:19Z,False,BitTorrent DHT Protocol && DHT Spider.,non_sustainable
+GuoZhaoran/spikeSystem,GuoZhaoran,spikeSystem,2764,Go,2019-09-21T05:47:26Z,2020-01-20T07:14:50Z,False,一个秒杀系统的例子分析,non_sustainable
+feixiao/Distributed-Systems,feixiao,Distributed-Systems,2761,Go,2016-06-16T14:09:53Z,2020-02-08T11:51:43Z,False,MIT课程《Distributed Systems 》学习和翻译,non_sustainable
+mehrdadrad/mylg,mehrdadrad,mylg,2720,Go,2016-06-21T19:39:58Z,2020-02-26T22:39:02Z,False,Network Diagnostic Tool,non_sustainable
+nareix/joy4,nareix,joy4,2716,Go,2016-07-03T08:53:36Z,2021-09-08T14:07:40Z,False,Golang audio/video library and streaming server,non_sustainable
+gopher-os/gopher-os,gopher-os,gopher-os,2616,Go,2017-03-22T12:02:46Z,2020-08-29T02:08:35Z,False,A proof of concept OS kernel written in Go,non_sustainable
+apptainer/singularity,apptainer,singularity,2599,Go,2015-10-09T22:15:12Z,2022-10-10T17:53:01Z,False,Singularity has been renamed to Apptainer as part of us moving the project to the Linux Foundation. This repo has been persisted as a snapshot right before the changes.,non_sustainable
+hyper0x/Golang_Puzzlers,hyper0x,Golang_Puzzlers,2596,Go,2018-08-13T06:41:05Z,2021-10-22T09:24:49Z,False,"An example project, for my column named ""Core Golang - 36 lessons""",non_sustainable
+astaxie/bat,astaxie,bat,2562,Go,2015-04-07T12:20:08Z,2022-10-29T11:43:43Z,False,"Go implement CLI, cURL-like tool for humans",non_sustainable
+mit-pdos/biscuit,mit-pdos,biscuit,2550,Go,2018-09-26T12:57:53Z,2022-10-28T14:51:16Z,False,Biscuit research OS,non_sustainable
+genuinetools/binctr,genuinetools,binctr,2520,Go,2016-04-15T06:43:22Z,2019-05-25T20:55:14Z,False,"Fully static, unprivileged, self-contained, containers as executable binaries.",non_sustainable
+vuvuzela/vuvuzela,vuvuzela,vuvuzela,2488,Go,2015-09-07T13:12:29Z,2019-09-12T15:41:22Z,False,Private messaging system that hides metadata,non_sustainable
+mailgun/godebug,mailgun,godebug,2485,Go,2015-01-19T10:20:44Z,2018-06-16T21:00:55Z,False,DEPRECATED! https://github.com/derekparker/delve,non_sustainable
+yunabe/lgo,yunabe,lgo,2459,Go,2017-10-05T15:29:10Z,2020-11-20T07:01:33Z,False,Interactive Go programming with Jupyter,non_sustainable
+knownsec/ksubdomain,knownsec,ksubdomain,2353,Go,2020-08-21T07:29:04Z,2022-03-16T08:43:46Z,False,无状态子域名爆破工具,non_sustainable
+EndlessCheng/mahjong-helper,EndlessCheng,mahjong-helper,2251,Go,2018-09-25T01:31:27Z,2022-06-23T01:11:42Z,False,日本麻将助手：牌效+防守+记牌（支持雀魂、天凤）,non_sustainable
+thedevsaddam/gojsonq,thedevsaddam,gojsonq,2228,Go,2018-05-19T16:15:18Z,2022-11-28T11:29:44Z,False,"A simple Go package for querying over JSON, YAML, XML, and CSV data.",non_sustainable
+rapidloop/rtop,rapidloop,rtop,2188,Go,2015-05-09T11:24:54Z,2022-06-06T14:35:54Z,False,"rtop is an interactive, remote system monitoring tool based on SSH",non_sustainable
+itsabot/itsabot,itsabot,itsabot,2149,Go,2016-02-16T17:41:51Z,2016-11-04T18:27:26Z,False,"ItsAbot makes it easy and fun to build your own digital assistant, and we include everything you need to get started.",non_sustainable
+giorgisio/goav,giorgisio,goav,2142,Go,2015-05-21T05:31:14Z,2022-05-19T23:28:55Z,False,Golang bindings for FFmpeg (This repository is no longer maintained),non_sustainable
+Dliv3/Venom,Dliv3,Venom,2139,Go,2019-01-13T07:35:29Z,2022-05-11T03:13:20Z,False,Venom - A Multi-hop Proxy for Penetration Testers,non_sustainable
+xianlubird/mydocker,xianlubird,mydocker,2115,Go,2017-01-11T09:15:36Z,2021-12-06T02:32:41Z,False,<<自己动手写docker>> 源码,non_sustainable
+fogleman/pt,fogleman,pt,2095,Go,2015-01-23T19:39:29Z,2019-03-21T10:07:26Z,False,A path tracer written in Go.,non_sustainable
+jgrahamc/httpdiff,jgrahamc,httpdiff,2076,Go,2015-03-24T15:11:17Z,2021-08-22T18:02:48Z,False,Perform the same request against two HTTP servers and diff the results,non_sustainable
+dairongpeng/algorithm-note,dairongpeng,algorithm-note,2054,Go,2020-07-10T02:10:47Z,2022-09-07T13:02:31Z,False,数组、链表、树、图、递归、DP、有序表等相关数据结构与算法的讲解及代码实现。,non_sustainable
+AlexanderGrom/go-patterns,AlexanderGrom,go-patterns,2042,Go,2015-08-13T10:33:26Z,2021-04-15T17:42:30Z,False,Design patterns in Golang,non_sustainable
+Qihoo360/poseidon,Qihoo360,poseidon,1986,Go,2016-10-20T13:32:06Z,2017-05-22T10:36:56Z,False,A search engine which can hold 100 trillion lines of log data.,non_sustainable
+djhworld/simple-computer,djhworld,simple-computer,1954,Go,2019-05-13T18:21:44Z,2020-10-21T20:59:12Z,False,"the scott CPU from ""But How Do It Know?"" by J. Clark Scott",non_sustainable
+smallnest/1m-go-tcp-server,smallnest,1m-go-tcp-server,1929,Go,2019-02-15T09:07:15Z,2021-04-15T14:32:27Z,False,benchmarks for implementation of servers which support 1 million connections ,non_sustainable
+qvest-digital/loginsrv,qvest-digital,loginsrv,1928,Go,2016-11-11T12:11:21Z,2021-02-27T06:20:06Z,False,"JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..",non_sustainable
+benbjohnson/wtf,benbjohnson,wtf,1903,Go,2020-11-10T22:55:10Z,2022-10-31T16:04:13Z,False,WTF Dial is an example web application written in Go.,non_sustainable
+alibaba/easyexcel,alibaba,easyexcel,33739,Java,2018-02-06T03:14:08Z,2024-10-29T06:07:07Z,True,快速、简洁、解决大文件内存溢出的java处理Excel工具,non_sustainable
+proxyee-down-org/proxyee-down,proxyee-down-org,proxyee-down,24835,Java,2017-10-25T10:07:27Z,2024-07-16T09:22:28Z,True,http下载工具，基于http代理，支持多连接分块下载,non_sustainable
+Netflix/conductor,Netflix,conductor,12798,Java,2016-12-07T22:48:42Z,2023-12-22T23:40:04Z,True,Conductor is a microservices orchestration engine.,non_sustainable
+alibaba/vlayout,alibaba,vlayout,10768,Java,2017-02-27T08:11:47Z,2021-07-14T04:40:34Z,True,"Project vlayout is a powerfull LayoutManager extension for RecyclerView, it provides a group of layouts for RecyclerView. Make it able to handle a complicate situation when grid, list and other layout",non_sustainable
+lipangit/JiaoZiVideoPlayer,lipangit,JiaoZiVideoPlayer,10492,Java,2016-02-06T11:04:24Z,2020-09-14T19:02:20Z,True,MediaPlayer exoplayer ijkplayer ffmpeg,non_sustainable
+tbruyelle/RxPermissions,tbruyelle,RxPermissions,10467,Java,2015-09-29T13:55:09Z,2022-05-11T09:47:47Z,True,Android runtime permissions powered by RxJava2,non_sustainable
+googlesamples/easypermissions,googlesamples,easypermissions,9905,Java,2015-12-22T18:05:53Z,2023-08-01T18:11:12Z,True,Simplify Android M system permissions,non_sustainable
+react-native-camera/react-native-camera,react-native-camera,react-native-camera,9650,Java,2015-04-01T00:54:40Z,2023-06-07T10:03:10Z,True,A Camera component for React Native. Also supports barcode scanning!,non_sustainable
+PojavLauncherTeam/PojavLauncher,PojavLauncherTeam,PojavLauncher,8574,Java,2020-03-11T03:22:54Z,2025-09-23T20:12:28Z,True,A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. Succeeded by https://github.com/AngelAuraMC/Amethyst-Android,non_sustainable
+florent37/MaterialViewPager,florent37,MaterialViewPager,8106,Java,2015-04-24T17:53:15Z,2018-10-12T01:11:20Z,True,A Material Design ViewPager easy to use library,non_sustainable
+google/android-classyshark,google,android-classyshark,7582,Java,2015-10-12T13:40:48Z,2023-05-19T10:01:03Z,True,Android and Java bytecode viewer,non_sustainable
+geeeeeeeeek/WeChatLuckyMoney,geeeeeeeeek,WeChatLuckyMoney,7235,Java,2015-09-30T16:11:20Z,2019-01-25T02:02:51Z,True,:money_with_wings: WeChat's lucky money helper (微信抢红包插件) by Zhongyi Tong. An Android app that helps you snatch red packets in WeChat groups. ,non_sustainable
+google/agera,google,agera,7153,Java,2015-12-17T13:22:58Z,2022-01-13T14:58:57Z,True,Reactive Programming for Android,non_sustainable
+zo0r/react-native-push-notification,zo0r,react-native-push-notification,6791,Java,2015-12-14T19:53:36Z,2024-01-30T05:26:00Z,True,React Native Local and Remote Notifications,non_sustainable
+k0shk0sh/FastHub,k0shk0sh,FastHub,5727,Java,2017-02-18T17:53:16Z,2022-09-12T13:15:21Z,True,FastHub the ultimate GitHub client for Android.,non_sustainable
+facebookarchive/shimmer-android,facebookarchive,shimmer-android,5365,Java,2015-02-27T22:25:22Z,2023-03-23T16:44:24Z,True,"An easy, flexible way to add a shimmering effect to any view in an Android app.",non_sustainable
+Karumi/Dexter,Karumi,Dexter,5210,Java,2015-11-17T13:14:43Z,2021-07-02T10:55:40Z,True,Android library that simplifies the process of requesting permissions at runtime.,non_sustainable
+Clans/FloatingActionButton,Clans,FloatingActionButton,5193,Java,2015-03-21T12:36:16Z,2019-07-11T20:43:07Z,True,Android Floating Action Button based on Material Design specification,non_sustainable
+android/views-widgets-samples,android,views-widgets-samples,5169,Java,2019-09-06T21:39:12Z,2025-07-11T13:00:08Z,True,Multiple samples showing the best practices in views-widgets on Android.,non_sustainable
+alibaba/UltraViewPager,alibaba,UltraViewPager,4971,Java,2017-03-29T13:31:53Z,2021-07-14T04:48:51Z,True,UltraViewPager is an extension for ViewPager to provide multiple features in a single ViewPager.,non_sustainable
+mcxiaoke/packer-ng-plugin,mcxiaoke,packer-ng-plugin,4822,Java,2015-11-24T04:08:08Z,2022-06-27T13:21:58Z,True,下一代Android打包工具（对Gradle 7.x的支持，欢迎提PR）,non_sustainable
+TheoKanning/openai-java,TheoKanning,openai-java,4764,Java,2020-09-15T02:58:52Z,2024-06-06T20:00:23Z,True,OpenAI Api Client in Java,non_sustainable
+google/cameraview,google,cameraview,4720,Java,2016-08-04T05:22:14Z,2020-02-08T13:20:53Z,True,[DEPRECATED] Easily integrate Camera features into your Android app,non_sustainable
+zhanghai/Douya,zhanghai,Douya,4561,Java,2016-02-01T13:44:19Z,2021-06-14T20:48:22Z,True,开源的 Material Design 豆瓣客户端（A Material Design app for douban.com）,non_sustainable
+square/sqlbrite,square,sqlbrite,4539,Java,2015-02-19T04:38:37Z,2020-08-17T16:20:56Z,True,A lightweight wrapper around SQLiteOpenHelper which introduces reactive stream semantics to SQL operations.,non_sustainable
+alibaba/dexposed,alibaba,dexposed,4527,Java,2015-06-30T02:59:16Z,2017-03-29T11:48:10Z,True,dexposed enable 'god' mode for single android application.,non_sustainable
+Freeyourgadget/Gadgetbridge,Freeyourgadget,Gadgetbridge,4445,Java,2015-01-05T23:19:03Z,2024-12-23T17:24:07Z,True,We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge -  Gadgetbridge - A free and cloudless replacement for your gadget vendors' closed source Android applications. Supports Pe,non_sustainable
+pytorch/serve,pytorch,serve,4359,Java,2019-10-03T03:17:43Z,2025-08-06T19:17:08Z,True,"Serve, optimize and scale PyTorch models in production",non_sustainable
+pedrovgs/AndroidWiFiADB,pedrovgs,AndroidWiFiADB,4146,Java,2015-10-18T21:58:45Z,2019-05-23T10:17:28Z,True,"IntelliJ/AndroidStudio plugin which provides a button to connect your Android device over WiFi to install, run and debug your applications without a USB connected.",non_sustainable
+alibaba/Tangram-Android,alibaba,Tangram-Android,4105,Java,2017-03-29T13:29:57Z,2021-07-14T04:43:37Z,True,"Tangram is a modular UI solution for building native page dynamically including Tangram for Android, Tangram for iOS and even backend CMS. This project provides the sdk on Android.",non_sustainable
+andOTP/andOTP,andOTP,andOTP,3736,Java,2017-07-05T11:39:52Z,2022-06-14T05:44:55Z,True,[Unmaintained] Open source two-factor authentication for Android,non_sustainable
+apache/incubator-heron,apache,incubator-heron,3680,Java,2015-09-25T16:09:24Z,2023-03-01T15:11:08Z,True,"Apache Heron (Incubating) is a realtime, distributed, fault-tolerant stream processing engine from Twitter",non_sustainable
+google/rejoiner,google,rejoiner,3670,Java,2017-12-06T19:09:53Z,2023-06-13T22:58:03Z,True,Generates a unified GraphQL schema from gRPC microservices and other Protobuf sources,non_sustainable
+JakeWharton/ThreeTenABP,JakeWharton,ThreeTenABP,3563,Java,2015-07-03T17:35:09Z,2025-08-22T03:29:53Z,True,An adaptation of the JSR-310 backport for Android.,non_sustainable
+nytimes/Store,nytimes,Store,3506,Java,2016-11-29T20:17:11Z,2019-12-06T21:32:10Z,True,Android Library for Async Data Loading and Caching,non_sustainable
+crossoverJie/SSM,crossoverJie,SSM,3436,Java,2016-06-21T10:09:02Z,2018-07-02T14:32:39Z,True,:two_hearts: build SSM from 0 👉🏽👉🏽  distributed micro service.,non_sustainable
+xcc3641/SeeWeather,xcc3641,SeeWeather,3420,Java,2016-02-20T13:10:14Z,2020-03-03T03:22:09Z,True,:partly_sunny: [@Deprecated]RxJava+RxBus+Retrofit+Glide+Material Design Weather App,non_sustainable
+actorapp/actor-platform,actorapp,actor-platform,3270,Java,2015-06-21T00:29:57Z,2021-11-09T04:19:07Z,True,Actor Messaging platform,non_sustainable
+vran-dev/PrettyZoo,vran-dev,PrettyZoo,3243,Java,2019-09-28T02:23:21Z,2024-01-09T14:17:44Z,True,"😉    Pretty nice Zookeeper GUI, Support Win / Mac / Linux Platform",non_sustainable
+googlesamples/google-services,googlesamples,google-services,3190,Java,2015-05-20T22:45:11Z,2024-04-30T05:41:31Z,True,A collection of quickstart samples demonstrating the Google APIs for Android and iOS,non_sustainable
+facebookarchive/network-connection-class,facebookarchive,network-connection-class,3185,Java,2015-03-18T02:16:43Z,2019-03-27T22:44:59Z,True,Listen to current network traffic in the app and categorize the quality of the network.,non_sustainable
+facebookarchive/react-native-fbsdk,facebookarchive,react-native-fbsdk,2980,Java,2015-08-03T17:10:14Z,2021-03-26T23:24:22Z,True,"A React Native wrapper around the Facebook SDKs for Android and iOS.  Provides access to Facebook login, sharing, graph requests, app events etc.",non_sustainable
+google/binnavi,google,binnavi,2896,Java,2015-08-19T12:20:24Z,2020-10-23T07:04:37Z,True,"BinNavi is a binary analysis IDE that allows to inspect, navigate, edit and annotate control flow graphs and call graphs of disassembled code.",non_sustainable
+udacity/Sunshine-Version-2,udacity,Sunshine-Version-2,2862,Java,2015-03-05T01:48:44Z,2022-06-23T09:44:25Z,True,The official repository for Developing Android Apps,non_sustainable
+arcadefire/nice-spinner,arcadefire,nice-spinner,2857,Java,2015-08-02T17:16:45Z,2024-07-28T20:08:59Z,True,A nice spinner for Android,non_sustainable
+YahooArchive/anthelion,YahooArchive,anthelion,2843,Java,2015-10-27T00:42:01Z,2015-12-17T07:21:20Z,True,Anthelion is a plugin for Apache Nutch to crawl semantic annotations within HTML pages.,non_sustainable
+florent37/ExpectAnim,florent37,ExpectAnim,2776,Java,2017-02-20T15:05:03Z,2020-07-02T11:53:40Z,True,Describe your animation and run !,non_sustainable
+JulienGenoud/android-percent-support-lib-sample,JulienGenoud,android-percent-support-lib-sample,2766,Java,2015-06-26T12:44:38Z,2017-03-22T08:38:29Z,True,[Deprecated] Just a sample of the android percent support lib,non_sustainable
+Tencent/MSEC,Tencent,MSEC,2746,Java,2016-11-28T01:50:35Z,2019-10-24T03:48:10Z,True,"Mass Service Engine in Cluster(MSEC) is opened source by QQ team from Tencent. It is a backend DEV &OPS engine, including RPC,name finding,load balance,monitoring,release and capacity management.  ",non_sustainable
+spotify/dockerfile-maven,spotify,dockerfile-maven,2745,Java,2016-03-16T12:42:37Z,2022-02-01T13:43:18Z,True,MATURE: A set of Maven tools for dealing with Dockerfiles,non_sustainable
+kabouzeid/Phonograph,kabouzeid,Phonograph,2740,Java,2015-03-05T15:28:53Z,2022-09-24T17:37:41Z,True,A material designed music player for Android,non_sustainable
+florent37/ViewAnimator,florent37,ViewAnimator,2713,Java,2015-12-22T15:49:53Z,2021-03-23T18:49:14Z,True,A fluent Android animation library,non_sustainable
+spring-attic/spring-native,spring-attic,spring-native,2710,Java,2019-09-05T23:40:14Z,2023-02-23T09:44:25Z,True,Spring Native is now superseded by Spring Boot 3 official native support,non_sustainable
+google/hover,google,hover,2627,Java,2015-12-14T02:43:42Z,2021-06-02T13:05:52Z,True,A floating menu library for Android.,non_sustainable
+square/keywhiz,square,keywhiz,2624,Java,2015-03-25T13:31:39Z,2023-09-18T18:01:03Z,True,A system for distributing and managing secrets,non_sustainable
+android/animation-samples,android,animation-samples,2617,Java,2019-08-08T04:45:57Z,2024-12-09T13:19:38Z,True,Multiple samples showing the best practices in animation on Android.,non_sustainable
+facebookarchive/device-year-class,facebookarchive,device-year-class,2584,Java,2015-03-06T20:06:07Z,2020-02-28T22:16:43Z,True,"A library that analyzes an Android device's specifications and calculates which year the device would be considered ""high end”.",non_sustainable
+liangfeidotme/MasteringAndroidDataBinding,liangfeidotme,MasteringAndroidDataBinding,2575,Java,2015-06-02T16:36:09Z,2020-04-11T03:41:22Z,True,A comprehensive tutorial for Android Data Binding,non_sustainable
+googlearchive/android-ConstraintLayoutExamples,googlearchive,android-ConstraintLayoutExamples,2545,Java,2017-03-02T00:11:54Z,2019-11-19T23:11:18Z,True,Migrated:,non_sustainable
+florent37/DiagonalLayout,florent37,DiagonalLayout,2544,Java,2016-10-14T14:59:59Z,2020-07-02T11:49:07Z,True,With Diagonal Layout explore new styles and approaches on material design,non_sustainable
+bin456789/Unblock163MusicClient-Xposed,bin456789,Unblock163MusicClient-Xposed,2530,Java,2016-01-14T11:22:46Z,2022-06-30T01:13:33Z,True,Unblock 163 Cloud Music Android client through Xposed.,non_sustainable
+chrisk44/Hijacker,chrisk44,Hijacker,2493,Java,2016-11-25T01:39:07Z,2020-08-26T19:01:31Z,True,"Aircrack, Airodump, Aireplay, MDK3 and Reaver GUI Application for Android",non_sustainable
+zalando/zalenium,zalando,zalenium,2368,Java,2016-10-04T11:23:35Z,2021-09-11T10:00:37Z,True,"A flexible and scalable container based Selenium Grid with video recording, live preview, basic auth & dashboard.",non_sustainable
+VictorAlbertos/RxCache,VictorAlbertos,RxCache,2360,Java,2016-01-10T23:49:22Z,2020-08-09T13:34:50Z,True,Reactive caching library for Android and Java,non_sustainable
+bytedance/AlphaPlayer,bytedance,AlphaPlayer,2339,Java,2020-08-06T09:39:14Z,2023-04-13T08:02:32Z,True,AlphaPlayer is a video animation engine.,non_sustainable
+florent37/CameraFragment,florent37,CameraFragment,2292,Java,2017-01-13T13:45:42Z,2020-08-06T14:11:49Z,True,A simple easy-to-integrate Camera Fragment for Android,non_sustainable
+GCX-HCI/tray,GCX-HCI,tray,2283,Java,2015-02-05T13:39:50Z,2021-03-16T13:37:45Z,True,a SharedPreferences replacement for Android with multiprocess support,non_sustainable
+twitter-archive/distributedlog,twitter-archive,distributedlog,2214,Java,2016-01-20T20:07:32Z,2020-02-25T19:15:10Z,True,A high performance replicated log service. (The development is moved to Apache Incubator),non_sustainable
+timusus/Shuttle,timusus,Shuttle,2186,Java,2017-02-21T11:06:23Z,2022-12-28T23:40:53Z,True,Shuttle Music Player,non_sustainable
+fython/MaterialStepperView,fython,MaterialStepperView,2172,Java,2017-08-08T03:53:59Z,2020-02-12T08:17:00Z,True,Steppers - Material Design Components for Android,non_sustainable
+thoughtbot/expandable-recycler-view,thoughtbot,expandable-recycler-view,2122,Java,2016-07-22T23:32:30Z,2024-09-20T17:33:11Z,True,Custom Android RecyclerViewAdapters that collapse and expand,non_sustainable
+alibaba/dubbo-spring-boot-starter,alibaba,dubbo-spring-boot-starter,2090,Java,2017-01-20T08:02:19Z,2018-06-14T10:43:15Z,True,Dubbo Spring Boot Starter,non_sustainable
+google/santa-tracker-android,google,santa-tracker-android,2079,Java,2015-03-23T23:58:50Z,2022-06-30T06:38:28Z,True,Ho Ho Ho,non_sustainable
+fossasia/open-event-droidgen,fossasia,open-event-droidgen,2068,Java,2015-05-08T09:04:11Z,2019-09-08T15:19:25Z,True,Open Event Android App Generator https://github.com/fossasia/open-event-android/raw/apk/sample-apk-fossasia17-development.apk,non_sustainable
+670848654/SakuraAnime,670848654,SakuraAnime,2046,Java,2019-06-21T03:40:26Z,2023-12-14T08:16:36Z,True,使用jsoup爬取樱花动漫(Yhdm)、嘶哩嘶哩(SiliSili)部分内容编写的第三方Android客户端。,non_sustainable
+airsonic/airsonic,airsonic,airsonic,2025,Java,2017-07-04T17:58:56Z,2021-08-11T21:09:11Z,True," :satellite: :cloud: :notes:Airsonic, a Free and Open Source community driven media server (fork of Subsonic and Libresonic)",non_sustainable
+florent37/ExpansionPanel,florent37,ExpansionPanel,1963,Java,2018-01-05T13:21:53Z,2020-07-02T11:51:19Z,True,Android - Expansion panels contain creation flows and allow lightweight editing of an element.,non_sustainable
+corona-warn-app/cwa-server,corona-warn-app,cwa-server,1953,Java,2020-05-02T15:07:31Z,2023-05-10T07:59:48Z,True,Backend implementation for the Apple/Google exposure notification API.,non_sustainable
+phonegap/phonegap-plugin-push,phonegap,phonegap-plugin-push,1938,Java,2015-04-06T17:13:51Z,2021-09-20T07:28:46Z,True,Register and receive push notifications,non_sustainable
+devzwy/open_nsfw_android,devzwy,open_nsfw_android,1936,Java,2019-05-14T03:44:51Z,2023-04-08T03:58:38Z,True,"🔥🔥🔥色情图片离线识别，基于TensorFlow实现。识别只需20ms,可断网测试，成功率99%，调用只要一行代码，从雅虎的开源项目open_nsfw移植，该模型文件可用于iOS、java、C++等平台",non_sustainable
+GoogleCloudPlatform/community,GoogleCloudPlatform,community,1935,Java,2016-01-25T18:46:16Z,2023-07-31T01:30:42Z,True,,non_sustainable
+gre/gl-react-native-v2,gre,gl-react-native-v2,1924,Java,2015-08-17T15:49:08Z,2020-01-01T15:09:12Z,True,"DEPRECATED, Please migrate to latest version of gl-react-native that works nicely with expo-gl and unimodules",non_sustainable
+apache/servicecomb-pack,apache,servicecomb-pack,1916,Java,2017-07-18T08:27:38Z,2024-10-03T18:46:26Z,True,Apache ServiceComb Pack is an eventually data consistency solution for micro-service applications. ServiceComb Pack currently provides TCC and Saga distributed transaction co-ordination solutions by u,non_sustainable
+bootcs-dev/staffjoy,bootcs-dev,staffjoy,1908,Java,2019-07-03T15:07:24Z,2023-12-16T06:28:02Z,True,微服务(Microservices)和云原生架构教学案例项目，基于Spring Boot和Kubernetes技术栈,non_sustainable
+friendlyrobotnyc/TinyDancer,friendlyrobotnyc,TinyDancer,1892,Java,2015-09-11T01:27:25Z,2019-07-19T01:42:55Z,True,An android library for displaying fps from the choreographer and percentage of time with two or more frames dropped,non_sustainable
+lyft/scissors,lyft,scissors,1828,Java,2015-11-18T02:06:10Z,2021-10-08T22:16:47Z,True,✂ Android image cropping library,non_sustainable
+maoruibin/TranslateApp,maoruibin,TranslateApp,1821,Java,2016-02-26T06:10:35Z,2019-12-11T02:27:27Z,True,":memo: A translations app without interruptions, copy words and translate directly, show result by top view.",non_sustainable
+Karumi/Rosie,Karumi,Rosie,1812,Java,2015-11-20T10:22:54Z,2019-09-17T14:29:29Z,True,Rosie is an Android framework to create applications following the principles of Clean Architecture.,non_sustainable
+gchq/Gaffer,gchq,Gaffer,1794,Java,2015-12-14T12:12:39Z,2025-06-06T08:50:47Z,True,A large-scale entity and relation database supporting aggregation of properties,non_sustainable
+googlearchive/firebase-jobdispatcher-android,googlearchive,firebase-jobdispatcher-android,1786,Java,2016-05-18T03:15:58Z,2020-04-07T21:08:39Z,True,DEPRECATED please see the README.md below for details.,non_sustainable
+dodola/HotFix,dodola,HotFix,1785,Java,2015-11-03T19:22:22Z,2017-08-10T11:27:31Z,True,安卓App热补丁动态修复框架,non_sustainable
+Haptic-Apps/Slide,Haptic-Apps,Slide,1780,Java,2015-10-01T23:21:26Z,2024-05-31T02:18:00Z,True,"Slide is an open-source, ad-free Reddit browser for Android.",non_sustainable
+bephrem1/interviewpen,bephrem1,interviewpen,1763,Java,2018-12-31T22:08:56Z,2023-02-28T21:18:40Z,True,Code samples for Back to Back SWE lessons (archive).,non_sustainable
+android/connectivity-samples,android,connectivity-samples,1758,Java,2019-09-06T21:21:54Z,2025-07-10T15:23:23Z,True,Multiple samples showing the best practices in connectivity on Android.,non_sustainable
+leochuan/ViewPagerLayoutManager,leochuan,ViewPagerLayoutManager,1757,Java,2016-08-08T14:34:56Z,2019-11-12T02:12:22Z,True,ViewPager like LayoutManager which supports some awesome animations and infinite scroll.,non_sustainable
+stephentuso/welcome-android,stephentuso,welcome-android,1753,Java,2015-12-05T04:34:06Z,2025-05-15T23:03:02Z,True,A customizable welcome screen,non_sustainable
+facebook/screenshot-tests-for-android,facebook,screenshot-tests-for-android,1750,Java,2015-08-31T18:36:02Z,2025-11-10T16:55:23Z,True,Generate fast deterministic screenshots during Android instrumentation tests,non_sustainable
+opentracing/opentracing-java,opentracing,opentracing-java,1689,Java,2015-12-19T20:07:30Z,2021-10-11T22:23:48Z,True,OpenTracing API for Java. 🛑 This library is DEPRECATED! https://github.com/opentracing/specification/issues/163,non_sustainable
+luizgrp/SectionedRecyclerViewAdapter,luizgrp,SectionedRecyclerViewAdapter,1685,Java,2016-02-07T19:27:52Z,2022-02-27T11:51:14Z,True,An Adapter that allows a RecyclerView to be split into Sections with headers and/or footers. Each Section can have its state controlled individually.,non_sustainable
+spring-attic/spring-fu,spring-attic,spring-fu,1681,Java,2018-05-24T15:16:16Z,2025-12-04T17:09:21Z,True,Configuration DSLs for Spring Boot,non_sustainable
+forezp/SpringCloudLearning,forezp,SpringCloudLearning,17987,Java,2017-04-08T10:06:56Z,2021-04-12T09:53:47Z,False,《史上最简单的Spring Cloud教程源码》,non_sustainable
+shuzheng/zheng,shuzheng,zheng,16721,Java,2016-10-04T10:07:06Z,2022-12-16T09:53:00Z,False,基于Spring+SpringMVC+Mybatis分布式敏捷开发系统架构，提供整套公共微服务服务模块：集中权限管理（单点登录）、内容管理、支付中心、用户管理（支持第三方登录）、微信平台、存储系统、配置中心、日志分析、任务和通知等，支持服务治理、监控和追踪，努力为中小型企业打造全方位J2EE企业级开发解决方案。,non_sustainable
+orhanobut/logger,orhanobut,logger,13883,Java,2015-03-20T22:30:12Z,2022-09-14T10:04:00Z,False,"✔️ Simple, pretty and powerful logger for android",non_sustainable
+lgvalle/Material-Animations,lgvalle,Material-Animations,13818,Java,2015-03-08T20:54:00Z,2019-04-02T15:42:38Z,False,Android Transition animations explanation with examples.,non_sustainable
+Curzibn/Luban,Curzibn,Luban,13672,Java,2016-07-24T07:43:21Z,2021-11-06T13:32:29Z,False,Luban(鲁班)—Image compression with efficiency very close to WeChat Moments/可能是最接近微信朋友圈的图片压缩算法,non_sustainable
+frank-lam/fullstack-tutorial,frank-lam,fullstack-tutorial,11707,Java,2018-04-13T01:50:10Z,2022-12-02T03:33:19Z,False,🚀 fullstack tutorial 2022，后台技术栈/架构师之路/全栈开发社区，春招/秋招/校招/面试,non_sustainable
+gyf-dev/ImmersionBar,gyf-dev,ImmersionBar,11474,Java,2017-04-19T05:10:09Z,2022-03-25T02:26:08Z,False,android 4.4以上沉浸式状态栏和沉浸式导航栏管理，适配横竖屏切换、刘海屏、软键盘弹出等问题，可以修改状态栏字体颜色和导航栏图标颜色，以及不可修改字体颜色手机的适配，适用于Activity、Fragment、DialogFragment、Dialog，PopupWindow，一句代码轻松实现，以及对bar的其他设置，详见README。简书请参考：http://www.jianshu.com/,non_sustainable
+jeasonlzy/okhttp-OkGo,jeasonlzy,okhttp-OkGo,10599,Java,2016-01-15T10:35:24Z,2022-09-06T01:29:03Z,False,OkGo - 3.0 震撼来袭，该库是基于 Http 协议，封装了 OkHttp 的网络请求框架，比 Retrofit 更简单易用，支持 RxJava，RxJava2，支持自定义缓存，支持批量断点下载管理和批量上传管理功能,non_sustainable
+wasabeef/glide-transformations,wasabeef,glide-transformations,9928,Java,2015-01-09T10:33:29Z,2022-03-08T16:07:21Z,False,An Android transformation library providing a variety of image transformations for Glide.,non_sustainable
+laobie/StatusBarUtil,laobie,StatusBarUtil,8785,Java,2016-02-15T03:06:06Z,2022-06-24T09:55:37Z,False,A util for setting status bar style on Android App.,non_sustainable
+Blankj/awesome-java-leetcode,Blankj,awesome-java-leetcode,8724,Java,2017-04-17T15:51:41Z,2020-12-10T15:20:21Z,False,:crown: LeetCode of algorithms with java solution(updating).,non_sustainable
+roughike/BottomBar,roughike,BottomBar,8382,Java,2016-03-16T01:31:05Z,2021-09-16T11:19:06Z,False,(Deprecated) A custom view component that mimics the new Material Design Bottom Navigation pattern.,non_sustainable
+alibaba/atlas,alibaba,atlas,8151,Java,2017-02-28T06:31:43Z,2022-01-27T14:31:30Z,False,A powerful Android Dynamic Component Framework.,non_sustainable
+ChrisRM/material-theme-jetbrains,ChrisRM,material-theme-jetbrains,7782,Java,2015-09-23T07:15:04Z,2022-01-26T21:43:17Z,False,JetBrains theme of Material Theme,non_sustainable
+goldze/MVVMHabit,goldze,MVVMHabit,7703,Java,2017-07-21T10:38:40Z,2022-08-11T09:18:55Z,False,👕基于谷歌最新AAC架构，MVVM设计模式的一套快速开发库，整合Okhttp+RxJava+Retrofit+Glide等主流模块，满足日常开发需求。使用该框架可以快速开发一个高质量、易维护的Android应用。,non_sustainable
+gedoor/MyBookshelf,gedoor,MyBookshelf,7623,Java,2018-06-12T03:48:07Z,2022-04-01T02:57:15Z,False,阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。,non_sustainable
+Exrick/xmall,Exrick,xmall,7249,Java,2017-07-28T01:49:49Z,2022-12-16T08:55:14Z,False,基于SOA架构的分布式电商购物商城 前后端分离 前台商城:Vue全家桶 后台管理系统:Dubbo/SSM/Elasticsearch/Redis/MySQL/ActiveMQ/Shiro/Zookeeper等,non_sustainable
+crazycodeboy/TakePhoto,crazycodeboy,TakePhoto,7245,Java,2015-08-04T02:05:32Z,2019-08-26T09:42:27Z,False,一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库,non_sustainable
+cymcsg/UltimateRecyclerView,cymcsg,UltimateRecyclerView,7197,Java,2015-01-28T02:27:45Z,2020-07-21T09:50:37Z,False,"A RecyclerView(advanced and flexible version of ListView in Android) with refreshing,loading more,animation and many other features.",non_sustainable
+ogaclejapan/SmartTabLayout,ogaclejapan,SmartTabLayout,7089,Java,2015-02-14T11:25:51Z,2020-06-03T06:02:33Z,False,A custom ViewPager title strip which gives continuous feedback to the user when scrolling,non_sustainable
+hongyangAndroid/okhttputils,hongyangAndroid,okhttputils,6861,Java,2015-08-17T14:53:29Z,2022-10-12T06:21:59Z,False,[停止维护]okhttp的辅助类,non_sustainable
+guardianproject/haven,guardianproject,haven,6751,Java,2017-03-01T03:20:03Z,2022-10-26T22:43:24Z,False,"Haven is for people who need a way to protect their personal spaces and possessions without compromising their own privacy, through an Android app and on-device sensors",non_sustainable
+hongyangAndroid/AndroidAutoLayout,hongyangAndroid,AndroidAutoLayout,6668,Java,2015-11-19T02:09:11Z,2018-11-26T13:24:38Z,False,[停止维护]Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题。,non_sustainable
+GrenderG/Toasty,GrenderG,Toasty,6590,Java,2017-01-18T18:52:41Z,2022-09-28T23:46:04Z,False,"The usual Toast, but with steroids 💪",non_sustainable
+ximsfei/Android-skin-support,ximsfei,Android-skin-support,6519,Java,2017-01-12T15:03:54Z,2020-09-03T06:06:18Z,False,"Android-skin-support is an easy dynamic skin framework to use  for Android, Only one line of code to integrate it. Android 换肤框架, 极低的学习成本, 极好的用户体验. ""一行""代码就可以实现换肤, 你值得拥有!!!",non_sustainable
+aa112901/remusic,aa112901,remusic,6381,Java,2016-03-24T06:20:39Z,2018-07-20T03:52:21Z,False,仿网易云音乐 安卓版，netease  android，音乐播放器 在线 下载,non_sustainable
+LandGrey/SpringBootVulExploit,LandGrey,SpringBootVulExploit,6082,Java,2020-05-20T09:18:44Z,2021-03-10T13:03:25Z,False,SpringBoot 相关漏洞学习资料，利用方法和技巧合集，黑盒安全评估 check list,non_sustainable
+wyouflf/xUtils3,wyouflf,xUtils3,5964,Java,2015-10-28T10:56:04Z,2022-03-19T03:24:30Z,False,"Android orm, bitmap, http, view inject... ",non_sustainable
+liyifeng1994/ssm,liyifeng1994,ssm,5952,Java,2016-06-18T17:58:56Z,2022-12-16T05:53:22Z,False,手把手教你整合最优雅SSM框架：SpringMVC + Spring + MyBatis,non_sustainable
+jpush/aurora-imui,jpush,aurora-imui,5714,Java,2016-12-13T05:24:01Z,2022-12-30T04:04:35Z,False,General IM UI components. Android/iOS/RectNative ready.  通用 IM 聊天 UI 组件，已经同时支持 Android/iOS/RN。,non_sustainable
+Devlight/InfiniteCycleViewPager,Devlight,InfiniteCycleViewPager,5711,Java,2016-08-22T08:04:39Z,2022-08-09T20:20:47Z,False,Infinite cycle ViewPager with two-way orientation and interactive effect.,non_sustainable
+hanks-zyh/HTextView,hanks-zyh,HTextView,5655,Java,2015-12-19T16:34:59Z,2021-05-07T03:48:05Z,False,"Animation effects to text, not really textview",non_sustainable
+ElderDrivers/EdXposed,ElderDrivers,EdXposed,5636,Java,2019-01-18T16:18:19Z,2022-04-12T13:23:50Z,False,Elder driver Xposed Framework.,non_sustainable
+hongyangAndroid/FlowLayout,hongyangAndroid,FlowLayout,5588,Java,2015-08-28T09:32:31Z,2019-10-13T14:59:04Z,False,[不再维护]Android流式布局，支持单选、多选等，适合用于产品标签等。,non_sustainable
+wuhaoyu1990/MagicCamera,wuhaoyu1990,MagicCamera,5505,Java,2016-01-08T11:36:56Z,2020-10-22T09:22:50Z,False,Real-time Filter Camera&VideoRecorder And ImageEditor With Face Beauty For Android---包含美颜等40余种实时滤镜相机，可拍照、录像、图片修改,non_sustainable
+Jasonchenlijian/FastBle,Jasonchenlijian,FastBle,5467,Java,2016-08-23T02:06:33Z,2022-07-27T09:20:44Z,False,"Android Bluetooth Low Energy (BLE) Fast Development Framework. It uses simple ways to filter, scan, connect, read ,write, notify, readRssi, setMTU, and multiConnection.",non_sustainable
+sockeqwe/mosby,sockeqwe,mosby,5465,Java,2015-03-25T00:59:19Z,2022-03-09T15:17:41Z,False,A Model-View-Presenter / Model-View-Intent library for modern Android apps,non_sustainable
+alibaba/freeline,alibaba,freeline,5452,Java,2016-08-03T17:22:52Z,2020-05-10T15:57:31Z,False,"A super fast build tool for Android, an alternative to Instant Run",non_sustainable
+motianhuo/wechat,motianhuo,wechat,5444,Java,2015-05-25T02:33:37Z,2018-08-23T07:54:02Z,False,"A High Copy WeChat ,SNS APP (高仿微信)",non_sustainable
+Evernote/android-job,Evernote,android-job,5368,Java,2015-08-20T19:36:54Z,2022-07-13T04:26:11Z,False,Android library to handle jobs in the background.,non_sustainable
+lingochamp/okdownload,lingochamp,okdownload,5256,Java,2017-12-17T08:21:22Z,2022-11-04T04:02:49Z,False,"A Reliable, Flexible, Fast and Powerful download engine.",non_sustainable
+Yalantis/Side-Menu.Android,Yalantis,Side-Menu.Android,5233,Java,2015-01-13T11:11:27Z,2020-08-08T20:17:09Z,False,Side menu with some categories to choose.,non_sustainable
+huangyanbin/smartTable,huangyanbin,smartTable,5226,Java,2017-11-08T01:11:14Z,2022-03-11T09:08:26Z,False,一款android自动生成表格框架---An Android automatically generated table framework,non_sustainable
+youlookwhat/DesignPattern,youlookwhat,DesignPattern,5080,Java,2016-10-21T10:59:32Z,2022-08-06T13:17:59Z,False,📚 Java 23种设计模式全归纳,non_sustainable
+2227324689/gpmall,2227324689,gpmall,5026,Java,2019-07-18T14:09:22Z,2022-12-11T01:19:58Z,False,【咕泡学院实战项目】-基于SpringBoot+Dubbo构建的电商平台-微服务架构、商城、电商、微服务、高并发、kafka、Elasticsearch,non_sustainable
+yipianfengye/android-zxingLibrary,yipianfengye,android-zxingLibrary,5011,Java,2016-07-26T08:00:18Z,2021-08-20T19:07:06Z,False,几行代码快速集成二维码扫描功能,non_sustainable
+rubensousa/GravitySnapHelper,rubensousa,GravitySnapHelper,4998,Java,2016-08-31T07:25:23Z,2022-01-24T11:27:08Z,False,A SnapHelper that snaps a RecyclerView to an edge.,non_sustainable
+roncoo/roncoo-pay,roncoo,roncoo-pay,4955,Java,2016-07-21T02:46:06Z,2022-12-31T13:23:01Z,False,龙果支付系统（roncoo-pay）是国内首款开源的互联网支付系统，拥有独立的账户体系、用户体系、支付接入体系、支付交易体系、对账清结算体系。目标是打造一款集成主流支付方式且轻量易用的支付收款系统，满足互联网业务系统打通支付通道实现支付收款和业务资金管理等功能。,non_sustainable
+Ramotion/folding-cell-android,Ramotion,folding-cell-android,4895,Java,2016-04-01T11:38:47Z,2022-09-21T05:01:27Z,False,:octocat: 📃  FoldingCell is a material design expanding content cell inspired by folding paper material made by @Ramotion,non_sustainable
+hongyangAndroid/baseAdapter,hongyangAndroid,baseAdapter,4720,Java,2015-08-03T02:55:51Z,2021-10-13T10:21:40Z,False,"Android 万能的Adapter for ListView,RecyclerView,GridView等，支持多种Item类型的情况。",non_sustainable
+hansonwang99/Spring-Boot-In-Action,hansonwang99,Spring-Boot-In-Action,4707,Java,2019-01-28T12:56:51Z,2022-12-16T04:38:12Z,False,Spring Boot 系列实战合集,non_sustainable
+jgilfelt/chuck,jgilfelt,chuck,4697,Java,2017-02-07T23:51:39Z,2021-12-13T11:44:58Z,False,An in-app HTTP inspector for Android OkHttp clients,non_sustainable
+wdullaer/MaterialDateTimePicker,wdullaer,MaterialDateTimePicker,4651,Java,2015-01-03T19:41:03Z,2022-08-23T14:10:14Z,False,Pick a date or time on Android in style,non_sustainable
+SplashCodes/JAViewer,SplashCodes,JAViewer,4601,Java,2016-05-21T08:47:10Z,2021-08-22T07:00:24Z,False,更优雅的驾车体验,non_sustainable
+chentao0707/SimplifyReader,chentao0707,SimplifyReader,4563,Java,2015-08-17T08:22:53Z,2021-09-17T06:40:26Z,False,一款基于Google Material Design设计开发的Android客户端，包括新闻简读，图片浏览，视频爽看 ，音乐轻听以及二维码扫描五个子模块。项目采取的是MVP架构开发，由于还是摸索阶段，可能不是很规范。但基本上应该是这么个套路，至少我个人认为是这样的~恩，就是这样的！,non_sustainable
+javagrowing/JGrowing,javagrowing,JGrowing,4560,Java,2019-02-26T01:55:08Z,2020-10-13T13:45:13Z,False,Java is Growing up but not only Java。Java成长路线，但学到不仅仅是Java。,non_sustainable
+Flipboard/bottomsheet,Flipboard,bottomsheet,4513,Java,2015-04-23T17:37:32Z,2019-03-13T10:10:01Z,False,Android component which presents a dismissible view from the bottom of the screen,non_sustainable
+HotBitmapGG/bilibili-android-client,HotBitmapGG,bilibili-android-client,4490,Java,2016-06-01T04:36:01Z,2021-03-17T10:25:18Z,False,An unofficial bilibili client for android  http://www.jianshu.com/p/f69a55b94c05   -- 该项目已停止维护！,non_sustainable
+Meituan-Dianping/Robust,Meituan-Dianping,Robust,4465,Java,2017-03-14T10:14:50Z,2022-04-27T10:11:34Z,False,Robust is an Android HotFix solution with high compatibility and high stability. Robust can fix bugs immediately without a reboot.,non_sustainable
+Ashok-Varma/BottomNavigation,Ashok-Varma,BottomNavigation,4361,Java,2016-03-19T19:19:30Z,2020-12-14T10:06:25Z,False,This Library helps users to use Bottom Navigation Bar (A new pattern from google) with ease and allows ton of customizations,non_sustainable
+jeasonlzy/ImagePicker,jeasonlzy,ImagePicker,4308,Java,2016-01-27T17:05:03Z,2020-10-27T06:08:16Z,False,完全仿微信的图片选择，并且提供了多种图片加载接口，选择图片后可以旋转，可以裁剪成矩形或圆形，可以配置各种其他的参数,non_sustainable
+bjmashibing/InternetArchitect,bjmashibing,InternetArchitect,4282,Java,2019-10-19T16:32:01Z,2022-12-14T20:42:20Z,False,年薪百万互联网架构师课程文档及源码(公开部分),non_sustainable
+brianway/java-learning,brianway,java-learning,4281,Java,2016-02-09T05:20:58Z,2022-01-08T16:03:06Z,False,旨在打造在线最佳的 Java 学习笔记，含博客讲解和源码实例，包括 Java SE 和 Java Web,non_sustainable
+yhaolpz/FloatWindow,yhaolpz,FloatWindow,4197,Java,2017-11-14T14:33:55Z,2021-10-13T09:50:11Z,False,Andorid 任意界面悬浮窗，实现悬浮窗如此简单,non_sustainable
+hugeterry/CoordinatorTabLayout,hugeterry,CoordinatorTabLayout,4190,Java,2017-01-27T13:40:28Z,2019-12-25T03:38:34Z,False,Combination of TabLayout and CoordinatorLayout./TabLayout和CoordinatorLayout相结合的折叠控件,non_sustainable
+Jacksgong/JKeyboardPanelSwitch,Jacksgong,JKeyboardPanelSwitch,4186,Java,2015-07-01T17:42:01Z,2020-08-18T05:13:02Z,False,For resolve the layout conflict when keybord & panel are switching (Android键盘面板冲突 布局闪动处理方案),non_sustainable
+dinuscxj/LoadingDrawable,dinuscxj,LoadingDrawable,4112,Java,2016-04-16T07:33:57Z,2017-04-13T09:50:48Z,False,"Some beautiful android loading drawable, can be combined with any view as the LoadingView or the ProgressBar. Besides, some Drawable can customize the loading progress too.",non_sustainable
+qunarcorp/bistoury,qunarcorp,bistoury,4092,Java,2019-08-01T07:54:25Z,2022-12-16T08:45:38Z,False,Bistoury是去哪儿网的java应用生产问题诊断工具，提供了一站式的问题诊断方案,non_sustainable
+rubensousa/ViewPagerCards,rubensousa,ViewPagerCards,4071,Java,2016-08-20T15:24:12Z,2018-03-11T10:12:42Z,False,ViewPager cards inspired by Duolingo,non_sustainable
+orhanobut/hawk,orhanobut,hawk,4058,Java,2015-02-19T22:25:23Z,2022-07-10T10:09:05Z,False,"✔️ Secure, simple key-value storage for Android",non_sustainable
+jbloch/effective-java-3e-source-code,jbloch,effective-java-3e-source-code,4011,Java,2018-08-03T20:48:35Z,2020-10-28T20:11:11Z,False,"The source code from the third edition of Effective Java, with minor additions as necessary to make it runnable.",non_sustainable
+Yalantis/Phoenix,Yalantis,Phoenix,3993,Java,2015-01-12T14:11:20Z,2022-09-22T09:40:03Z,False,Phoenix Pull-to-Refresh,non_sustainable
+Piasy/BigImageViewer,Piasy,BigImageViewer,3992,Java,2016-11-06T09:55:02Z,2022-12-12T00:31:21Z,False,"Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso. Even with gif and ",non_sustainable
+qstumn/BadgeView,qstumn,BadgeView,3975,Java,2017-02-08T02:01:39Z,2021-03-30T01:28:09Z,False,支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView,non_sustainable
+linyiqun/DataMiningAlgorithm,linyiqun,DataMiningAlgorithm,3942,Java,2015-01-11T02:50:28Z,2016-03-26T13:15:34Z,False,数据挖掘18大算法实现以及其他相关经典DM算法,non_sustainable
+rengwuxian/RxJavaSamples,rengwuxian,RxJavaSamples,3927,Java,2016-03-24T13:08:10Z,2018-01-16T14:39:53Z,False,RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例,non_sustainable
+amirzaidi/Launcher3,amirzaidi,Launcher3,3896,Java,2017-05-30T12:53:32Z,2022-08-24T13:51:46Z,False,"The Launcher3 fork known as ""Rootless Pixel Launcher""",non_sustainable
+wendux/DSBridge-Android,wendux,DSBridge-Android,3871,Java,2017-01-02T11:58:53Z,2020-09-11T06:36:58Z,False,":earth_americas: A modern cross-platform JavaScript bridge, through which you can invoke each other's functions synchronously or asynchronously between JavaScript and native.",non_sustainable
+aurelhubert/ahbottomnavigation,aurelhubert,ahbottomnavigation,3825,Java,2016-03-17T12:17:56Z,2021-07-10T21:57:52Z,False,A library to reproduce the behavior of the Bottom Navigation guidelines from Material Design.,non_sustainable
+MiguelCatalan/MaterialSearchView,MiguelCatalan,MaterialSearchView,3822,Java,2015-09-14T17:13:46Z,2020-07-24T16:31:11Z,False,Cute library to implement SearchView in a Material Design Approach,non_sustainable
+sunfusheng/MarqueeView,sunfusheng,MarqueeView,3793,Java,2016-06-01T06:50:46Z,2020-11-11T01:33:50Z,False,俗名：可垂直跑、可水平跑的跑马灯；学名：可垂直翻、可水平翻的翻页公告,non_sustainable
+mcxtzhang/SwipeDelMenuLayout,mcxtzhang,SwipeDelMenuLayout,3786,Java,2016-08-25T08:10:45Z,2020-01-02T06:03:55Z,False,"The most simple SwipeMenu in the history, 0 coupling, support any ViewGroup. Step integration swipe (delete) menu, high imitation QQ, iOS. ~史上最简单侧滑菜单，0耦合，支持任意ViewGroup。一步集成侧滑(删除)菜单，高仿QQ、IOS。~",non_sustainable
+mpusher/mpush,mpusher,mpush,3778,Java,2016-04-28T01:43:19Z,2022-06-17T01:50:04Z,False,MPush开源实时消息推送系统,non_sustainable
