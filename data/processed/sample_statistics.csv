@@ -1,0 +1,11 @@
+language,sustainability_status,count
+Go,non_sustainable,2
+Go,sustainable,50
+Java,non_sustainable,7
+Java,sustainable,56
+JavaScript,non_sustainable,6
+JavaScript,sustainable,50
+Python,non_sustainable,19
+Python,sustainable,50
+TypeScript,non_sustainable,8
+TypeScript,sustainable,50
