@@ -1,6 +1,6 @@
 # Verified References for Final Report
 
-> **Status:** All references verified with DOIs/ISBNs on Dec 26, 2025
+> **Status:** All references verified with DOIs/ISBNs on Dec 27, 2025 (manually verified via browser)
 > **Format:** IEEE Conference Style
 
 ---
@@ -11,21 +11,25 @@
 **"The Social Structure of Free and Open Source Software Development"**
 *First Monday*, 10(2).
 **DOI:** [10.5210/fm.v10i2.1207](https://doi.org/10.5210/fm.v10i2.1207)
+**Direct Link:** https://firstmonday.org/ojs/index.php/fm/article/view/1207
 
 ### [2] Chengalur-Smith, I., Sidorova, A., & Daniel, S. L. (2010)
 **"Sustainability of Free/Libre Open Source Projects: A Longitudinal Study"**
 *Journal of the Association for Information Systems*, 11(11), 657-683.
 **DOI:** [10.17705/1jais.00244](https://doi.org/10.17705/1jais.00244)
+**Direct Link:** https://aisel.aisnet.org/jais/vol11/iss11/5/
 
 ### [3] Coelho, J., & Valente, M. T. (2017)
 **"Why Modern Open Source Projects Fail"**
 *Proc. ESEC/FSE 2017*, pp. 186-196.
 **DOI:** [10.1145/3106237.3106246](https://doi.org/10.1145/3106237.3106246)
+**Direct Link:** https://dl.acm.org/doi/10.1145/3106237.3106246
 
 ### [4] Khondhu, J., Capiluppi, A., & Stol, K.-J. (2013)
 **"Is It All Lost? A Study of Inactive Open Source Projects"**
-*OSS 2013*, pp. 61-79.
-**DOI:** [10.1109/OSS.2013.19](https://doi.org/10.1109/OSS.2013.19)
+*9th International Conference on Open Source Systems (OSS 2013)*, LNCS 7925, pp. 61-79. Springer.
+**DOI:** [10.1007/978-3-642-38928-3_5](https://doi.org/10.1007/978-3-642-38928-3_5)
+**Direct Link:** https://link.springer.com/chapter/10.1007/978-3-642-38928-3_5
 
 ### [5] Fogel, K. (2005)
 **"Producing Open Source Software: How to Run a Successful Free Software Project"**
@@ -37,26 +41,31 @@ O'Reilly Media.
 **"The Emergence of Governance in an Open Source Community"**
 *Academy of Management Journal*, 50(5), 1079-1106.
 **DOI:** [10.5465/AMJ.2007.27169153](https://doi.org/10.5465/AMJ.2007.27169153)
+**Direct Link:** https://journals.aom.org/doi/10.5465/amj.2007.27169153
 
 ### [7] Goggins, S. P., Lumbard, K., & Germonprez, M. (2021)
 **"Open Source Community Health: Analytical Metrics and Their Corresponding Narratives"**
 *Proc. SoHeal @ ICSE 2021*.
 **DOI:** [10.1109/SoHeal52568.2021.00010](https://doi.org/10.1109/SoHeal52568.2021.00010)
+**Direct Link:** https://ieeexplore.ieee.org/document/9474775
 
 ### [8] Avelino, G., Passos, L., Hora, A., & Valente, M. T. (2016)
 **"A Novel Approach for Estimating Truck Factors"**
 *Proc. ICPC 2016*, pp. 1-10.
 **DOI:** [10.1109/ICPC.2016.7503718](https://doi.org/10.1109/ICPC.2016.7503718)
+**Direct Link:** https://ieeexplore.ieee.org/document/7503718
 
 ### [9] Constantinou, E., & Mens, T. (2017)
 **"Socio-technical Evolution of the Ruby Ecosystem in GitHub"**
 *Proc. SANER 2017*, pp. 34-44.
-**DOI:** [10.1109/SANER.2017.7884639](https://doi.org/10.1109/SANER.2017.7884639)
+**DOI:** [10.1109/SANER.2017.7884607](https://doi.org/10.1109/SANER.2017.7884607)
+**Direct Link:** https://ieeexplore.ieee.org/document/7884607
 
 ### [10] Borges, H., Hora, A., & Valente, M. T. (2016)
 **"Understanding the Factors That Impact the Popularity of GitHub Repositories"**
 *Proc. ICSME 2016*, pp. 334-344.
-**DOI:** [10.1109/ICSME.2016.29](https://doi.org/10.1109/ICSME.2016.29)
+**DOI:** [10.1109/ICSME.2016.31](https://doi.org/10.1109/ICSME.2016.31)
+**Direct Link:** https://ieeexplore.ieee.org/document/7816479
 
 ---
 
@@ -66,16 +75,19 @@ O'Reilly Media.
 **"The ABC of Software Engineering Research"**
 *ACM Transactions on Software Engineering and Methodology*, 27(3), Article 11, pp. 1-51.
 **DOI:** [10.1145/3241743](https://doi.org/10.1145/3241743)
+**Direct Link:** https://dl.acm.org/doi/10.1145/3241743
 
 ### [12] Valiev, M., Vasilescu, B., & Herbsleb, J. (2018)
 **"Ecosystem-Level Determinants of Sustained Activity in Open-Source Projects: A Case Study of the PyPI Ecosystem"**
 *Proc. ESEC/FSE 2018*, pp. 644-655.
 **DOI:** [10.1145/3236024.3236062](https://doi.org/10.1145/3236024.3236062)
+**Direct Link:** https://dl.acm.org/doi/10.1145/3236024.3236062
 
 ### [13] Mockus, A., Fielding, R. T., & Herbsleb, J. D. (2002)
 **"Two Case Studies of Open Source Software Development: Apache and Mozilla"**
 *ACM Transactions on Software Engineering and Methodology*, 11(3), 309-346.
 **DOI:** [10.1145/567793.567795](https://doi.org/10.1145/567793.567795)
+**Direct Link:** https://dl.acm.org/doi/10.1145/567793.567795
 
 ---
 
@@ -101,10 +113,10 @@ O'Reilly Media.
 
 ## Industry Reports & Announcements
 
-### [18] Synopsys (2024)
+### [18] Black Duck (2024)
 **"Open Source Security and Risk Analysis (OSSRA) Report 2024"**
-Synopsys Software Integrity Group.
-**URL:** https://www.blackduck.com/resources/reports/ossra.html
+Black Duck Software (formerly Synopsys Software Integrity Group).
+**URL:** https://www.blackduck.com/resources/analyst-reports/open-source-security-risk-analysis.html
 **Finding cited:** 91% of codebases contained OSS components with no development activity in past 2 years
 
 ### [19] GitHub (2022)
@@ -117,6 +129,7 @@ GitHub Blog, June 8, 2022.
 **"Six Million (Suspected) Fake Stars in GitHub: A Growing Spiral of Popularity Contests, Scams, and Malware"**
 *arXiv preprint arXiv:2412.13459*.
 **DOI:** [10.48550/arXiv.2412.13459](https://doi.org/10.48550/arXiv.2412.13459)
+**Direct Link:** https://arxiv.org/abs/2412.13459
 **Finding cited:** Fake stars "fail to bring true attention in the long term"
 
 ---
@@ -127,12 +140,14 @@ GitHub Blog, June 8, 2022.
 **"Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"**
 *Journal of the Royal Statistical Society: Series B*, 57(1), 289-300.
 **DOI:** [10.1111/j.2517-6161.1995.tb02031.x](https://doi.org/10.1111/j.2517-6161.1995.tb02031.x)
+**Direct Link:** https://academic.oup.com/jrsssb/article/57/1/289/7035855
 **Used for:** FDR correction in Phase 9c
 
 ### [22] Kaplan, E. L., & Meier, P. (1958)
 **"Nonparametric Estimation from Incomplete Observations"**
 *Journal of the American Statistical Association*, 53(282), 457-481.
 **DOI:** [10.1080/01621459.1958.10501452](https://doi.org/10.1080/01621459.1958.10501452)
+**Direct Link:** https://www.tandfonline.com/doi/abs/10.1080/01621459.1958.10501452
 **Used for:** Survival analysis in Phase 9b
 
 ### [23] Lundberg, S. M., & Lee, S. I. (2017)
