@@ -149,6 +149,30 @@ LIMIT 2000;
 
 ---
 
+## Phase 6: Community Data ✅
+
+### Step 6.1: GHArchive - Community Events
+
+**Date:** December 27, 2024
+
+**Query:** [`queries/community_query_full.sql`](queries/community_query_full.sql)
+
+**Dataset:** `githubarchive.month.2024*` (BigQuery - all of 2024)
+
+**Cost:** ~€25 (4.79 TB scanned)
+
+**Metrics extracted:**
+- `median_issue_response_days` - Time to first response on issues
+- `median_pr_review_days` - Time to first PR review
+- `unique_contributors` - Distinct contributors in 2024
+- `total_commits` - Total commits in 2024
+
+**Results:** 500/500 repos queried (~350 have activity data, ~150 inactive)
+
+**Output File:** [`raw/community_results.csv`](raw/community_results.csv)
+
+---
+
 ## File Structure
 
 ```
@@ -157,14 +181,16 @@ data/
 ├── raw/
 │   ├── project_sample_raw.csv  # BigQuery export (2,000 trending repos)
 │   ├── archived_repos.csv      # GitHub search (831 non-sustainable)
-│   └── scorecard_results.csv   # OpenSSF Scorecard (1.28M repos)
+│   ├── scorecard_results.csv   # OpenSSF Scorecard (1.28M repos)
+│   └── community_results.csv   # GHArchive community metrics
 ├── processed/
 │   ├── balanced_sample.csv     # ✨ FINAL SAMPLE (500 projects)
 │   ├── balanced_sample_stats.csv
 │   └── governance_metrics.csv  # Governance/security metrics
 └── queries/
     ├── sample_selection.sql    # BigQuery SQL query
-    └── scorecard_query.sql     # OpenSSF Scorecard query
+    ├── scorecard_query.sql     # OpenSSF Scorecard query
+    └── community_query_full.sql # GHArchive community query
 
 scripts/
 ├── process_sample.py           # Initial processing
@@ -192,11 +218,13 @@ scripts/
 2. **Sustainable projects:** From trending repos (survivorship bias acknowledged)
 3. **Non-sustainable projects:** Explicitly archived or inactive since 2022
 4. **Governance coverage:** GitHub API (100%), Scorecard (53%)
-5. **Reference date:** December 2024
+5. **Community coverage:** ~350/500 with activity data (inactive projects have nulls)
+6. **Reference date:** December 2024
 
 ---
 
-## ✅ Phase 1-5 Complete
+## ✅ Phase 1-6 Complete
 
-Sample selection and governance data extraction complete. Ready for Phase 6 (Community Data).
+Sample selection, governance data, and community data extraction complete. Ready for data merging and analysis.
+
 
