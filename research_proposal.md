@@ -62,7 +62,7 @@ Our findings will benefit:
 |---|-------------------|-----------|---------------|
 | **RQ1** | What governance and documentation practices (presence of CONTRIBUTING.md, CODE_OF_CONDUCT, explicit maintainer guidelines, responsive issue templates) differentiate projects that maintain long-term consistent activity from those that become inactive? | Governance | Tests assumption that governance maturity predicts sustainability; actionable for maintainers |
 | **RQ2** | How do community health indicators (median issue response time, PR review turnaround, contributor diversity index, maintainer bus factor) correlate with project survival probability over time? | Community | Quantifies community dynamics impact; uses established CHAOSS metrics for validity |
-| **RQ3** | Does a project's ecosystem position (number of dependent packages, position in dependency network) correlate with its long-term sustainability? | Ecosystem | Explores whether being critical infrastructure helps survival |
+| **RQ3** | Does a project's ecosystem footprint (forks and watchers as proxies for usage and interest) correlate with its long-term sustainability? | Ecosystem | proxies for downstream usage and community interest |
 | **RQ4** | To what extent do traditional popularity metrics (stars, forks) predict actual project sustainability compared to governance, community, and ecosystem factors? | Validation | Directly challenges industry assumptions; high practitioner relevance |
 ---
 
@@ -184,9 +184,9 @@ We include **five languages** to ensure broad ecosystem coverage. Our preliminar
 
 | Variable | Measurement | Source |
 |----------|-------------|--------|
-| Dependent package count | Number of packages that depend on this project | deps.dev / Libraries.io |
-| Reverse dependency depth | How many layers of dependencies include this | deps.dev / Libraries.io |
-| Ecosystem centrality | PageRank or similar in dependency graph | deps.dev / Libraries.io |
+| Fork count | Number of forks (proxy for derivative work/usage) | GitHub API |
+| Watcher count | Number of subscribers (proxy for interest) | GitHub API |
+| Network Size | Total size of fork network | GitHub API |
 
 ### Independent Variables (RQ4: Popularity Metrics)
 
@@ -215,7 +215,7 @@ We include **five languages** to ensure broad ecosystem coverage. Our preliminar
 |--------|---------|--------|-----------|
 | **GHArchive** (BigQuery) | Activity history (commits, issues, PRs, stars) | `githubarchive` dataset on BigQuery | Updated hourly, 2011-present |
 | **OpenSSF Scorecard** | Governance metrics (CONTRIBUTING.md, CODE_OF_CONDUCT, etc.) | BigQuery: `openssf:scorecardcron.scorecard-v2_latest` | Updated weekly |
-| **deps.dev** (Open Source Insights) | Dependency network, ecosystem position (RQ3) | BigQuery: `deps_dev_v1` | Hourly for active packages |
+| **GitHub REST API** (Ecosystem) | Forks, Watchers, Stars (Proxies for usage/interest) | `api.github.com` | Real-time |
 | **GitHub REST API** | File presence fallback, current metadata | https://docs.github.com/en/rest | Real-time |
 
 ## 4.2 Supplementary Data Sources
@@ -243,17 +243,17 @@ Data Collection Pipeline
 │   ├── GitHub API fallback for repos not in Scorecard
 │   └── Output: governance_metrics.csv
 │
-├── Phase 3: Community Data (Week 9-10)
+├── Phase 6: Community Data (Week 9-10)
 │   ├── GHArchive: Extract issue/PR event timelines
 │   ├── Calculate response times, review times (within project's active period)
 │   ├── Calculate contributor diversity metrics
-│   └── Output: community_metrics.csv
+│   └── Output: community_results.csv
 │
-├── Phase 4: Ecosystem Data (Week 10)
-│   ├── deps.dev: Query dependent package counts for all 5 languages
+├── Phase 7: Ecosystem Data (Week 10)
+│   ├── GitHub API: Query forks and watchers (ecosystem proxies) for all 500 repos
 │   └── Output: ecosystem_metrics.csv
 │
-├── Phase 5: Merge & Clean (Week 10)
+├── Phase 8: Merge & Clean (Week 10)
 │   ├── Merge all datasets on project_id
 │   ├── Handle missing values
 │   ├── Validate data quality

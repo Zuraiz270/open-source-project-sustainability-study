@@ -173,6 +173,28 @@ LIMIT 2000;
 
 ---
 
+## Phase 7: Ecosystem Data ✅
+
+### Step 7.1: GitHub API - Ecosystem Proxies
+
+**Date:** December 27, 2024
+
+**Method:** GitHub API (Proxies for ecosystem importance)
+
+**Reasoning:** External dependency data (deps.dev, Libraries.io) had insufficient coverage (0 matches) for the sample. Used GitHub native metrics as valid proxies for project impact.
+
+**Metrics extracted:**
+- `forks_count` - Derivative work (strong proxy for usage/contribution)
+- `subscribers_count` (Watchers) - Active interest
+- `network_count` - Total fork network size
+- `stargazers_count` - Community validation (cross-reference)
+
+**Results:** 500/500 repos queried (100% success)
+
+**Output File:** [`processed/ecosystem_metrics.csv`](processed/ecosystem_metrics.csv)
+
+---
+
 ## File Structure
 
 ```
@@ -186,7 +208,8 @@ data/
 ├── processed/
 │   ├── balanced_sample.csv     # ✨ FINAL SAMPLE (500 projects)
 │   ├── balanced_sample_stats.csv
-│   └── governance_metrics.csv  # Governance/security metrics
+│   ├── governance_metrics.csv  # Governance/security metrics
+│   └── ecosystem_metrics.csv   # Ecosystem proxies (Stars/Forks/Watchers)
 └── queries/
     ├── sample_selection.sql    # BigQuery SQL query
     ├── scorecard_query.sql     # OpenSSF Scorecard query
@@ -197,7 +220,8 @@ scripts/
 ├── enrich_data.py              # GitHub API enrichment  
 ├── find_archived_repos.py      # Find non-sustainable projects
 ├── merge_samples.py            # Create balanced sample
-└── extract_governance.py       # Governance metrics extraction
+├── extract_governance.py       # Governance metrics extraction
+└── extract_ecosystem.py        # Ecosystem proxies extraction
 ```
 
 ---
@@ -219,12 +243,13 @@ scripts/
 3. **Non-sustainable projects:** Explicitly archived or inactive since 2022
 4. **Governance coverage:** GitHub API (100%), Scorecard (53%)
 5. **Community coverage:** ~350/500 with activity data (inactive projects have nulls)
-6. **Reference date:** December 2024
+6. **Ecosystem coverage:** GitHub API proxies (100% - Forks/Watchers)
+7. **Reference date:** December 2024
 
 ---
 
-## ✅ Phase 1-6 Complete
+## ✅ Data Collection Complete
 
-Sample selection, governance data, and community data extraction complete. Ready for data merging and analysis.
+Sample selection, governance, community (Phase 6), and ecosystem (Phase 7) data collection complete. Ready for data merging.
 
 
