@@ -2,7 +2,8 @@
 -- Run in Google BigQuery: https://console.cloud.google.com/bigquery
 -- 
 -- Purpose: Extract candidate projects for sustainability analysis
--- Output: ~2000 candidate projects to filter down to 400 sample
+-- Note: This is the PLANNED query. Actual execution used simplified version.
+-- Final sample: 500 projects (see balanced_sample.csv)
 
 -- Step 1: Count stars per repo (using 2023 data as baseline)
 WITH star_counts AS (
