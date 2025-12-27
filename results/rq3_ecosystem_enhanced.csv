@@ -1,0 +1,5 @@
+Metric,Sustainable (Median),Non-sustainable (Median),Median Diff,95% CI,Spearman r,p-value,Significant
+Forks Count,2238,470,1808,"[1412, 2252]",0.502,0.0000,Yes
+Watchers Count,158,117,51,"[20, 88]",0.162,0.0003,Yes
+Stars Count,24124,4642,19537,"[16073, 22951]",0.627,0.0000,Yes
+Network Count,2238,470,1810,"[1431, 2256]",0.502,0.0000,Yes
