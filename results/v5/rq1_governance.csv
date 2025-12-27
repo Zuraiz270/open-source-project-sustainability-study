@@ -1,0 +1,8 @@
+Practice,Sustainable (%),Non-sustainable (%),Test,Chi-square,p-value,Odds Ratio,Cramer's V,Significant
+Code Of Conduct,36.4,24.8,Chi-square,7.38,0.00658231520878616,1.74,0.122,✓
+Contributing,57.6,41.2,Chi-square,12.80,0.000346277969910416,1.94,0.160,✓
+License,94.8,93.2,Chi-square,0.32,0.5721195525421807,1.33,0.025,
+Issue Template,4.4,16.4,Chi-square,18.05,2.1514371531723204e-05,0.23,0.190,✓
+Pull Request Template,43.6,19.6,Chi-square,32.21,1.3837613656389882e-08,3.17,0.254,✓
+Readme,99.6,99.6,Fisher's Exact,0.00,1.0,1.00,0.000,
+Maintainer Guidelines,18.8,5.2,Chi-square,20.62,5.586187035770254e-06,4.22,0.203,✓

@@ -505,4 +505,40 @@ Sample selection, governance, community (Phase 6), ecosystem (Phase 7), and merg
 - [`data/processed/rq2_metrics.csv`](processed/rq2_metrics.csv) - Raw metrics
 - [`data/processed/final_dataset.csv`](processed/final_dataset.csv) - Updated (31 columns)
 
+---
+
+## Phase 11: Maintainer Guidelines ✅
+
+**Date:** December 27, 2024
+**Script:** [`scripts/collect_maintainer_guidelines.py`](scripts/collect_maintainer_guidelines.py)
+
+### Data Collection
+
+**Method:** GitHub API → Check for MAINTAINERS.md, GOVERNANCE.md, CODEOWNERS
+
+| Files Checked | Description |
+|---------------|-------------|
+| MAINTAINERS.md / MAINTAINERS | Explicit maintainer list |
+| GOVERNANCE.md / GOVERNANCE | Governance documentation |
+| CODEOWNERS / .github/CODEOWNERS | Code ownership rules |
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Repos with guidelines | 60/500 (12%) |
+| Sustainable with guidelines | **18.8%** |
+| Non-sustainable with guidelines | 5.2% |
+| Difference | **3.6x more** |
+
+### Statistical Analysis
+
+| Test | Value | Significant? |
+|------|-------|--------------|
+| Chi-square | 20.6 | ✅ **Yes** |
+| p-value | p < 0.00001 | ✅ **Highly significant** |
+
+**Finding:** Maintainer guidelines have the **strongest relationship** with sustainability among all RQ1 governance metrics.
+
+
 

@@ -1,0 +1,15 @@
+Feature,Mean_SHAP
+stars_count,2.7227820357986006
+total_commits,2.250499312382433
+watchers_count,1.4371321636477494
+unique_contributors,0.902108817702671
+forks_count,0.8166376262591035
+median_issue_response_days,0.423848581426144
+contributor_diversity_gini,0.37904894399431527
+has_contributing,0.18716010399254035
+has_code_of_conduct,0.133513078693524
+bus_factor,0.11532541204033425
+has_pull_request_template,0.05342452738441537
+has_issue_template,0.01809448162510994
+has_license,0.016429749711565602
+has_maintainer_guidelines,0.0
