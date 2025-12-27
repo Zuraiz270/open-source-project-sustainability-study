@@ -472,3 +472,37 @@ Sample selection, governance, community (Phase 6), ecosystem (Phase 7), and merg
 | Achieved power | **99%** |
 | Adequate? | ✅ Yes |
 
+---
+
+## Phase 10: Missing RQ2 Metrics ✅
+
+**Date:** December 27, 2024
+**Script:** [`scripts/collect_rq2_metrics.py`](scripts/collect_rq2_metrics.py)
+
+### Data Collection
+
+**Method:** GitHub Contributors API → Bus Factor + Gini Coefficient
+
+| Metric | Collected | Missing |
+|--------|-----------|---------|
+| Bus Factor | 498/500 | 2 (deleted repos) |
+| Gini Coefficient | 498/500 | 2 |
+
+### RQ2 Results with New Metrics
+
+| Metric | Sustainable (Median) | Non-sustainable (Median) | p-value | Significant |
+|--------|----------------------|--------------------------|---------|-------------|
+| **Bus Factor** | **4.0** | 2.0 | p < 0.0001 | ✅ **Yes** |
+| **Gini (Diversity)** | **0.86** | 0.79 | p < 0.0001 | ✅ **Yes** |
+
+### Interpretation
+
+- **Bus Factor = 4**: Sustainable projects have 4 key contributors controlling 80% of commits
+- **Higher Gini**: More concentrated contributions = stronger core maintainer team
+
+### Output Files
+
+- [`data/processed/rq2_metrics.csv`](processed/rq2_metrics.csv) - Raw metrics
+- [`data/processed/final_dataset.csv`](processed/final_dataset.csv) - Updated (31 columns)
+
+
