@@ -418,7 +418,8 @@ Sample selection, governance, community (Phase 6), ecosystem (Phase 7), and merg
 
 ### RQ4: SHAP + XGBoost
 
-- **Accuracy:** 96.4%
+- **Accuracy (v3):** 96.4%
+- **Accuracy (v5):** 97.2%
 - **Top predictor:** Stars (SHAP = 2.21)
 
 ---
