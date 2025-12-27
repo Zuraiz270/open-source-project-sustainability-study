@@ -1,4 +1,5 @@
 # IEEE Conference Paper
+
 ## Factors Influencing Open-Source Software Project Sustainability: A Comparative Sample Study
 
 **Target:** 10 pages + up to 2 pages references (IEEE Conference proceedings template)
@@ -13,11 +14,13 @@
 Open-source software (OSS) has become the foundation of modern software development, with 96% of codebases containing OSS components [18]. However, a significant portion of these projects face sustainability challenges—91% of codebases contain components with no development activity in the past two years [18]. This creates substantial risk for organizations depending on OSS.
 
 **Why does it matter:**
+
 - Security vulnerabilities in unmaintained projects remain unpatched
 - Breaking changes in dependencies cascade through ecosystems
 - Organizations invest in projects that may become abandoned
 
 **For what type of practitioners:**
+
 - **OSS maintainers:** Need guidance on governance practices that promote longevity
 - **Contributors:** Must assess project health before investing effort
 - **Organizations:** Need to evaluate dependency risks
@@ -28,12 +31,12 @@ The problem appears when practitioners must decide which projects to depend on, 
 
 ## 1.2 Research Questions
 
-| RQ | Research Question | Practitioner Benefit |
-|----|-------------------|---------------------|
-| **RQ1** | What governance and documentation practices differentiate sustainable from non-sustainable projects? | Maintainers can prioritize high-impact governance practices |
-| **RQ2** | How do community health indicators (response times, bus factor, contributor diversity) correlate with survival? | Contributors can assess community health before joining |
-| **RQ3** | Do ecosystem metrics (stars, forks, watchers) correlate with sustainability? | Organizations can calibrate star-based evaluations |
-| **RQ4** | Which factors best predict sustainability when combined? | All stakeholders get an interpretable predictive model |
+| RQ            | Research Question                                                                                               | Practitioner Benefit                                        |
+| ------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **RQ1** | What governance and documentation practices differentiate sustainable from non-sustainable projects?            | Maintainers can prioritize high-impact governance practices |
+| **RQ2** | How do community health indicators (response times, bus factor, contributor diversity) correlate with survival? | Contributors can assess community health before joining     |
+| **RQ3** | Do ecosystem metrics (stars, forks, watchers) correlate with sustainability?                                    | Organizations can calibrate star-based evaluations          |
+| **RQ4** | Which factors best predict sustainability when combined?                                                        | All stakeholders get an interpretable predictive model      |
 
 ---
 
@@ -58,6 +61,7 @@ Borges et al. [10] examined factors driving GitHub popularity, noting stars ofte
 ## 2.5 Open Issues
 
 Prior work typically examines single dimensions (governance OR community OR ecosystem). No study has:
+
 1. Combined all three dimensions in one predictive framework
 2. Validated metrics against ground-truth sustainability labels
 3. Provided interpretable thresholds for practitioners
@@ -69,42 +73,46 @@ Prior work typically examines single dimensions (governance OR community OR ecos
 ## 3.1 Study Design
 
 We conducted a **comparative sample study** using repository mining, following the ABC framework [11]:
+
 - **Setting:** Neutral (analyzing existing data without manipulation)
 - **Strategy:** Sample study examining distribution in population
 - **Generalization:** Statistical (sample → GitHub population)
 
 ## 3.2 Sampling
 
-| Aspect | Value |
-|--------|-------|
-| **Source** | GHArchive via BigQuery (December 2023) |
-| **Total sample** | 500 projects |
-| **Sustainable** | 250 (active with commits in 2024) |
-| **Non-sustainable** | 250 (archived or dormant >12 months) |
-| **Languages** | Python, TypeScript, JavaScript, Go |
-| **Minimum stars** | 500 (ensures non-trivial projects) |
+| Aspect                    | Value                                    |
+| ------------------------- | ---------------------------------------- |
+| **Source**          | GHArchive via BigQuery (December 2023)   |
+| **Total sample**    | 500 projects                             |
+| **Sustainable**     | 250 (active with commits in 2024)        |
+| **Non-sustainable** | 250 (archived or dormant >12 months)     |
+| **Languages**       | Python, TypeScript, JavaScript, Go, Java |
+| **Minimum stars**   | 500 (ensures non-trivial projects)       |
 
 ## 3.3 Data Collection
 
 **Phase 1: Governance metrics**
+
 - GitHub API: Presence of CODE_OF_CONDUCT, CONTRIBUTING.md, LICENSE, issue templates, PR templates, README, MAINTAINERS.md, GOVERNANCE.md, CODEOWNERS
 
 **Phase 2: Community metrics**
+
 - GHArchive: Median issue response time, PR review time
 - GitHub Contributors API: Bus factor, contributor Gini coefficient
 
 **Phase 3: Ecosystem metrics**
+
 - GitHub API: Stars, forks, watchers
 
 **Final dataset:** 32 features across 500 repositories (see Table I)
 
 ## 3.4 Data Analysis
 
-| RQ | Method | Justification |
-|----|--------|---------------|
-| RQ1 | Chi-square, Fisher's Exact test | Categorical governance variables |
-| RQ2 | Mann-Whitney U, Survival analysis | Non-normal continuous distributions |
-| RQ3 | Spearman correlation, Decision tree thresholds | Non-linear relationships |
+| RQ  | Method                                            | Justification                             |
+| --- | ------------------------------------------------- | ----------------------------------------- |
+| RQ1 | Chi-square, Fisher's Exact test                   | Categorical governance variables          |
+| RQ2 | Mann-Whitney U, Survival analysis                 | Non-normal continuous distributions       |
+| RQ3 | Spearman correlation, Decision tree thresholds    | Non-linear relationships                  |
 | RQ4 | Logistic Regression, Random Forest, XGBoost, SHAP | Predictive modeling with interpretability |
 
 ## 3.5 Robustness Checks
@@ -121,12 +129,12 @@ We conducted a **comparative sample study** using repository mining, following t
 
 **Table II: Governance adoption by sustainability status**
 
-| Practice | Sustainable | Non-sustainable | χ² | p-value | OR |
-|----------|-------------|-----------------|----|---------|----|
-| Contributing guide | 57.6% | 41.2% | 12.8 | 0.0003 | 1.94 |
-| Code of conduct | 36.4% | 24.8% | 7.4 | 0.007 | 1.74 |
-| PR template | 43.6% | 19.6% | 32.2 | <0.0001 | 3.17 |
-| **Maintainer guidelines** | **18.8%** | **5.2%** | **20.6** | **<0.0001** | **4.22** |
+| Practice                        | Sustainable     | Non-sustainable | χ²           | p-value           | OR             |
+| ------------------------------- | --------------- | --------------- | -------------- | ----------------- | -------------- |
+| Contributing guide              | 57.6%           | 41.2%           | 12.8           | 0.0003            | 1.94           |
+| Code of conduct                 | 36.4%           | 24.8%           | 7.4            | 0.007             | 1.74           |
+| PR template                     | 43.6%           | 19.6%           | 32.2           | <0.0001           | 3.17           |
+| **Maintainer guidelines** | **18.8%** | **5.2%**  | **20.6** | **<0.0001** | **4.22** |
 
 **Key finding:** Maintainer guidelines (MAINTAINERS.md, GOVERNANCE.md, or CODEOWNERS) show the strongest association with sustainability (OR=4.22).
 
@@ -136,11 +144,11 @@ We conducted a **comparative sample study** using repository mining, following t
 
 **Table III: Community metrics by sustainability status**
 
-| Metric | Sustainable (median) | Non-sustainable (median) | p-value | Effect (r) |
-|--------|---------------------|-------------------------|---------|------------|
-| Issue response time | 0.54 days | 1.78 days | <0.0001 | 0.27 |
-| **Bus factor** | **4** | **2** | **<0.0001** | **0.30** |
-| Contributor Gini | 0.86 | 0.79 | <0.0001 | 0.38 |
+| Metric               | Sustainable (median) | Non-sustainable (median) | p-value           | Effect (r)     |
+| -------------------- | -------------------- | ------------------------ | ----------------- | -------------- |
+| Issue response time  | 0.54 days            | 1.78 days                | <0.0001           | 0.27           |
+| **Bus factor** | **4**          | **2**              | **<0.0001** | **0.30** |
+| Contributor Gini     | 0.86                 | 0.79                     | <0.0001           | 0.38           |
 
 **Key finding:** Sustainable projects have 2x higher bus factor, indicating more distributed leadership.
 
@@ -150,11 +158,11 @@ We conducted a **comparative sample study** using repository mining, following t
 
 **Table IV: Ecosystem thresholds**
 
-| Metric | Threshold | Below | Above | Lift |
-|--------|-----------|-------|-------|------|
-| Stars | 11,934 | 22.4% sustainable | 92.9% sustainable | 4.15x |
-| Forks | 1,724 | 31.6% | 83.6% | 2.65x |
-| Watchers | 2,628 | 35.1% | 80.7% | 2.30x |
+| Metric   | Threshold | Below             | Above             | Lift  |
+| -------- | --------- | ----------------- | ----------------- | ----- |
+| Stars    | 11,934    | 22.4% sustainable | 92.9% sustainable | 4.15x |
+| Forks    | 1,724     | 31.6%             | 83.6%             | 2.65x |
+| Watchers | 2,628     | 35.1%             | 80.7%             | 2.30x |
 
 **Key finding:** Stars correlate with sustainability but with diminishing returns—projects above threshold are 4.15x more likely to be sustainable.
 
@@ -164,11 +172,11 @@ We conducted a **comparative sample study** using repository mining, following t
 
 **Table V: Model performance**
 
-| Model | Accuracy | ROC-AUC |
-|-------|----------|---------|
-| Logistic Regression | 86.6% (±2.3) | 0.928 (±0.017) |
-| Random Forest | 95.0% (±2.3) | 0.991 (±0.004) |
-| **XGBoost** | **97.2% (±1.2)** | **0.993 (±0.007)** |
+| Model               | Accuracy                | ROC-AUC                   |
+| ------------------- | ----------------------- | ------------------------- |
+| Logistic Regression | 86.6% (±2.3)           | 0.928 (±0.017)           |
+| Random Forest       | 95.0% (±2.3)           | 0.991 (±0.004)           |
+| **XGBoost**   | **97.2% (±1.2)** | **0.993 (±0.007)** |
 
 **Top SHAP features:** Stars (2.21), Forks (1.54), Gini (0.89), Bus factor (0.67)
 
@@ -185,46 +193,51 @@ We conducted a **comparative sample study** using repository mining, following t
 ### How results address the problem:
 
 1. **Governance maturity matters more than documentation breadth**
+
    - Maintainer guidelines (OR=4.22) outperform contributing guides (OR=1.94)
    - *Implication for maintainers:* Prioritize explicit governance over generic documentation
-
 2. **Contributor structure predicts longevity**
+
    - Bus factor of 4 indicates sustainable leadership distribution
    - *Implication for contributors:* Assess whether key-person risk exists before joining
-
 3. **Stars are necessary but not sufficient**
+
    - Threshold effect at ~12k stars with diminishing returns
    - *Implication for organizations:* Don't rely solely on star counts for dependency decisions
-
 4. **Combined models outperform single-dimension evaluations**
+
    - 97.2% accuracy demonstrates multi-factor assessment superiority
    - *Implication for all stakeholders:* Use holistic evaluation frameworks
 
 ### Recommendations for practitioners:
 
-| Stakeholder | Action |
-|-------------|--------|
-| **Maintainers** | Add MAINTAINERS.md or GOVERNANCE.md early |
-| **Contributors** | Check bus factor >3 and response times <1 day |
-| **Organizations** | Use combined metrics, not just stars |
-| **Funders** | Prioritize projects with explicit governance |
+| Stakeholder             | Action                                        |
+| ----------------------- | --------------------------------------------- |
+| **Maintainers**   | Add MAINTAINERS.md or GOVERNANCE.md early     |
+| **Contributors**  | Check bus factor >3 and response times <1 day |
+| **Organizations** | Use combined metrics, not just stars          |
+| **Funders**       | Prioritize projects with explicit governance  |
 
 ## 5.2 Limitations and Threats to Validity
 
 ### Internal validity:
+
 - **Sustainability definition:** Binary classification may oversimplify; mitigated by testing three alternative definitions (all showed robust results)
 - **Missing data:** 47% missing OpenSSF scores; addressed via MICE imputation and sensitivity analysis
 
 ### External validity:
-- **GitHub-only sample:** Results may not generalize to GitLab, self-hosted, or non-software projects
-- **Star threshold:** 500-star minimum biases toward already-successful projects
+
+- **GitHub-only sample:** Results are limited to GitHub projects and may not generalize to GitLab, Bitbucket, self-hosted repositories, or non-software projects. Practitioners should validate findings in their specific context before applying recommendations.
+- **Popularity bias:** Our 500-star minimum threshold means findings apply to already-visible projects. Early-stage or niche projects may exhibit different patterns. Results should not be extrapolated to projects below this threshold.
 
 ### Construct validity:
-- **Correlation ≠ causation:** Observational design cannot establish causal relationships; we focus on prediction, not intervention
+
+- **Prediction, not causation:** This is an observational study. All findings represent predictive associations, not causal relationships. We cannot claim that adding governance documentation *causes* sustainability—only that it *predicts* it. Correlation may arise from confounding factors (e.g., better maintainers implement both governance AND sustain projects).
 - **Temporal confounds:** Cross-sectional snapshot cannot capture dynamic evolution
 
 ### Interpretation guidance:
-Results should be interpreted as predictive associations, not causal mechanisms. Future longitudinal studies should examine whether implementing recommended practices leads to improved sustainability.
+
+> **Important:** Throughout this paper, terms like "associated with," "predicts," and "differentiates" describe statistical relationships, not causal mechanisms. Practitioners should interpret findings as indicators for assessment, not guaranteed interventions.
 
 ---
 
@@ -271,6 +284,7 @@ We analyzed 500 GitHub projects across governance, community, and ecosystem dime
 # SUPPLEMENTARY MATERIALS
 
 **Data and Code Availability:**
+
 - Dataset: `data/processed/final_dataset.csv` (32 columns, 500 rows)
 - Analysis: `scripts/run_analysis_v5.py`
 - Results: `results/v5/`
