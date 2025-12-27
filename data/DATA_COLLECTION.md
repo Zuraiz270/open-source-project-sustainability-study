@@ -113,6 +113,42 @@ LIMIT 2000;
 
 ---
 
+## Phase 5: Governance Data ✅
+
+### Step 5.1: GitHub API - Community Profile
+
+**Date:** December 27, 2024
+
+**Script:** [`../scripts/extract_governance.py`](../scripts/extract_governance.py)
+
+**Endpoint:** `GET /repos/{owner}/{repo}/community/profile`
+
+**Metrics extracted:**
+- `has_code_of_conduct` (boolean)
+- `has_contributing` (boolean)
+- `has_license` (boolean)
+- `has_readme` (boolean)
+- `health_percentage` (0-100)
+
+**Results:** 500/500 (100% coverage)
+
+### Step 5.2: OpenSSF Scorecard - Security Metrics
+
+**Query:** [`queries/scorecard_query.sql`](queries/scorecard_query.sql)
+
+**Dataset:** `openssf.scorecardcron.scorecard-v2_latest` (BigQuery)
+
+**Metrics extracted:**
+- `overall_score` (0-10)
+- `maintained_score` (0-10)
+- `code_review_score` (0-10)
+
+**Results:** 263/500 (53% coverage - Scorecard only covers popular projects)
+
+**Output File:** [`processed/governance_metrics.csv`](processed/governance_metrics.csv)
+
+---
+
 ## File Structure
 
 ```
@@ -120,18 +156,22 @@ data/
 ├── DATA_COLLECTION.md          # This documentation
 ├── raw/
 │   ├── project_sample_raw.csv  # BigQuery export (2,000 trending repos)
-│   └── archived_repos.csv      # GitHub search (831 non-sustainable)
+│   ├── archived_repos.csv      # GitHub search (831 non-sustainable)
+│   └── scorecard_results.csv   # OpenSSF Scorecard (1.28M repos)
 ├── processed/
 │   ├── balanced_sample.csv     # ✨ FINAL SAMPLE (500 projects)
-│   └── balanced_sample_stats.csv
+│   ├── balanced_sample_stats.csv
+│   └── governance_metrics.csv  # Governance/security metrics
 └── queries/
-    └── sample_selection.sql    # BigQuery SQL query
+    ├── sample_selection.sql    # BigQuery SQL query
+    └── scorecard_query.sql     # OpenSSF Scorecard query
 
 scripts/
 ├── process_sample.py           # Initial processing
 ├── enrich_data.py              # GitHub API enrichment  
 ├── find_archived_repos.py      # Find non-sustainable projects
-└── merge_samples.py            # Create balanced sample
+├── merge_samples.py            # Create balanced sample
+└── extract_governance.py       # Governance metrics extraction
 ```
 
 ---
@@ -151,10 +191,12 @@ scripts/
 1. **Star counts:** Based on WatchEvents in December 2023
 2. **Sustainable projects:** From trending repos (survivorship bias acknowledged)
 3. **Non-sustainable projects:** Explicitly archived or inactive since 2022
-4. **Reference date:** December 2024
+4. **Governance coverage:** GitHub API (100%), Scorecard (53%)
+5. **Reference date:** December 2024
 
 ---
 
-## ✅ Data Collection Complete
+## ✅ Phase 1-5 Complete
 
-All phases completed successfully. Balanced sample of 500 projects ready for analysis.
+Sample selection and governance data extraction complete. Ready for Phase 6 (Community Data).
+
