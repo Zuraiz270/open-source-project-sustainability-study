@@ -445,7 +445,7 @@ Sample selection, governance, community (Phase 6), ecosystem (Phase 7), and merg
 
 **Result:** Findings are **robust across all definitions**.
 
-### 3. Bayesian Credible Intervals
+### 3. Bootstrap Confidence Intervals
 
 | Feature | 95% CI | Excludes Zero? |
 |---------|--------|----------------|

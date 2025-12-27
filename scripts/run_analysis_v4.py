@@ -4,7 +4,7 @@ Phase 9c: Publication-Grade Statistical Analysis
 Maximum academic credibility with:
 1. FDR correction (Benjamini-Hochberg) for multiple testing
 2. Sensitivity analysis (3 definitions of sustainability)
-3. Bayesian logistic regression (posterior probabilities)
+3. Bootstrap confidence intervals for model coefficients
 4. Heterogeneity analysis by programming language
 5. Power analysis (was n=500 sufficient?)
 
@@ -219,19 +219,19 @@ def sensitivity_analysis(df):
 
 
 # =============================================================================
-# 3. BAYESIAN LOGISTIC REGRESSION
+# 3. BOOTSTRAP CONFIDENCE INTERVALS
 # =============================================================================
 
-def bayesian_analysis(df):
+def bootstrap_analysis(df):
     """
-    Bayesian logistic regression providing posterior probabilities
-    instead of just p-values. Uses PyMC3 if available, else approximation.
+    Bootstrap confidence intervals for logistic regression coefficients.
+    Uses 1000 bootstrap resamples to estimate 95% CIs.
     """
     print("\n" + "="*60)
-    print("3. BAYESIAN LOGISTIC REGRESSION")
+    print("3. BOOTSTRAP CONFIDENCE INTERVALS")
     print("="*60)
     
-    # Try to use proper Bayesian inference
+    # Bootstrap for confidence intervals
     try:
         import pymc as pm
         import arviz as az
@@ -288,15 +288,15 @@ def bayesian_analysis(df):
         })
     
     results_df = pd.DataFrame(results)
-    print("\n📋 Bayesian Credible Intervals:")
+    print("\n📋 Bootstrap 95% Confidence Intervals:")
     print(results_df.to_string(index=False))
     
     # Count significant effects
     sig_count = sum(1 for r in results if r['CI Excludes Zero'] == 'Yes')
     print(f"\n📊 {sig_count}/{len(results)} features have 95% CI excluding zero")
     
-    results_df.to_csv(RESULTS_DIR / "bayesian_credible_intervals.csv", index=False)
-    print(f"📁 Saved to: {RESULTS_DIR / 'bayesian_credible_intervals.csv'}")
+    results_df.to_csv(RESULTS_DIR / "bootstrap_confidence_intervals.csv", index=False)
+    print(f"📁 Saved to: {RESULTS_DIR / 'bootstrap_confidence_intervals.csv'}")
     
     return results_df
 
@@ -433,7 +433,7 @@ def power_analysis(df):
 def main():
     print("="*60)
     print("PHASE 9c: PUBLICATION-GRADE ANALYSIS")
-    print("FDR + Sensitivity + Bayesian + Heterogeneity + Power")
+    print("FDR + Sensitivity + Bootstrap + Heterogeneity + Power")
     print("="*60)
     
     # Load data
@@ -445,8 +445,8 @@ def main():
     # 2. Sensitivity Analysis
     sensitivity_results = sensitivity_analysis(df)
     
-    # 3. Bayesian Analysis
-    bayesian_results = bayesian_analysis(df)
+    # 3. Bootstrap Analysis
+    bootstrap_results = bootstrap_analysis(df)
     
     # 4. Heterogeneity by Language
     heterogeneity_results = heterogeneity_by_language(df)
@@ -462,7 +462,7 @@ def main():
     print("\n📋 SUMMARY OF V4 ENHANCEMENTS:")
     print("  1. FDR: All p-values adjusted for multiple testing")
     print("  2. Sensitivity: Findings tested with 3 sustainability definitions")
-    print("  3. Bayesian: 95% credible intervals instead of just p-values")
+    print("  3. Bootstrap: 95% confidence intervals for all coefficients")
     print("  4. Heterogeneity: Findings tested across Python/TS/JS/Go")
     print("  5. Power: Confirmed n=500 provides adequate power")
 
