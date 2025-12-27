@@ -1,0 +1,5 @@
+Metric,Sustainable (Median),Non-sustainable (Median),Spearman r,p-value,Significant
+Forks Count,2238,470,0.502,0.0000,Yes
+Watchers Count,158,117,0.162,0.0003,Yes
+Stars Count,24124,4642,0.627,0.0000,Yes
+Network Count,2238,470,0.502,0.0000,Yes

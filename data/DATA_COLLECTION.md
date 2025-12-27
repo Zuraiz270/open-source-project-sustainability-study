@@ -324,4 +324,66 @@ scripts/
 
 Sample selection, governance, community (Phase 6), ecosystem (Phase 7), and merging (Phase 8) are complete.
 
-**Next Step:** Analysis (Phase 9).
+---
+
+## Phase 9: Statistical Analysis ✅
+
+### Step 9.1: Run Analysis Script
+
+**Date:** December 27, 2024
+
+**Script:** [`scripts/run_analysis.py`](scripts/run_analysis.py)
+
+**Results Saved To:** `results/` folder
+
+---
+
+### RQ1: Governance Results
+
+| Practice | Sustainable | Non-sustainable | Chi-square | p-value | Significant |
+|----------|-------------|-----------------|------------|---------|-------------|
+| Code of Conduct | 36.4% | 24.8% | 7.38 | 0.0066 | **Yes** |
+| Contributing | 57.6% | 41.2% | 12.80 | 0.0003 | **Yes** |
+| License | 94.8% | 93.2% | 0.32 | 0.5721 | No |
+| Issue Template | 4.4% | 16.4% | 18.05 | <0.0001 | **Yes** |
+| PR Template | 43.6% | 19.6% | 32.21 | <0.0001 | **Yes** |
+
+**Finding:** Sustainable projects have significantly more CONTRIBUTING guides and PR templates.
+
+---
+
+### RQ2: Community Results
+
+| Metric | Sustainable (Median) | Non-sustainable (Median) | p-value | Significant |
+|--------|----------------------|--------------------------|---------|-------------|
+| Issue Response Days | **0.54** | 3.66 | <0.0001 | **Yes** |
+| PR Review Days | 0.29 | 0.12 | 0.9138 | No |
+| Unique Contributors | **3.00** | 1.00 | 0.0002 | **Yes** |
+| Total Commits | **2,302** | 23 | <0.0001 | **Yes** |
+
+**Finding:** Sustainable projects respond 6.8x faster to issues and have 100x more commits.
+
+---
+
+### RQ3: Ecosystem Results
+
+| Metric | Sustainable (Median) | Non-sustainable (Median) | Spearman r | p-value |
+|--------|----------------------|--------------------------|------------|---------|
+| Forks | 2,238 | 470 | 0.502 | <0.0001 |
+| Watchers | 158 | 117 | 0.162 | 0.0003 |
+| Stars | **24,124** | 4,642 | **0.627** | <0.0001 |
+
+**Finding:** Strong correlation between ecosystem metrics and sustainability (r=0.63 for stars).
+
+---
+
+### RQ4: Top Predictors (Logistic Regression)
+
+| Feature | Coefficient | Importance |
+|---------|-------------|------------|
+| **Forks Count** | 3.90 | #1 |
+| **Unique Contributors** | 1.84 | #2 |
+| Issue Response Days | -1.80 | #3 |
+| Watchers Count | -1.02 | #4 |
+
+**Finding:** Forks and contributor count are the strongest predictors of sustainability.

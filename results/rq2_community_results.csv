@@ -1,0 +1,5 @@
+Metric,Sustainable (Median),Non-sustainable (Median),U-statistic,p-value,Effect Size,Significant
+Median Issue Response Days,0.54,3.66,20488,0.0000,0.344,Yes
+Median Pr Review Days,0.29,0.12,1310,0.9138,-0.018,No
+Unique Contributors,3.00,1.00,4818,0.0002,-0.428,Yes
+Total Commits,2302.00,23.00,5466,0.0000,-0.620,Yes
