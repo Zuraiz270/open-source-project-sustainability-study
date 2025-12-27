@@ -1,0 +1,12 @@
+Feature,Mean_SHAP,XGBoost_Importance
+stars_count,2.213414,0.31390592
+total_commits,1.9963412,0.118931316
+watchers_count,1.1048323,0.07841657
+unique_contributors,0.7257147,0.22719426
+forks_count,0.38250563,0.029732652
+median_issue_response_days,0.24193321,0.014186619
+has_contributing,0.24030147,0.053043757
+has_pull_request_template,0.08359054,0.009897679
+has_issue_template,0.055938415,0.023905573
+has_code_of_conduct,0.050972268,0.12116119
+has_license,0.0125518935,0.009624463

@@ -1,0 +1,4 @@
+Metric,Threshold,N Below,N Above,Sustainability Below,Sustainability Above,Lift,Chi-square,p-value
+Stars Count,"11,934",304,196,22.4%,92.9%,4.15x,234.03,0.0000
+Forks Count,"1,724",323,177,31.6%,83.6%,2.65x,121.78,0.0000
+Watchers Count,452,437,63,44.4%,88.9%,2.00x,41.84,0.0000
