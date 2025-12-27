@@ -220,7 +220,6 @@ LIMIT 2000;
 - Phase 5: `governance_metrics.csv`
 - Phase 6: `community_results.csv`
 - Phase 7: `ecosystem_metrics.csv`
-- Phase 8:
 
 **Result:**
 
@@ -243,9 +242,28 @@ LIMIT 2000;
 **Target:** 199 repos with NULL `median_issue_response_days`
 
 **Result:**
+
 - **Filled:** 170/199 repos
 - **Still Missing:** 29 repos (truly have no issues/responses)
 - **Output:** [`processed/community_filled.csv`](processed/community_filled.csv)
+
+### Step 8b.2: Replace Final Dataset
+
+**Date:** December 27, 2024
+
+**Action:** Replaced `final_dataset.csv` with `community_filled.csv` (the improved version)
+
+**Reason:** `community_filled.csv` has 170 more `median_issue_response_days` values filled.
+
+**Final Data Quality:**
+
+| Metric                                 | Count                   |
+| -------------------------------------- | ----------------------- |
+| Total rows                             | 500                     |
+| `median_issue_response_days` filled  | 471 (94%)               |
+| `median_issue_response_days` missing | 29 (6%) - dead projects |
+
+**Final Output:** [`processed/final_dataset.csv`](processed/final_dataset.csv)
 
 ---
 
