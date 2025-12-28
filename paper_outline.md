@@ -178,7 +178,7 @@ We conducted a **comparative sample study** using repository mining, following t
 | Random Forest       | 95.0% (±2.3)           | 0.991 (±0.004)           |
 | **XGBoost**   | **97.2% (±1.2)** | **0.993 (±0.007)** |
 
-**Top SHAP features:** Stars (2.21), Forks (1.54), Gini (0.89), Bus factor (0.67)
+**Top SHAP features:** Stars (2.72), Total Commits (2.25), Watchers (1.44), Contributors (0.90)
 
 ![Figure 4: SHAP summary](results/v5/figures/rq4_shap_summary.png)
 
