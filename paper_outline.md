@@ -235,10 +235,6 @@ We conducted a **comparative sample study** using repository mining, following t
 - **Prediction, not causation:** This is an observational study. All findings represent predictive associations, not causal relationships. We cannot claim that adding governance documentation *causes* sustainability—only that it *predicts* it. Correlation may arise from confounding factors (e.g., better maintainers implement both governance AND sustain projects).
 - **Temporal confounds:** Cross-sectional snapshot cannot capture dynamic evolution
 
-### Interpretation guidance:
-
-> **Important:** Throughout this paper, terms like "associated with," "predicts," and "differentiates" describe statistical relationships, not causal mechanisms. Practitioners should interpret findings as indicators for assessment, not guaranteed interventions.
-
 ---
 
 # 6. CONCLUSIONS
