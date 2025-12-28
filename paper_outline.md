@@ -162,7 +162,7 @@ We conducted a **comparative sample study** using repository mining, following t
 | -------- | --------- | ----------------- | ----------------- | ----- |
 | Stars    | 11,934    | 22.4% sustainable | 92.9% sustainable | 4.15x |
 | Forks    | 1,724     | 31.6%             | 83.6%             | 2.65x |
-| Watchers | 2,628     | 35.1%             | 80.7%             | 2.30x |
+| Watchers | 452       | 44.4%             | 88.9%             | 2.00x |
 
 **Key finding:** Stars correlate with sustainability but with diminishing returns—projects above threshold are 4.15x more likely to be sustainable.
 
