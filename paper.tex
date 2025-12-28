@@ -1,49 +1,41 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
 
-\usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
-\usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{booktabs}
 \usepackage{hyperref}
-\usepackage{float}
-
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
 \begin{document}
 
 \title{Factors Influencing Open-Source Software Project Sustainability: A Comparative Sample Study}
 
 \author{
-\IEEEauthorblockN{[Author Name]}
+\IEEEauthorblockN{Author Name}
 \IEEEauthorblockA{
-\textit{[Institution]} \\
-[City, Country] \\
-[email@example.com]
+\textit{Institution Name} \\
+City, Country \\
+email@example.com
 }
 }
 
 \maketitle
 
 \begin{abstract}
-Open-source software (OSS) has become the foundation of modern software development, with 96\% of codebases containing OSS components. However, a significant portion of these projects face sustainability challenges—91\% of codebases contain components with no development activity in the past two years. This study investigates factors that differentiate sustainable from non-sustainable OSS projects through a comparative sample study of 500 GitHub repositories (250 sustainable, 250 non-sustainable). We analyze governance practices, community health indicators, and ecosystem metrics to identify predictive factors. Our results show that maintainer guidelines (OR=4.22, p$<$0.0001), bus factor (median 4 vs.\ 2, p$<$0.0001), and stars threshold ($>$11,934 = 4.15x lift) significantly predict sustainability. A combined XGBoost model achieves 97.2\% prediction accuracy (AUC=0.993). We conclude that governance maturity and contributor structure predict sustainability better than popularity metrics alone, providing actionable insights for maintainers, contributors, and organizations evaluating OSS dependencies.
+Open-source software (OSS) has become the foundation of modern software development, with 96\% of codebases containing OSS components. However, a significant portion of these projects face sustainability challenges: 91\% of codebases contain components with no development activity in the past two years. This study investigates factors that differentiate sustainable from non-sustainable OSS projects through a comparative sample study of 500 GitHub repositories (250 sustainable, 250 non-sustainable). We analyze governance practices, community health indicators, and ecosystem metrics to identify predictive factors. Our results show that maintainer guidelines (OR=4.22, p<0.0001), bus factor (median 4 vs. 2, p<0.0001), and stars threshold (>11,934 = 4.15x lift) significantly predict sustainability. A combined XGBoost model achieves 97.2\% prediction accuracy (AUC=0.993). We conclude that governance maturity and contributor structure predict sustainability better than popularity metrics alone, providing actionable insights for maintainers, contributors, and organizations evaluating OSS dependencies.
 \end{abstract}
 
 \begin{IEEEkeywords}
-open-source software, sustainability, GitHub, governance, machine learning, software engineering
+open-source software, sustainability, GitHub, governance, machine learning
 \end{IEEEkeywords}
 
-%==============================================================================
 \section{Introduction}
-%==============================================================================
 
 \subsection{Problem and Motivation}
 
-Open-source software (OSS) has become the foundation of modern software development. According to recent industry reports, 96\% of codebases contain OSS components~\cite{synopsys2024}. However, a significant portion of these projects face sustainability challenges—91\% of codebases contain components with no development activity in the past two years~\cite{synopsys2024}. This creates substantial risk for organizations depending on OSS.
+Open-source software (OSS) has become the foundation of modern software development. According to recent industry reports, 96\% of codebases contain OSS components~\cite{synopsys2024}. However, a significant portion of these projects face sustainability challenges: 91\% of codebases contain components with no development activity in the past two years~\cite{synopsys2024}. This creates substantial risk for organizations depending on OSS.
 
 The problem matters for several reasons. First, security vulnerabilities in unmaintained projects remain unpatched, creating attack vectors. Second, breaking changes in dependencies cascade through ecosystems. Third, organizations invest in projects that may become abandoned, leading to costly migration efforts.
 
@@ -55,7 +47,7 @@ This problem affects multiple types of practitioners:
     \item \textbf{Funders} require evidence-based criteria for supporting projects
 \end{itemize}
 
-The practical context appears when practitioners must decide which projects to depend on, contribute to, or fund—without clear indicators of long-term sustainability.
+The practical context appears when practitioners must decide which projects to depend on, contribute to, or fund, but lack clear indicators of long-term sustainability.
 
 \subsection{Research Questions}
 
@@ -77,9 +69,7 @@ This paper makes the following contributions:
     \item Interpretable ML model achieving 97.2\% accuracy with practical thresholds for practitioners
 \end{enumerate}
 
-%==============================================================================
 \section{Related Work}
-%==============================================================================
 
 \subsection{OSS Sustainability}
 
@@ -101,9 +91,7 @@ Borges et al.~\cite{borges2016} examined factors driving GitHub popularity, noti
 
 Prior work typically examines single dimensions (governance OR community OR ecosystem). No study has: (1) combined all three dimensions in one predictive framework, (2) validated metrics against ground-truth sustainability labels, or (3) provided interpretable thresholds for practitioners.
 
-%==============================================================================
 \section{Research Method}
-%==============================================================================
 
 \subsection{Study Design}
 
@@ -111,25 +99,25 @@ We conducted a comparative sample study using repository mining, following the A
 \begin{itemize}
     \item \textbf{Setting:} Neutral (analyzing existing data without manipulation)
     \item \textbf{Strategy:} Sample study examining distribution in population
-    \item \textbf{Generalization:} Statistical (sample $\rightarrow$ GitHub population)
+    \item \textbf{Generalization:} Statistical (sample to GitHub population)
 \end{itemize}
 
 \subsection{Sampling}
 
 Table~\ref{tab:sampling} summarizes our sampling strategy.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \caption{Sampling Strategy}
 \label{tab:sampling}
-\begin{tabular}{ll}
+\begin{tabular}{@{}ll@{}}
 \toprule
 \textbf{Aspect} & \textbf{Value} \\
 \midrule
 Source & GHArchive via BigQuery (December 2023) \\
 Total sample & 500 projects \\
 Sustainable & 250 (active with commits in 2024) \\
-Non-sustainable & 250 (archived or dormant $>$12 months) \\
+Non-sustainable & 250 (archived or dormant >12 months) \\
 Languages & Python, TypeScript, JavaScript, Go, Java \\
 Minimum stars & 500 (ensures non-trivial projects) \\
 \bottomrule
@@ -152,11 +140,11 @@ The final dataset contains 32 features across 500 repositories.
 
 Table~\ref{tab:analysis} summarizes our analysis methods.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \caption{Analysis Methods by Research Question}
 \label{tab:analysis}
-\begin{tabular}{lll}
+\begin{tabular}{@{}lll@{}}
 \toprule
 \textbf{RQ} & \textbf{Method} & \textbf{Justification} \\
 \midrule
@@ -177,63 +165,61 @@ We applied the following robustness checks:
     \item \textbf{Power analysis:} Confirmed 99\% power with n=500
 \end{itemize}
 
-%==============================================================================
 \section{Results}
-%==============================================================================
 
 \subsection{RQ1: Governance Practices}
 
 Table~\ref{tab:rq1} shows governance adoption by sustainability status.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \caption{RQ1: Governance Adoption by Sustainability Status}
 \label{tab:rq1}
-\begin{tabular}{lcccc}
+\begin{tabular}{@{}lcccc@{}}
 \toprule
-\textbf{Practice} & \textbf{Sus.} & \textbf{Non-sus.} & \textbf{$\chi^2$} & \textbf{OR} \\
+\textbf{Practice} & \textbf{Sus.} & \textbf{Non-sus.} & $\chi^2$ & \textbf{OR} \\
 \midrule
 Contributing guide & 57.6\% & 41.2\% & 12.8*** & 1.94 \\
 Code of conduct & 36.4\% & 24.8\% & 7.4** & 1.74 \\
 PR template & 43.6\% & 19.6\% & 32.2*** & 3.17 \\
 Maintainer guidelines & 18.8\% & 5.2\% & 20.6*** & 4.22 \\
 \bottomrule
-\multicolumn{5}{l}{\footnotesize ***p$<$0.001, **p$<$0.01, *p$<$0.05}
+\multicolumn{5}{@{}l@{}}{\footnotesize ***p<0.001, **p<0.01, *p<0.05}
 \end{tabular}
 \end{table}
 
-\textbf{Key finding:} Maintainer guidelines (MAINTAINERS.md, GOVERNANCE.md, or CODEOWNERS) show the strongest association with sustainability (OR=4.22, p$<$0.0001).
+\textbf{Key finding:} Maintainer guidelines (MAINTAINERS.md, GOVERNANCE.md, or CODEOWNERS) show the strongest association with sustainability (OR=4.22, p<0.0001).
 
 \subsection{RQ2: Community Health}
 
 Table~\ref{tab:rq2} shows community metrics by sustainability status.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \caption{RQ2: Community Metrics by Sustainability Status}
 \label{tab:rq2}
-\begin{tabular}{lcccc}
+\begin{tabular}{@{}lcccc@{}}
 \toprule
 \textbf{Metric} & \textbf{Sus.} & \textbf{Non-sus.} & \textbf{p-value} & \textbf{r} \\
 \midrule
-Issue response (days) & 0.54 & 1.78 & $<$0.0001 & 0.27 \\
-Bus factor & 4 & 2 & $<$0.0001 & 0.30 \\
-Contributor Gini & 0.86 & 0.79 & $<$0.0001 & 0.38 \\
+Issue response (days) & 0.54 & 1.78 & <0.0001 & 0.27 \\
+Bus factor & 4 & 2 & <0.0001 & 0.30 \\
+Contributor Gini & 0.86 & 0.79 & <0.0001 & 0.38 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\textbf{Key finding:} Sustainable projects have 2x higher bus factor (median 4 vs.\ 2), indicating more distributed leadership and lower key-person risk.
+\textbf{Key finding:} Sustainable projects have 2x higher bus factor (median 4 vs. 2), indicating more distributed leadership and lower key-person risk.
 
 \subsection{RQ3: Ecosystem Metrics}
 
 Table~\ref{tab:rq3} shows ecosystem thresholds identified through decision tree analysis.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \caption{RQ3: Ecosystem Thresholds}
 \label{tab:rq3}
-\begin{tabular}{lcccc}
+\begin{tabular}{@{}lcccc@{}}
 \toprule
 \textbf{Metric} & \textbf{Threshold} & \textbf{Below} & \textbf{Above} & \textbf{Lift} \\
 \midrule
@@ -244,17 +230,17 @@ Watchers & 452 & 44.4\% & 88.9\% & 2.00x \\
 \end{tabular}
 \end{table}
 
-\textbf{Key finding:} Stars correlate with sustainability but with diminishing returns—projects above the threshold are 4.15x more likely to be sustainable.
+\textbf{Key finding:} Stars correlate with sustainability but with diminishing returns; projects above the threshold are 4.15x more likely to be sustainable.
 
 \subsection{RQ4: Combined Prediction}
 
 Table~\ref{tab:rq4} shows model performance comparison.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \caption{RQ4: Model Performance}
 \label{tab:rq4}
-\begin{tabular}{lcc}
+\begin{tabular}{@{}lcc@{}}
 \toprule
 \textbf{Model} & \textbf{Accuracy} & \textbf{ROC-AUC} \\
 \midrule
@@ -269,9 +255,7 @@ SHAP analysis reveals the top predictive features: stars (2.72), total commits (
 
 \textbf{Key finding:} Combining governance, community, and ecosystem features achieves 97.2\% prediction accuracy, demonstrating that multi-dimensional assessment outperforms single-factor evaluation.
 
-%==============================================================================
 \section{Discussion}
-%==============================================================================
 
 \subsection{Implications of Findings}
 
@@ -287,7 +271,7 @@ SHAP analysis reveals the top predictive features: stars (2.72), total commits (
 
 \begin{itemize}
     \item \textbf{Maintainers:} Add MAINTAINERS.md or GOVERNANCE.md early in project lifecycle
-    \item \textbf{Contributors:} Check bus factor $>$3 and issue response times $<$1 day before joining
+    \item \textbf{Contributors:} Check bus factor >3 and issue response times <1 day before joining
     \item \textbf{Organizations:} Use combined metrics for dependency evaluation, not just stars
     \item \textbf{Funders:} Prioritize projects with explicit governance documentation
 \end{itemize}
@@ -298,16 +282,14 @@ SHAP analysis reveals the top predictive features: stars (2.72), total commits (
 
 \textbf{External validity.} Results are limited to GitHub projects and may not generalize to GitLab, Bitbucket, self-hosted repositories, or non-software projects. Our 500-star minimum threshold means findings apply to already-visible projects; early-stage or niche projects may exhibit different patterns.
 
-\textbf{Construct validity.} This is an observational study. All findings represent predictive associations, not causal relationships. We cannot claim that adding governance documentation \textit{causes} sustainability—only that it \textit{predicts} it. Correlation may arise from confounding factors (e.g., skilled maintainers implement both governance AND sustain projects).
+\textbf{Construct validity.} This is an observational study. All findings represent predictive associations, not causal relationships. We cannot claim that adding governance documentation \textit{causes} sustainability---only that it \textit{predicts} it. Correlation may arise from confounding factors (e.g., skilled maintainers implement both governance AND sustain projects).
 
-%==============================================================================
 \section{Conclusions}
-%==============================================================================
 
 We analyzed 500 GitHub projects across governance, community, and ecosystem dimensions to identify factors associated with OSS sustainability. Our main findings are:
 
 \begin{enumerate}
-    \item \textbf{Maintainer guidelines} show the strongest governance association (OR=4.22, p$<$0.0001)
+    \item \textbf{Maintainer guidelines} show the strongest governance association (OR=4.22, p<0.0001)
     \item \textbf{Bus factor} of 4 differentiates sustainable from non-sustainable projects
     \item \textbf{Stars threshold} of approximately 12,000 provides a meaningful sustainability indicator (4.15x lift)
     \item \textbf{Combined prediction} achieves 97.2\% accuracy, demonstrating multi-dimensional assessment superiority
@@ -317,13 +299,8 @@ For practitioners: document governance explicitly, build core maintainer teams (
 
 Future work should examine whether implementing recommended practices causally improves sustainability through longitudinal studies, and extend the analysis to non-GitHub platforms.
 
-%==============================================================================
-% REFERENCES
-%==============================================================================
-
 \bibliographystyle{IEEEtran}
-
-\begin{thebibliography}{00}
+\begin{thebibliography}{14}
 
 \bibitem{crowston2005} K. Crowston and J. Howison, ``The social structure of free and open source software development,'' \textit{First Monday}, vol. 10, no. 2, 2005.
 
