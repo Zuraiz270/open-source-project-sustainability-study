@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.19)  28 DEC 2025 03:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.13)  29 JAN 2026 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-14>
+L3 programming layer <2025-12-29>
 (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -382,143 +382,138 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-Underfull \hbox (badness 3343) in paragraph at lines 90--91
+Underfull \hbox (badness 3343) in paragraph at lines 91--92
 []\OT1/ptm/b/n/10 Practical rec-om-men-da-tions. \OT1/ptm/m/n/10 We pro-vide spe-cific,
  []
 
 [2]
-Underfull \hbox (badness 5563) in paragraph at lines 157--157
+Underfull \hbox (badness 5563) in paragraph at lines 158--158
 []\OT1/ptm/m/n/8 Governance OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/ptm/m/n/8 com-mu-nity OR
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 159--160
+Underfull \hbox (badness 3386) in paragraph at lines 160--161
 []\OT1/ptm/m/n/8 Binary sus-tain-abil-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\OT1/ptm/m/n/8 Uninterpretable
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 []\OT1/ptm/m/n/10 Issue tem-plates (any .md file in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 []\OT1/ptm/m/n/10 Pull re-quest tem-plates
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 []\OT1/ptm/m/n/8 Non-normal com-mu-nity
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 269--269
+Underfull \hbox (badness 3128) in paragraph at lines 272--272
 []\OT1/ptm/m/n/8 Spearman cor-re-la-tion, De-ci-
  []
 
 [4]
-<figures/rq1_governance_heatmap.png, id=276, 578.16pt x 433.62pt>
+<figures/rq1_governance_heatmap.png, id=268, 578.16pt x 433.62pt>
 File: figures/rq1_governance_heatmap.png Graphic file (type png)
 <use figures/rq1_governance_heatmap.png>
-Package pdftex.def Info: figures/rq1_governance_heatmap.png  used on input line 349.
+Package pdftex.def Info: figures/rq1_governance_heatmap.png  used on input line 352.
 (pdftex.def)             Requested size: 252.0pt x 189.00032pt.
- [5 <./figures/rq1_governance_heatmap.png>]
-<figures/rq2_survival_curve.png, id=290, 722.7pt x 433.62pt>
+ [5]
+<figures/rq2_survival_curve.png, id=280, 722.7pt x 433.62pt>
 File: figures/rq2_survival_curve.png Graphic file (type png)
 <use figures/rq2_survival_curve.png>
-Package pdftex.def Info: figures/rq2_survival_curve.png  used on input line 388.
+Package pdftex.def Info: figures/rq2_survival_curve.png  used on input line 391.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
-<figures/rq3_threshold_analysis.png, id=292, 1084.05pt x 361.35pt>
+<figures/rq3_threshold_analysis.png, id=282, 1084.05pt x 361.35pt>
 File: figures/rq3_threshold_analysis.png Graphic file (type png)
 <use figures/rq3_threshold_analysis.png>
-Package pdftex.def Info: figures/rq3_threshold_analysis.png  used on input line 424.
+Package pdftex.def Info: figures/rq3_threshold_analysis.png  used on input line 428.
 (pdftex.def)             Requested size: 252.0pt x 83.99646pt.
 
-Underfull \hbox (badness 4242) in paragraph at lines 431--432
+Underfull \hbox (badness 4242) in paragraph at lines 435--436
 []\OT1/ptm/m/it/10 Stars strongly pre-dict sus-tain-abil-ity above thresh-old.
  []
 
+[6 <./figures/rq1_governance_heatmap.png> <./figures/rq2_survival_curve.png>]
 <figures/rq4_shap_summary.png, id=294, 566.5968pt x 504.4446pt>
 File: figures/rq4_shap_summary.png Graphic file (type png)
 <use figures/rq4_shap_summary.png>
-Package pdftex.def Info: figures/rq4_shap_summary.png  used on input line 460.
+Package pdftex.def Info: figures/rq4_shap_summary.png  used on input line 464.
 (pdftex.def)             Requested size: 252.0pt x 224.35013pt.
-[6 <./figures/rq2_survival_curve.png> <./figures/rq3_threshold_analysis.png>]
-Underfull \hbox (badness 1389) in paragraph at lines 478--480
-[]\OT1/ptm/m/it/10 Governance fea-tures pro-vide in-cre-men-tal value. \OT1/ptm/m/n/10 While
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
- \OT1/ptm/m/it/10 4.5.1 Cross-Dimensional In-ter-ac-tions: [][][] \OT1/ptm/m/n/10 We ex-am-ined
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 496--497
-\OT1/ptm/m/n/10 whether gov-er-nance, com-mu-nity, and ecosys-tem fac-tors
- []
-
-
-Underfull \hbox (badness 2142) in paragraph at lines 502--503
-\OT1/ptm/m/n/10 with-out gov-er-nance doc-u-men-ta-tion still have 15% non-
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 510--511
+ [7 <./figures/rq3_threshold_analysis.png> <./figures/rq4_shap_summary.png>]
+Underfull \hbox (badness 1515) in paragraph at lines 515--516
 []\OT1/ptm/b/n/10 JavaScript/TypeScript: \OT1/ptm/m/n/10 Fastest is-sue re-sponse times
  []
 
-[7 <./figures/rq4_shap_summary.png>]
-Underfull \hbox (badness 2790) in paragraph at lines 561--562
+
+Underfull \hbox (badness 2790) in paragraph at lines 566--567
 []\OT1/ptm/m/n/10 Establishing GOV-ER-NANCE.md de-scrib-ing de-ci-sion
  []
 
-
-Underfull \hbox (badness 2005) in paragraph at lines 586--587
-[]\OT1/ptm/b/n/10 Maintainers: \OT1/ptm/m/n/10 Add MAIN-TAIN-ERS.md or GOV-ER-
- []
-
 [8]
-Underfull \hbox (badness 1565) in paragraph at lines 608--609
-[]\OT1/ptm/b/n/10 Case 1: Ku-ber-netes \OT1/ptm/m/n/10 Ku-ber-netes (k8s) rep-re-sents the
+Underfull \hbox (badness 2173) in paragraph at lines 596--598
+ \OT1/ptm/m/it/10 5.2.1 In-ter-nal Va-lid-ity: [][][] \OT1/ptm/b/n/10 Sus-tain-abil-ity def-i-ni-tion. \OT1/ptm/m/n/10 Our
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 620--622
- \OT1/ptm/m/it/10 5.5.1 In-ter-nal Va-lid-ity: [][][] \OT1/ptm/b/n/10 Sus-tain-abil-ity def-i-ni-tion. \OT1/ptm/m/n/10 Our
- []
-
-
-Underfull \hbox (badness 4108) in paragraph at lines 620--622
+Underfull \hbox (badness 4108) in paragraph at lines 596--598
 \OT1/ptm/m/n/10 bi-nary sus-tain-abil-ity clas-si-fi-ca-tion (sus-tain-able vs. non-
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 674--676
+Underfull \hbox (badness 1990) in paragraph at lines 654--656
 []\OT1/ptm/b/n/10 Label ac-cu-racy. \OT1/ptm/m/n/10 Our sus-tain-abil-ity la-bels de-pend on
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
 []\OT1/ptm/m/n/10 FDR cor-rec-tion for mul-ti-ple test-ing (Benjamini-
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 701--702
+Underfull \hbox (badness 7203) in paragraph at lines 681--682
 []\OT1/ptm/b/n/10 RQ1: Gov-er-nance prac-tices. \OT1/ptm/m/n/10 Main-tainer guide-lines
  []
 
+
+Underfull \hbox (badness 7722) in paragraph at lines 735--736
+[]\OT1/ptm/b/n/10 Tooling de-vel-op-ment. \OT1/ptm/m/n/10 Our find-ings could be op-
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 735--736
+\OT1/ptm/m/n/10 er-a-tional-ized that au-to-mat-i-cally de-ter-mine sus-tain-abil-ity
+ []
+
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+[]\OT1/ptm/m/n/10 The repli-ca-tion pack-age con-tain-ing all anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+\OT1/ptm/m/n/10 scripts, data col-lec-tion code, and pro-cessed datasets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+\OT1/ptm/m/n/10 is pub-licly avail-able at: []$https : / / github . com / Zuraiz270 /
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -535,24 +530,24 @@ Before submitting the final camera ready copy, remember to:
 ] (./paper.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-14>
+L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 5A2A260089ABE9F06A6455E3D982EDE2;7579.
+(rerunfilecheck)             Checksum: F1EB055470F6626EF351C7B0ED05F059;7050.
  ) 
 Here is how much of TeX's memory you used:
- 10952 strings out of 469519
- 172299 string characters out of 5467703
- 601153 words of memory out of 5000000
- 39373 multiletter control sequences out of 15000+600000
- 670303 words of font info for 126 fonts, out of 8000000 for 9000
+ 10956 strings out of 469519
+ 172250 string characters out of 5468256
+ 601181 words of memory out of 5000000
+ 39376 multiletter control sequences out of 15000+600000
+ 671848 words of font info for 132 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,14n,79p,1122b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (11 pages, 479324 bytes).
+ 75i,14n,79p,1171b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/zurai/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (11 pages, 517055 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 370 compressed objects within 4 object streams
- 104 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
